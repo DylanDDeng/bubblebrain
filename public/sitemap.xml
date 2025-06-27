@@ -46,8 +46,6 @@
   </url><url>
     <loc>http://localhost:1313/archives/</loc>
   </url><url>
-    <loc>http://localhost:1313/categories/%E6%8A%80%E6%9C%AF/</loc>
-  </url><url>
     <loc>http://localhost:1313/search/</loc>
   </url>
 </urlset>

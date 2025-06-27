@@ -510,6 +510,44 @@ body.dark,
     color: var(--warm-bg);
 }
 
+/* Giscus 评论区样式 */
+.giscus-comments {
+    margin-top: 4rem;
+    padding-top: 3rem;
+    border-top: 1px solid var(--warm-border);
+}
+
+.giscus-comments h3 {
+    font-family: var(--font-serif);
+    font-size: 1.5rem;
+    color: var(--warm-text);
+    margin-bottom: 2rem;
+    text-align: center;
+    position: relative;
+}
+
+.giscus-comments h3::after {
+    content: '';
+    position: absolute;
+    bottom: -0.5rem;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 60px;
+    height: 3px;
+    background: var(--warm-accent);
+    border-radius: 2px;
+}
+
+/* 调整 giscus iframe 容器 */
+.giscus {
+    margin-top: 2rem;
+}
+
+/* 让 giscus 适应深色模式 */
+body.dark .giscus-comments {
+    border-top-color: var(--warm-border);
+}
+
 /* 响应式设计 */
 @media (max-width: 768px) {
     .post-title {

@@ -42,7 +42,7 @@ params:
   disableSpecial1stPost: false
   mainSections: ["posts"]
   disableScrollToTop: false
-  comments: false
+  comments: true
   hidemeta: false
   hideSummary: false
   showtoc: false
@@ -124,6 +124,23 @@ params:
     minMatchCharLength: 0
     limit: 10 # refer: https://www.fusejs.io/api/methods.html#search
     keys: ["title", "permalink", "summary", "content"]
+  
+  # Giscus 评论系统配置
+  giscus:
+    enable: true
+    repo: "YOUR_GITHUB_USERNAME/YOUR_REPO_NAME" # 替换为您的 GitHub 仓库
+    repoId: "YOUR_REPO_ID" # 从 giscus.app 获取
+    category: "Announcements" # 或 "General"
+    categoryId: "YOUR_CATEGORY_ID" # 从 giscus.app 获取
+    mapping: "pathname" # 可选: pathname, url, title, og:title, specific, number
+    strict: "0" # 可选: 0 或 1
+    reactionsEnabled: "1" # 可选: 0 或 1
+    emitMetadata: "0" # 可选: 0 或 1
+    inputPosition: "top" # 可选: top 或 bottom
+    theme: "light" # 可选: light, dark, light_high_contrast, dark_high_contrast, preferred_color_scheme
+    lang: "zh-CN" # 语言设置
+    loading: "lazy" # 可选: lazy 或 eager
+
 menu:
   main:
     - identifier: categories
