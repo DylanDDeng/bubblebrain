@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>ExampleSite</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content on ExampleSite</description>
+    <image>
+      <title>ExampleSite</title>
+      <url>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- 0.147.9</generator>
+    <language>en</language>
+    <lastBuildDate>Fri, 27 Jun 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>深度解密：Anthropic多智能体系统背后的原理及提示词工程（建议收藏）</title>
+      <link>http://localhost:1313/%E6%B7%B1%E5%BA%A6%E8%A7%A3%E5%AF%86anthropic%E5%A4%9A%E6%99%BA%E8%83%BD%E4%BD%93%E7%B3%BB%E7%BB%9F%E8%83%8C%E5%90%8E%E7%9A%84-%E5%8E%9F%E7%90%86%E5%8F%8A%E6%8F%90%E7%A4%BA%E8%AF%8D%E5%B7%A5%E7%A8%8B%E5%BB%BA%E8%AE%AE%E6%94%B6%E8%97%8F/</link>
+      <pubDate>Fri, 27 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/%E6%B7%B1%E5%BA%A6%E8%A7%A3%E5%AF%86anthropic%E5%A4%9A%E6%99%BA%E8%83%BD%E4%BD%93%E7%B3%BB%E7%BB%9F%E8%83%8C%E5%90%8E%E7%9A%84-%E5%8E%9F%E7%90%86%E5%8F%8A%E6%8F%90%E7%A4%BA%E8%AF%8D%E5%B7%A5%E7%A8%8B%E5%BB%BA%E8%AE%AE%E6%94%B6%E8%97%8F/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;本文共计 27360 字，推荐阅读时间为 69 分钟。若觉得时间太长，可直接听下方播客内容进行了解。&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Anthropic 前两天发了一篇文章，重点讨论了他们是如何通过多智能体系统来构建 claude 的“深度研究功能”。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;文章链接： &lt;a href=&#34;https://www.anthropic.com/engineering/built-multi-agent-research-system&#34;&gt;https://www.anthropic.com/engineering/built-multi-agent-research-system&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;我仔细研究了一下，觉得写的非常不错，所以写了这篇文章来细致解读一下到底该如何构建一个多智能体系统。&lt;/p&gt;
+&lt;p&gt;开始前，我觉得首先要理解两个概念，智能体（Agent）和工作流（Workflow）。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;!-- raw HTML omitted --&gt;现阶段我们谈论的&lt;strong&gt;智能体&lt;/strong&gt;绝大多数都是以大模型为核心，利用各种工具自主规划并完成任务执行 &lt;!-- raw HTML omitted --&gt;&lt;/li&gt;
+&lt;li&gt;&lt;!-- raw HTML omitted --&gt;&lt;strong&gt;工作流&lt;/strong&gt;指的是按照既定的顺序执行的一系列相互关联的任务。&lt;!-- raw HTML omitted --&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;当我们把智能体放入工作流中，也就有了智能体工作流，也就是大家一直以来听到的 &lt;strong&gt;Agentic Workflow&lt;/strong&gt;。&lt;/p&gt;
+&lt;p&gt;传统的工作流，其实比较的死板。就好像写程序一样，运转到哪个节点，做什么操作，都是提前设置好的。而相比于传统的工作流，这种智能体工作流更加灵活，自主。 在这个工作流中，智能体通常能够结合环境，自主的判断下一步执行什么动作，并且能够将复杂的任务拆解为多个可执行的小任务。&lt;/p&gt;
+&lt;p&gt;有了这些基本的概念，我们就可以来了解一下 Anthropic 是如何构建自己的多智能体研究系统。&lt;/p&gt;
+&lt;h2 id=&#34;架构设计&#34;&gt;架构设计&lt;/h2&gt;
+&lt;p&gt;Anthropic 设计的整个研究系统采用了典型的多智能体架构，一个主智能体 + 多个子智能体。这种架构借鉴了&lt;strong&gt;调度者-执行者&lt;/strong&gt;模型（orchestrator-worker pattern）：就好像团队领导和他手底下的员工一样，领导负责总体规划和协调，按需要将一个活派给多个手底下的员工并行执行具体操作。&lt;/p&gt;
+&lt;p&gt;具体的架构图如下所示：&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&#34;多智能体系统架构图&#34; loading=&#34;lazy&#34; src=&#34;https://fastly.jsdelivr.net/gh/bucketio/img15@main/2025/06/15/1749945502160-48a7f708-1fd5-4a9d-9186-0c8beb3cc0d2.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;用户在 claude 聊天界面提出需要查询的问题，系统接收到用户请求后，会通过一个主智能体（Lead Agent）来处理任务。Lead Agent 相当于总负责人，具备使用各种工具的能力（如网络搜索工具、内部 MCP 接口工具、内存Memory等等）。Lead Agent 首先对问题进行分析和规划，然后派出多个子智能体（Subagent）并行进行工作，每个 Subagent 负责一个分支的搜索任务。Lead Agent 同时还需要与右侧的记忆模块（Memory）进行交互，这个模块用于在上下文超长时保存重要信息。&lt;/p&gt;
+&lt;p&gt;此外，还有一个专门负责处理引用的智能体（Citation Agent），它主要负责在最终报告中添加引用标注。&lt;/p&gt;
+&lt;p&gt;整个过程中，Lead Agent 通过任务描述与Subagent 通信，当 Subagent 完成任务后将结果返回给 Lead Agent，最终由 Lead Agent 整合所有 Subagent 的结果撰写出研究报告，然后交给 Citation Agent 插入文献来源标注，形成含引用的最终报告返回给用户。&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
