@@ -2,11 +2,9 @@
 title: "深度解密：Anthropic多智能体系统背后的原理及提示词工程（建议收藏）"
 date: 2025-06-27
 draft: false
-tags: ["AI", "多智能体", "Anthropic"]
-categories: ["技术"]
+tags: ["AI", "多智能体", "Anthropic","公众号"]
+categories: ["AI"]
 ---
-
-**本文共计 27360 字，推荐阅读时间为 69 分钟。若觉得时间太长，可直接听下方播客内容进行了解。**
 
 Anthropic 前两天发了一篇文章，重点讨论了他们是如何通过多智能体系统来构建 claude 的“深度研究功能”。  
 

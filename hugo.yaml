@@ -1,5 +1,5 @@
-baseURL: "https://examplesite.com/"
-title: ExampleSite
+baseURL: "http://localhost:1313/"
+title: Bubble Brain
 pagination:
   pagerSize: 10 
 theme: PaperMod
@@ -9,19 +9,25 @@ buildDrafts: false
 buildFuture: false
 buildExpired: false
 
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON
+
 minify:
   disableXML: true
   minifyOutput: true
 
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
-  title: ExampleSite
-  description: "ExampleSite description"
-  keywords: [Blog, Portfolio, PaperMod]
-  author: Me
+  title: Bubble Brain
+  description: "探索技术、分享思考、记录成长的个人博客"
+  keywords: [技术博客, AI, 人工智能, 编程, 思考, 学习笔记]
+  author: Bubble Brain
   # author: ["Me", "You"] # multiple authors
   images: ["<link or path of image for opengraph, twitter-cards>"]
-  DateFormat: "January 2, 2006"
+  DateFormat: "2006年1月2日"
   defaultTheme: auto # dark, light
   disableThemeToggle: false
 
@@ -34,6 +40,7 @@ params:
   ShowRssButtonInSectionTermList: true
   UseHugoToc: true
   disableSpecial1stPost: false
+  mainSections: ["posts"]
   disableScrollToTop: false
   comments: false
   hidemeta: false
@@ -51,7 +58,7 @@ params:
     safari_pinned_tab: "<link / abs url>"
 
   label:
-    text: "Home"
+    text: "首页"
     icon: /apple-touch-icon.png
     iconHeight: 35
 
@@ -72,14 +79,19 @@ params:
 
   # home-info mode
   homeInfoParams:
-    Title: "Hi there \U0001F44B"
-    Content: Welcome to my blog
+    Title: "欢迎来到 Bubble Brain 🫧"
+    Content: |+
+      这是一个记录技术探索与思考的空间。
+      
+      在这里，我会分享关于 AI、编程、产品设计等领域的见解和实践经验。
+      希望这些内容能够激发你的思考，让我们一起在知识的海洋中遨游。
+
+  # 在首页显示文章列表
+  ShowPostsOnHomePage: true
 
   socialIcons:
     - name: x
       url: "https://x.com/"
-    - name: stackoverflow
-      url: "https://stackoverflow.com"
     - name: github
       url: "https://github.com/"
 
@@ -115,20 +127,27 @@ params:
 menu:
   main:
     - identifier: categories
-      name: categories
+      name: 分类
       url: /categories/
       weight: 10
     - identifier: tags
-      name: tags
+      name: 标签
       url: /tags/
       weight: 20
-    - identifier: example
-      name: example.org
-      url: https://example.org
+    - identifier: archives
+      name: 归档
+      url: /archives/
       weight: 30
+    - identifier: search
+      name: 搜索
+      url: /search/
+      weight: 40
 # Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
 pygmentsUseClasses: true
 markup:
+  goldmark:
+    renderer:
+      unsafe: true
   highlight:
     noClasses: false
     # anchorLineNos: true

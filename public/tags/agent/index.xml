@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Agent on Bubble Brain</title>
+    <link>http://localhost:1313/tags/agent/</link>
+    <description>Recent content in Agent on Bubble Brain</description>
+    <image>
+      <title>Bubble Brain</title>
+      <url>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- 0.147.9</generator>
+    <language>en</language>
+    <lastBuildDate>Fri, 27 Jun 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/agent/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>上下文工程的兴起</title>
+      <link>http://localhost:1313/posts/%E4%B8%8A%E4%B8%8B%E6%96%87%E5%B7%A5%E7%A8%8B%E7%9A%84%E5%85%B4%E8%B5%B7/</link>
+      <pubDate>Fri, 27 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/%E4%B8%8A%E4%B8%8B%E6%96%87%E5%B7%A5%E7%A8%8B%E7%9A%84%E5%85%B4%E8%B5%B7/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;本文为 Langchain 官方博客“The rise of context engineering”的双语对照版本。
+&lt;/br&gt;
+推荐阅读理由：随着 Agent 的快速发展，”context“ 的概念越来越被重视。无论是 Vibe Coding，还是 Deep Research，提供的 ”context“越具体完整，最后出来的效果都会很棒！LangGraph 作为最著名的智能体框架之一，了解它们是如何看待上下文的重要性的，无论是对我们个人平时 AI 的使用还是企业业务上 AI 的落地，都有很大帮助。&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;&lt;img alt=&#34;image.png&#34; loading=&#34;lazy&#34; src=&#34;%E4%B8%8A%E4%B8%8B%E6%96%87%E5%B7%A5%E7%A8%8B%E7%9A%84%E5%85%B4%E8%B5%B7%2021cf183de3f080a9b64fdc184f9b55d0/image.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;&lt;strong&gt;Header image from  &lt;a href=&#34;https://x.com/dexhorthy/status/1933283008863482067?ref=blog.langchain.com&#34;&gt;Dex Horthy on Twitter&lt;/a&gt;&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;来自 Dex Horthy 的 Twitter 头图&lt;/p&gt;
+&lt;p&gt;Context engineering is building dynamic systems to provide the right information and tools in the right format such that the LLM can plausibly accomplish the task.&lt;/p&gt;
+&lt;p&gt;上下文工程是构建动态系统，以在正确的格式中提供正确的信息和工具，使得 LLM 能够合理地完成任务。&lt;/p&gt;
+&lt;p&gt;Most of the time when an agent is not performing reliably the underlying cause is that the appropriate context, instructions and tools have not been communicated to the model.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
