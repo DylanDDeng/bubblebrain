@@ -155,8 +155,9 @@ body.dark,
 
 .post-content p {
     margin-bottom: 1.5rem;
-    text-align: justify;
-    text-justify: inter-character;
+    text-align: left;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
 }
 
 /* 标题样式优化 */
@@ -233,7 +234,7 @@ body.dark,
 
 /* 代码块样式 */
 .post-content pre {
-    background-color: var(--warm-bg-secondary);
+    background-color: var(--warm-bg-secondary) !important;
     border: 1px solid var(--warm-border);
     border-radius: 8px;
     padding: 1.5rem;
@@ -248,11 +249,171 @@ body.dark,
     padding: 0.2em 0.4em;
     border-radius: 4px;
     font-size: 0.9em;
+    color: var(--warm-text) !important;
 }
 
 .post-content pre code {
     background-color: transparent;
     padding: 0;
+    color: var(--warm-text) !important;
+}
+
+/* 覆盖 PaperMod 的代码高亮样式 */
+.post-content pre,
+.post-content .highlight pre,
+.post-content .highlight {
+    background: var(--warm-bg-secondary) !important;
+}
+
+/* 代码高亮配色 - 温暖色调 */
+.post-content .chroma {
+    background-color: var(--warm-bg-secondary) !important;
+    color: var(--warm-text) !important;
+}
+
+/* 语法高亮颜色 */
+.post-content .chroma .k { color: #c67255 !important; } /* 关键字 - 使用暖色调 */
+.post-content .chroma .kc { color: #c67255 !important; } /* 关键字常量 */
+.post-content .chroma .kd { color: #c67255 !important; } /* 关键字声明 */
+.post-content .chroma .kn { color: #c67255 !important; } /* 关键字命名空间 */
+.post-content .chroma .kp { color: #c67255 !important; } /* 关键字伪 */
+.post-content .chroma .kr { color: #c67255 !important; } /* 关键字保留 */
+.post-content .chroma .kt { color: #c67255 !important; } /* 关键字类型 */
+
+.post-content .chroma .s { color: #7d9726 !important; } /* 字符串 - 温暖的绿色 */
+.post-content .chroma .sa { color: #7d9726 !important; } /* 字符串后缀 */
+.post-content .chroma .sb { color: #7d9726 !important; } /* 字符串反引号 */
+.post-content .chroma .sc { color: #7d9726 !important; } /* 字符串字符 */
+.post-content .chroma .dl { color: #7d9726 !important; } /* 字符串分隔符 */
+.post-content .chroma .sd { color: #7d9726 !important; } /* 字符串文档 */
+.post-content .chroma .s2 { color: #7d9726 !important; } /* 字符串双引号 */
+.post-content .chroma .se { color: #7d9726 !important; } /* 字符串转义 */
+.post-content .chroma .sh { color: #7d9726 !important; } /* 字符串头部 */
+.post-content .chroma .si { color: #7d9726 !important; } /* 字符串插值 */
+.post-content .chroma .sx { color: #7d9726 !important; } /* 字符串其他 */
+.post-content .chroma .sr { color: #7d9726 !important; } /* 字符串正则 */
+.post-content .chroma .s1 { color: #7d9726 !important; } /* 字符串单引号 */
+.post-content .chroma .ss { color: #7d9726 !important; } /* 字符串符号 */
+
+.post-content .chroma .m { color: #b87333 !important; } /* 数字 - 温暖的棕色 */
+.post-content .chroma .mb { color: #b87333 !important; } /* 数字二进制 */
+.post-content .chroma .mf { color: #b87333 !important; } /* 数字浮点 */
+.post-content .chroma .mh { color: #b87333 !important; } /* 数字十六进制 */
+.post-content .chroma .mi { color: #b87333 !important; } /* 数字整数 */
+.post-content .chroma .il { color: #b87333 !important; } /* 数字整数长 */
+.post-content .chroma .mo { color: #b87333 !important; } /* 数字八进制 */
+
+.post-content .chroma .c { color: #8b7968 !important; font-style: italic; } /* 注释 */
+.post-content .chroma .ch { color: #8b7968 !important; font-style: italic; } /* 注释哈希 */
+.post-content .chroma .cm { color: #8b7968 !important; font-style: italic; } /* 注释多行 */
+.post-content .chroma .c1 { color: #8b7968 !important; font-style: italic; } /* 注释单行 */
+.post-content .chroma .cs { color: #8b7968 !important; font-style: italic; } /* 注释特殊 */
+.post-content .chroma .cp { color: #8b7968 !important; font-style: italic; } /* 注释预处理 */
+.post-content .chroma .cpf { color: #8b7968 !important; font-style: italic; } /* 注释预处理文件 */
+
+.post-content .chroma .n { color: var(--warm-text) !important; } /* 名称 */
+.post-content .chroma .na { color: #d4856a !important; } /* 名称属性 */
+.post-content .chroma .nb { color: #d4856a !important; } /* 名称内置 */
+.post-content .chroma .nc { color: #d4856a !important; } /* 名称类 */
+.post-content .chroma .nd { color: #d4856a !important; } /* 名称装饰器 */
+.post-content .chroma .ne { color: #d4856a !important; } /* 名称异常 */
+.post-content .chroma .nf { color: #d4856a !important; } /* 名称函数 */
+.post-content .chroma .nn { color: var(--warm-text) !important; } /* 名称命名空间 */
+.post-content .chroma .nx { color: var(--warm-text) !important; } /* 名称其他 */
+.post-content .chroma .nt { color: #c67255 !important; } /* 名称标签 */
+
+.post-content .chroma .o { color: var(--warm-text-secondary) !important; } /* 运算符 */
+.post-content .chroma .ow { color: #c67255 !important; } /* 运算符词 */
+
+.post-content .chroma .p { color: var(--warm-text-secondary) !important; } /* 标点符号 */
+
+/* 行号样式 */
+.post-content .chroma .ln,
+.post-content .chroma .lnt {
+    color: var(--warm-text-secondary) !important;
+    margin-right: 1rem;
+}
+
+/* 深色模式代码块 */
+body.dark .post-content pre,
+body.dark .post-content .highlight pre,
+body.dark .post-content .highlight,
+body.dark .post-content .chroma {
+    background: var(--warm-bg-secondary) !important;
+}
+
+/* 确保所有代码块都使用我们的背景色 */
+.highlight > pre,
+.highlight > div,
+pre.chroma {
+    background: var(--warm-bg-secondary) !important;
+}
+
+/* 移除 PaperMod 的默认深色背景 */
+.dark .highlight pre,
+.dark pre,
+.dark .highlight,
+.dark .post-content pre {
+    background: var(--warm-bg-secondary) !important;
+}
+
+/* 确保内联代码也使用正确的颜色 */
+.post-content p code,
+.post-content li code,
+.post-content td code {
+    background-color: var(--warm-bg-secondary) !important;
+    color: var(--warm-accent) !important;
+    border: 1px solid var(--warm-border);
+}
+
+/* 代码块滚动条样式 */
+.post-content pre::-webkit-scrollbar {
+    height: 8px;
+}
+
+.post-content pre::-webkit-scrollbar-track {
+    background: var(--warm-bg);
+    border-radius: 4px;
+}
+
+.post-content pre::-webkit-scrollbar-thumb {
+    background: var(--warm-accent);
+    border-radius: 4px;
+}
+
+.post-content pre::-webkit-scrollbar-thumb:hover {
+    background: var(--warm-accent-hover);
+}
+
+/* 覆盖任何可能的 PaperMod 主题代码块样式 */
+div.highlight,
+.post-single .post-content pre,
+.post-single .post-content .highlight,
+article.post-entry pre,
+article.post-entry .highlight {
+    background: var(--warm-bg-secondary) !important;
+}
+
+/* 确保代码块边框显示 */
+.post-content .highlight,
+.post-content pre {
+    border: 1px solid var(--warm-border) !important;
+}
+
+/* 文章页面代码块特别处理 */
+.post-single .post-content pre,
+.post-single .post-content .highlight pre,
+.post-single .post-content .highlight > div {
+    background-color: var(--warm-bg-secondary) !important;
+    color: var(--warm-text) !important;
+}
+
+/* 重置 PaperMod 可能的代码块样式 */
+.post-content .highlight pre code,
+.post-content pre code,
+.post-single pre code {
+    background: none !important;
+    color: inherit !important;
 }
 
 /* 链接样式 */

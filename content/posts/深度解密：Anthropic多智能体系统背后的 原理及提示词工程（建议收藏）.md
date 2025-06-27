@@ -70,7 +70,7 @@ Lead Agent 需要擅长规划和写作，因为它不仅需要规划分工，还
 
 Anthropic 除了这篇公开的博客之外，同时还开源了它们给每个智能体模块的提示词。
 
-**提示词链接是：https://github.com/anthropics/anthropic-cookbook/tree/main/patterns/agents/promptshttps://github.com/anthropics/anthropic-cookbook/tree/main/patterns/agents/prompts**
+提示词链接放在下面：**https://github.com/anthropics/anthropic-cookbook/tree/main/patterns/agents/prompts**
 
 在整个多智能体系统中，每个智能体的行为完全是由提示词来引导的。以下是 Anthropic 团队总结出来的几点关键原则： 
 
