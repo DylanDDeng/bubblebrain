@@ -802,3 +802,107 @@ body.dark .post-content {
 .main > * {
     background-color: transparent;
 }
+
+/* AI资讯卡片样式 */
+.ainews-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+    gap: 1.5rem;
+    margin-top: 2rem;
+}
+
+.ainews-card {
+    background: var(--warm-bg-secondary);
+    border-radius: 12px;
+    border: 1px solid var(--warm-border);
+    transition: all 0.3s ease;
+    overflow: hidden;
+    height: 100%;
+}
+
+.ainews-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 24px var(--warm-shadow);
+    border-color: var(--warm-accent);
+}
+
+.ainews-link {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    padding: 1.5rem;
+    text-decoration: none;
+    color: inherit;
+}
+
+.ainews-date {
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: var(--warm-accent);
+    margin-bottom: 1rem;
+    font-family: var(--font-chinese);
+}
+
+.ainews-preview {
+    flex: 1;
+    color: var(--warm-text-secondary);
+    line-height: 1.6;
+    margin-bottom: 1rem;
+}
+
+.ainews-no-content {
+    color: var(--warm-text-muted);
+    font-style: italic;
+}
+
+.ainews-meta {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-top: auto;
+}
+
+.read-more {
+    color: var(--warm-accent);
+    font-size: 0.9rem;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    transition: transform 0.2s ease;
+}
+
+.ainews-card:hover .read-more {
+    transform: translateX(4px);
+}
+
+/* AI资讯单页样式 */
+.ainews-single {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.ainews-single .post-header {
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.ainews-single .post-title {
+    color: var(--warm-accent);
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+/* 响应式设计 */
+@media (max-width: 768px) {
+    .ainews-grid {
+        grid-template-columns: 1fr;
+        gap: 1rem;
+    }
+    
+    .ainews-card {
+        margin: 0 -1rem;
+        border-radius: 0;
+        border-left: none;
+        border-right: none;
+    }
+}

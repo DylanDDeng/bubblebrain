@@ -155,6 +155,10 @@ menu:
       name: 归档
       url: /archives/
       weight: 30
+    - identifier: ainews
+      name: AI资讯
+      url: /ainews/
+      weight: 35
     - identifier: search
       name: 搜索
       url: /search/
