@@ -1,8 +1,13 @@
 baseURL: "https://bubblebrain.me/"
-title: Bubble Brain
+title: BubbleBrain
 pagination:
   pagerSize: 10 
 theme: PaperMod
+
+# Enable both categories and tags taxonomies
+taxonomies:
+  category: categories
+  tag: tags
 
 enableRobotsTXT: true
 buildDrafts: false
@@ -24,7 +29,7 @@ params:
   title: Bubble Brain
   description: "探索技术、分享思考、记录成长的个人博客"
   keywords: [技术博客, AI, 人工智能, 编程, 思考, 学习笔记]
-  author: Bubble Brain
+  author: BubbleBrain
   # author: ["Me", "You"] # multiple authors
   images: ["<link or path of image for opengraph, twitter-cards>"]
   DateFormat: "2006年1月2日"
@@ -79,7 +84,7 @@ params:
 
   # home-info mode
   homeInfoParams:
-    Title: "欢迎来到 Bubble Brain 🫧"
+    Title: "欢迎来到 BubbleBrain 🫧"
     Content: |+
       这是一个记录技术探索与思考的空间。
       
@@ -91,7 +96,7 @@ params:
 
   socialIcons:
     - name: x
-      url: "https://x.com/"
+      url: "https://x.com/dylandddeng"
     - name: github
       url: "https://github.com/"
 

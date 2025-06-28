@@ -2,7 +2,34 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/ainews/2025-06-27-ai-news/</loc>
+    <loc>http://localhost:1313/ainews/2025-06-28-ai-news/</loc>
+    <lastmod>2025-06-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/ai%E6%96%B0%E9%97%BB/</loc>
+    <lastmod>2025-06-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/ainews/</loc>
+    <lastmod>2025-06-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/ai%E8%B5%84%E8%AE%AF/</loc>
+    <lastmod>2025-06-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/anthropic/</loc>
+    <lastmod>2025-06-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/</loc>
+    <lastmod>2025-06-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/</loc>
+    <lastmod>2025-06-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/qwen/</loc>
+    <lastmod>2025-06-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/</loc>
+    <lastmod>2025-06-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/ainews/2025-06-27-ai-news-copy/</loc>
     <lastmod>2025-06-27T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/agent/</loc>
@@ -14,24 +41,6 @@
     <loc>http://localhost:1313/tags/ai/</loc>
     <lastmod>2025-06-27T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/ai%E6%96%B0%E9%97%BB/</loc>
-    <lastmod>2025-06-27T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/ainews/</loc>
-    <lastmod>2025-06-27T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/categories/ai%E8%B5%84%E8%AE%AF/</loc>
-    <lastmod>2025-06-27T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/anthropic/</loc>
-    <lastmod>2025-06-27T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/</loc>
-    <lastmod>2025-06-27T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/categories/</loc>
-    <lastmod>2025-06-27T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/tags/langchain/</loc>
     <lastmod>2025-06-27T00:00:00+00:00</lastmod>
   </url><url>
@@ -39,9 +48,6 @@
     <lastmod>2025-06-27T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/prompt/</loc>
-    <lastmod>2025-06-27T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/</loc>
     <lastmod>2025-06-27T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/posts/%E4%B8%8A%E4%B8%8B%E6%96%87%E5%B7%A5%E7%A8%8B%E7%9A%84%E5%85%B4%E8%B5%B7/</loc>
