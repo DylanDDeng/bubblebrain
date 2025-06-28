@@ -803,6 +803,117 @@ body.dark .post-content {
     background-color: transparent;
 }
 
+/* 搜索页面样式调整 */
+#searchbox {
+    margin: 2rem auto 3rem;
+    max-width: 600px;
+}
+
+#searchInput {
+    width: 100%;
+    padding: 0.8rem 1.2rem;
+    font-size: 1rem;
+    background: var(--warm-bg-secondary);
+    border: 2px solid var(--warm-border);
+    border-radius: 8px;
+    color: var(--warm-text);
+    transition: all 0.3s ease;
+    font-family: var(--font-chinese);
+}
+
+#searchInput:focus {
+    outline: none;
+    border-color: var(--warm-accent);
+    box-shadow: 0 0 0 3px rgba(139, 92, 60, 0.1);
+}
+
+#searchResults {
+    margin-top: 1rem;
+    background: var(--warm-bg-secondary);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+#searchResults li {
+    padding: 1rem;
+    border-bottom: 1px solid var(--warm-border);
+}
+
+#searchResults li:last-child {
+    border-bottom: none;
+}
+
+#searchResults li:hover {
+    background: var(--warm-bg);
+}
+
+#searchResults mark {
+    background: rgba(139, 92, 60, 0.2);
+    color: var(--warm-accent);
+    font-weight: 600;
+    padding: 0 2px;
+    border-radius: 2px;
+}
+
+/* 标签部分样式 */
+.tags-section {
+    margin-top: 4rem;
+    padding-top: 3rem;
+    border-top: 1px solid var(--warm-border);
+}
+
+.tags-section h2 {
+    font-family: var(--font-serif);
+    font-size: 1.5rem;
+    color: var(--warm-text);
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+.tags-section .terms-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.tags-section .terms-tags li {
+    margin: 0;
+}
+
+.tags-section .terms-tags a {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    background: var(--warm-bg-secondary);
+    border: 1px solid var(--warm-border);
+    border-radius: 20px;
+    color: var(--warm-text);
+    text-decoration: none;
+    transition: all 0.3s ease;
+    font-size: 0.95rem;
+}
+
+.tags-section .terms-tags a:hover {
+    background: var(--warm-accent);
+    color: var(--warm-bg);
+    border-color: var(--warm-accent);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px var(--warm-shadow);
+}
+
+.tags-section .terms-tags sup {
+    margin-left: 0.3rem;
+    font-size: 0.8rem;
+    color: var(--warm-accent);
+}
+
+.tags-section .terms-tags a:hover sup {
+    color: var(--warm-bg);
+}
+
 /* AI资讯卡片样式 */
 .ainews-grid {
     display: grid;
