@@ -11,8 +11,43 @@
     </image>
     <generator>Hugo -- 0.147.9</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 28 Jun 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 29 Jun 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Agent</title>
+      <link>http://localhost:1313/tags/agent/</link>
+      <pubDate>Sun, 29 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/agent/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>AI</title>
+      <link>http://localhost:1313/tags/ai/</link>
+      <pubDate>Sun, 29 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/ai/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>DeepResearch</title>
+      <link>http://localhost:1313/tags/deepresearch/</link>
+      <pubDate>Sun, 29 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/deepresearch/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Kimi</title>
+      <link>http://localhost:1313/tags/kimi/</link>
+      <pubDate>Sun, 29 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/kimi/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>公众号</title>
+      <link>http://localhost:1313/tags/%E5%85%AC%E4%BC%97%E5%8F%B7/</link>
+      <pubDate>Sun, 29 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/%E5%85%AC%E4%BC%97%E5%8F%B7/</guid>
+      <description></description>
+    </item>
     <item>
       <title>AI新闻</title>
       <link>http://localhost:1313/tags/ai%E6%96%B0%E9%97%BB/</link>
@@ -42,20 +77,6 @@
       <description></description>
     </item>
     <item>
-      <title>Agent</title>
-      <link>http://localhost:1313/tags/agent/</link>
-      <pubDate>Fri, 27 Jun 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/agent/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>AI</title>
-      <link>http://localhost:1313/tags/ai/</link>
-      <pubDate>Fri, 27 Jun 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/ai/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>LangChain</title>
       <link>http://localhost:1313/tags/langchain/</link>
       <pubDate>Fri, 27 Jun 2025 00:00:00 +0000</pubDate>
@@ -74,13 +95,6 @@
       <link>http://localhost:1313/tags/%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD/</link>
       <pubDate>Fri, 27 Jun 2025 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/tags/%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>公众号</title>
-      <link>http://localhost:1313/tags/%E5%85%AC%E4%BC%97%E5%8F%B7/</link>
-      <pubDate>Fri, 27 Jun 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/%E5%85%AC%E4%BC%97%E5%8F%B7/</guid>
       <description></description>
     </item>
     <item>

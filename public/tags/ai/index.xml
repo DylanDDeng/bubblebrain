@@ -11,8 +11,61 @@
     </image>
     <generator>Hugo -- 0.147.9</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 27 Jun 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 29 Jun 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/ai/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>用AI深挖硅谷杀妻案，我发现了12460字都写不完的惊人内幕</title>
+      <link>http://localhost:1313/posts/kimi-deepresearch/</link>
+      <pubDate>Sun, 29 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/kimi-deepresearch/</guid>
+      <description>&lt;p&gt;故事的开始是发生在 1 年多前，硅谷发生了令人震惊的杀妻案件。凶手用拳头一拳拳打死了自己的妻子，再加上 &lt;strong&gt;华人&lt;/strong&gt;、&lt;strong&gt;高学历&lt;/strong&gt;、&lt;strong&gt;清华&lt;/strong&gt;、&lt;strong&gt;大厂&lt;/strong&gt;这样的无敌光环，这件案子当时格外引人关注。&lt;/p&gt;
+&lt;p&gt;但是随着时间的推移，关注度来的快去的也快，而且再加上天高皇帝远的，毕竟是在美国开的庭，接触到的后续相关信息也很少，大家对这件事的关注度就慢慢散了。&lt;/p&gt;
+&lt;p&gt;但是最近，这个案子又终于开审了，很多案件的细节都被曝光了出来。&lt;/p&gt;
+&lt;p&gt;作为一个经常需要依靠 AI 才能不在各类繁杂的信息源中不迷失的用户，觉得DeepResearch 真的太适合这类多个资料的搜寻、整合、最后输出了。&lt;/p&gt;
+&lt;p&gt;这不，正好 Kimi 的 &lt;strong&gt;Researcher&lt;/strong&gt;来了么～&lt;/p&gt;
+&lt;p&gt;我用 Kimi 的 Researcher 对硅谷杀妻案做了一个深度的报告，梳理了整个事件的始末发展。&lt;/p&gt;
+&lt;p&gt;首先，Kimi 的深度研究会先根据我的指令进行反问确认，确保自己能进一步理解清楚我的需求。&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&#34;图例 1&#34; loading=&#34;lazy&#34; src=&#34;https://fastly.jsdelivr.net/gh/bucketio/img2@main/2025/06/29/1751157338999-9bb7109f-a294-42e3-ad00-bf9306fd23d9.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;与我进一步确认之后，它开始进行搜索工作。&lt;/p&gt;
+&lt;p&gt;有意思的是，为了扩大搜索范围，它不仅用不同的中文关键词进行搜索，还同样使用英文关键词进行了搜索。&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&#34;图例 2&#34; loading=&#34;lazy&#34; src=&#34;https://fastly.jsdelivr.net/gh/bucketio/img14@main/2025/06/29/1751157649690-59a73a1e-edcf-4db3-bc45-8019cf9c0b48.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;和大部分 Agent 不一样的是，Kimi 的 DeepResearch 是调用 Python 来写入一个 Markdown 文件。&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&#34;图例 3&#34; loading=&#34;lazy&#34; src=&#34;https://fastly.jsdelivr.net/gh/bucketio/img16@main/2025/06/29/1751157842671-e8151d53-0be0-4cf5-be35-4ad06d7cb624.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;当然，整个执行的过程中，并不是一帆风顺的，Kimi 还是会遇到困难，但是得益于端到端的强化学习训练，它能自己学会找到合适的办法解决问题。&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&#34;图例 4&#34; loading=&#34;lazy&#34; src=&#34;https://fastly.jsdelivr.net/gh/bucketio/img9@main/2025/06/29/1751163148758-85384688-842c-447b-af9c-b428ec94f9b0.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;最终，Kimi 给了我一份 12460 字的报告，详细梳理了案件的始末，以及目前的进度，并且做到了几乎每句话都有迹可循。&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&#34;图例 5&#34; loading=&#34;lazy&#34; src=&#34;https://fastly.jsdelivr.net/gh/bucketio/img4@main/2025/06/29/1751163356666-829d4a56-34cd-4c73-95f9-bf0566193681.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;甚至，它还搜到了一些案件的惊人细节，比如第三者：&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&#34;图例 6&#34; loading=&#34;lazy&#34; src=&#34;https://fastly.jsdelivr.net/gh/bucketio/img10@main/2025/06/29/1751167466331-35c65199-b71e-46d1-ae9f-2d4400c0496b.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;以及凶手可能的辩护策略：&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&#34;图例 7&#34; loading=&#34;lazy&#34; src=&#34;https://fastly.jsdelivr.net/gh/bucketio/img12@main/2025/06/29/1751167706395-ca9131fb-219a-472a-8120-ab29e5b3ad37.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;详细报告因为长度关系，就不放在这里了。感兴趣内容的小伙伴可以直接私信我领取查看哦。&lt;/p&gt;
+&lt;p&gt;最让我觉得惊艳的是 Kimi 最后给我生成的那份可视化的报告，信息量和美感都非常在线。&lt;/p&gt;
+
+
+
+
+
+
+
+
+
+&lt;video 
+  controls
+  
+  
+  
+  width=&#34;100%&#34; 
+  height=&#34;auto&#34;
+  style=&#34;max-width: 100%; height: auto;&#34;&gt;
+  &lt;source src=&#34;test1_compressed.mp4&#34; type=&#34;video/mp4&#34;&gt;
+  您的浏览器不支持视频标签。
+&lt;/video&gt;
+&lt;p&gt;这份可视化报告同样保留了引用源的标注，提高了可信度的同时也方便查询。同时，它还针对一些关键信息（案件凶手和被害人之间的关系节点、整个案件发生的前后时间线等）画了流程图，便于理解。最后它也结合一些搜索到的法律人士的专业意见，给出了案件可能的最终走向，以及给出了一些建议来避免这类悲剧的事情再次发生。&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&#34;图例 7&#34; loading=&#34;lazy&#34; src=&#34;https://fastly.jsdelivr.net/gh/bucketio/img3@main/2025/06/29/1751164764826-9388bc63-57ea-44b6-8852-c086a42825ed.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;整个报告的预览链接在这里➡️： &lt;a href=&#34;https://www.kimi.com/preview/197b74a5-b521-8674-ba47-02a74b00051e&#34;&gt;https://www.kimi.com/preview/197b74a5-b521-8674-ba47-02a74b00051e&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;看完整个报告，从案发到现在，还是难以想象受害者临终前的绝望，一拳一拳被自己曾经最心爱的人打死，被迫离开了这个美好的世界。 那个曾经应该是用来监控小猫进食的摄像头，却意外拍下了这最残忍、惊悚的一幕。&lt;/p&gt;</description>
+    </item>
     <item>
       <title>上下文工程的兴起</title>
       <link>http://localhost:1313/posts/%E4%B8%8A%E4%B8%8B%E6%96%87%E5%B7%A5%E7%A8%8B%E7%9A%84%E5%85%B4%E8%B5%B7/</link>
