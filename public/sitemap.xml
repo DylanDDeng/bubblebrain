@@ -2,6 +2,12 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>http://localhost:1313/</loc>
+    <lastmod>2025-06-29T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/</loc>
+    <lastmod>2025-06-29T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/ainews/2025-06-28-ai-news/</loc>
     <lastmod>2025-06-28T00:00:00+00:00</lastmod>
   </url><url>
@@ -17,10 +23,10 @@
     <loc>http://localhost:1313/tags/anthropic/</loc>
     <lastmod>2025-06-28T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/</loc>
+    <loc>http://localhost:1313/categories/</loc>
     <lastmod>2025-06-28T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/</loc>
+    <loc>http://localhost:1313/tags/google/</loc>
     <lastmod>2025-06-28T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/qwen/</loc>
@@ -44,9 +50,6 @@
     <loc>http://localhost:1313/tags/langchain/</loc>
     <lastmod>2025-06-27T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/</loc>
-    <lastmod>2025-06-27T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/tags/prompt/</loc>
     <lastmod>2025-06-27T00:00:00+00:00</lastmod>
   </url><url>
@@ -67,6 +70,8 @@
   </url><url>
     <loc>http://localhost:1313/posts/%E6%B7%B1%E5%BA%A6%E8%A7%A3%E5%AF%86anthropic%E5%A4%9A%E6%99%BA%E8%83%BD%E4%BD%93%E7%B3%BB%E7%BB%9F%E8%83%8C%E5%90%8E%E7%9A%84-%E5%8E%9F%E7%90%86%E5%8F%8A%E6%8F%90%E7%A4%BA%E8%AF%8D%E5%B7%A5%E7%A8%8B%E5%BB%BA%E8%AE%AE%E6%94%B6%E8%97%8F/</loc>
     <lastmod>2025-06-27T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/kimi-deepresearch/</loc>
   </url><url>
     <loc>http://localhost:1313/archives/</loc>
   </url><url>

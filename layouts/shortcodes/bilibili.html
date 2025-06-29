@@ -1,0 +1,30 @@
+{{ $aid := .Get "aid" }}
+{{ $bvid := .Get "bvid" }}
+{{ $page := .Get "page" | default 1 }}
+{{ $autoplay := .Get "autoplay" | default 0 }}
+
+{{ if $bvid }}
+<div class="video-container" style="position: relative; width: 100%; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+  <iframe 
+    src="//player.bilibili.com/player.html?bvid={{ $bvid }}&page={{ $page }}&autoplay={{ $autoplay }}" 
+    scrolling="no" 
+    border="0" 
+    frameborder="no" 
+    framespacing="0" 
+    allowfullscreen="true"
+    style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;">
+  </iframe>
+</div>
+{{ else if $aid }}
+<div class="video-container" style="position: relative; width: 100%; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+  <iframe 
+    src="//player.bilibili.com/player.html?aid={{ $aid }}&page={{ $page }}&autoplay={{ $autoplay }}" 
+    scrolling="no" 
+    border="0" 
+    frameborder="no" 
+    framespacing="0" 
+    allowfullscreen="true"
+    style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;">
+  </iframe>
+</div>
+{{ end }}

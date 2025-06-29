@@ -1017,3 +1017,111 @@ body.dark .post-content {
         border-right: none;
     }
 }
+
+/* 视频样式 */
+.post-content video {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    border-radius: 12px;
+    margin: 2rem auto;
+    display: block;
+    box-shadow: 0 6px 24px var(--warm-shadow);
+    background: #000;
+}
+
+/* 视频容器 - 用于响应式iframe */
+.video-container {
+    position: relative;
+    width: 100%;
+    padding-bottom: 56.25%; /* 16:9 宽高比 */
+    height: 0;
+    overflow: hidden;
+    margin: 2rem 0;
+    border-radius: 12px;
+    box-shadow: 0 6px 24px var(--warm-shadow);
+    background: #000;
+}
+
+.video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
+    border-radius: 12px;
+}
+
+/* 自定义视频播放器样式 */
+video::-webkit-media-controls-panel {
+    background-image: linear-gradient(transparent, rgba(0, 0, 0, 0.3));
+}
+
+video::-webkit-media-controls-play-button {
+    background-color: var(--warm-accent);
+    border-radius: 50%;
+}
+
+/* 视频占位符 */
+.video-placeholder {
+    background: var(--warm-bg-secondary);
+    border: 2px dashed var(--warm-border);
+    border-radius: 12px;
+    padding: 4rem 2rem;
+    text-align: center;
+    color: var(--warm-text-secondary);
+    margin: 2rem 0;
+}
+
+.video-placeholder p {
+    margin: 0.5rem 0;
+}
+
+/* 视频标题样式 */
+.video-caption {
+    text-align: center;
+    color: var(--warm-text-secondary);
+    font-size: 0.9rem;
+    margin-top: -1rem;
+    margin-bottom: 2rem;
+    font-style: italic;
+}
+
+/* YouTube/Bilibili 嵌入特殊处理 */
+.youtube-player,
+.bilibili-player {
+    position: relative;
+    width: 100%;
+    margin: 2rem 0;
+}
+
+/* 视频加载动画 */
+.video-loading {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: var(--warm-accent);
+}
+
+.video-loading::after {
+    content: '加载中...';
+    display: block;
+    margin-top: 1rem;
+    font-size: 0.9rem;
+}
+
+/* 移动端视频优化 */
+@media (max-width: 768px) {
+    .post-content video,
+    .video-container {
+        margin: 1.5rem -1rem;
+        border-radius: 0;
+        width: calc(100% + 2rem);
+    }
+    
+    .video-caption {
+        padding: 0 1rem;
+    }
+}
