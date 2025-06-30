@@ -27,5 +27,19 @@
       <guid>http://localhost:1313/ainews/2025-06-27-ai-news/</guid>
       <description>今日AI资讯</description>
     </item>
+    <item>
+      <title>2025年6月26日</title>
+      <link>http://localhost:1313/ainews/2025-06-26-ai-news/</link>
+      <pubDate>Thu, 26 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/ainews/2025-06-26-ai-news/</guid>
+      <description>今日AI资讯</description>
+    </item>
+    <item>
+      <title>2025年6月25日</title>
+      <link>http://localhost:1313/ainews/2025-06-25-ai-news/</link>
+      <pubDate>Wed, 25 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/ainews/2025-06-25-ai-news/</guid>
+      <description>今日AI资讯</description>
+    </item>
   </channel>
 </rss>

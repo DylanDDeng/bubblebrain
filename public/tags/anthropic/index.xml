@@ -44,5 +44,19 @@
 &lt;p&gt;此外，还有一个专门负责处理引用的智能体（Citation Agent），它主要负责在最终报告中添加引用标注。&lt;/p&gt;
 &lt;p&gt;整个过程中，Lead Agent 通过任务描述与Subagent 通信，当 Subagent 完成任务后将结果返回给 Lead Agent，最终由 Lead Agent 整合所有 Subagent 的结果撰写出研究报告，然后交给 Citation Agent 插入文献来源标注，形成含引用的最终报告返回给用户。&lt;/p&gt;</description>
     </item>
+    <item>
+      <title>2025年6月26日</title>
+      <link>http://localhost:1313/ainews/2025-06-26-ai-news/</link>
+      <pubDate>Thu, 26 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/ainews/2025-06-26-ai-news/</guid>
+      <description>今日AI资讯</description>
+    </item>
+    <item>
+      <title>2025年6月25日</title>
+      <link>http://localhost:1313/ainews/2025-06-25-ai-news/</link>
+      <pubDate>Wed, 25 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/ainews/2025-06-25-ai-news/</guid>
+      <description>今日AI资讯</description>
+    </item>
   </channel>
 </rss>
