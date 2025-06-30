@@ -11,7 +11,7 @@
     </image>
     <generator>Hugo -- 0.147.9</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 29 Jun 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 01 Jul 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Agent</title>
@@ -25,6 +25,41 @@
       <link>http://localhost:1313/tags/ai/</link>
       <pubDate>Sun, 29 Jun 2025 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/tags/ai/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Vibe Coding</title>
+      <link>http://localhost:1313/tags/vibe-coding/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/vibe-coding/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>公众号</title>
+      <link>http://localhost:1313/tags/%E5%85%AC%E4%BC%97%E5%8F%B7/</link>
+      <pubDate>Sun, 29 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/%E5%85%AC%E4%BC%97%E5%8F%B7/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>AI新闻</title>
+      <link>http://localhost:1313/tags/ai%E6%96%B0%E9%97%BB/</link>
+      <pubDate>Mon, 30 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/ai%E6%96%B0%E9%97%BB/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Qwen</title>
+      <link>http://localhost:1313/tags/qwen/</link>
+      <pubDate>Mon, 30 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/qwen/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>百度</title>
+      <link>http://localhost:1313/tags/%E7%99%BE%E5%BA%A6/</link>
+      <pubDate>Mon, 30 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/%E7%99%BE%E5%BA%A6/</guid>
       <description></description>
     </item>
     <item>
@@ -42,20 +77,6 @@
       <description></description>
     </item>
     <item>
-      <title>公众号</title>
-      <link>http://localhost:1313/tags/%E5%85%AC%E4%BC%97%E5%8F%B7/</link>
-      <pubDate>Sun, 29 Jun 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/%E5%85%AC%E4%BC%97%E5%8F%B7/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>AI新闻</title>
-      <link>http://localhost:1313/tags/ai%E6%96%B0%E9%97%BB/</link>
-      <pubDate>Sat, 28 Jun 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/ai%E6%96%B0%E9%97%BB/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Anthropic</title>
       <link>http://localhost:1313/tags/anthropic/</link>
       <pubDate>Sat, 28 Jun 2025 00:00:00 +0000</pubDate>
@@ -70,17 +91,17 @@
       <description></description>
     </item>
     <item>
-      <title>Qwen</title>
-      <link>http://localhost:1313/tags/qwen/</link>
-      <pubDate>Sat, 28 Jun 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/qwen/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>LangChain</title>
       <link>http://localhost:1313/tags/langchain/</link>
       <pubDate>Fri, 27 Jun 2025 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/tags/langchain/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>OpenAI</title>
+      <link>http://localhost:1313/tags/openai/</link>
+      <pubDate>Fri, 27 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/openai/</guid>
       <description></description>
     </item>
     <item>
@@ -91,24 +112,10 @@
       <description></description>
     </item>
     <item>
-      <title>人工智能</title>
-      <link>http://localhost:1313/tags/%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD/</link>
-      <pubDate>Fri, 27 Jun 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>多智能体</title>
       <link>http://localhost:1313/tags/%E5%A4%9A%E6%99%BA%E8%83%BD%E4%BD%93/</link>
       <pubDate>Fri, 27 Jun 2025 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/tags/%E5%A4%9A%E6%99%BA%E8%83%BD%E4%BD%93/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>技术动态</title>
-      <link>http://localhost:1313/tags/%E6%8A%80%E6%9C%AF%E5%8A%A8%E6%80%81/</link>
-      <pubDate>Fri, 27 Jun 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/%E6%8A%80%E6%9C%AF%E5%8A%A8%E6%80%81/</guid>
       <description></description>
     </item>
   </channel>

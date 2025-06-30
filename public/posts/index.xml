@@ -11,8 +11,31 @@
     </image>
     <generator>Hugo -- 0.147.9</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 29 Jun 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 01 Jul 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Cline 是如何处理您的代码库的</title>
+      <link>http://localhost:1313/posts/cline-blog/</link>
+      <pubDate>Tue, 01 Jul 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/cline-blog/</guid>
+      <description>&lt;p&gt;朋友们，大家好。&lt;/p&gt;
+&lt;p&gt;这两天读到开源的代码 Agent，Cline 团队的一篇博客，《Why Cline Doesn&amp;rsquo;t Index Your Codebase (And Why That&amp;rsquo;s a Good Thing) 》，做了一些整理和探索，来分享一下这篇博客内容。&lt;/p&gt;
+&lt;p&gt;先放原文链接：&lt;a href=&#34;https://cline.bot/blog/why-cline-doesnt-index-your-codebase-and-why-thats-a-good-thing&#34;&gt;Why Cline Doesn&amp;rsquo;t Index Your Codebase (And Why That&amp;rsquo;s a Good Thing)&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;为什么rag不行&#34;&gt;为什么RAG不行？&lt;/h2&gt;
+&lt;p&gt;早期，在模型上下文窗口还不大的时候，RAG 一直是作为让模型获取到额外相关上下文信息的办法而存在。哪怕到现在，这个市面上大部分的 AI 知识库解决方案也依然是 RAG，因为这种方法非常简单—它将知识库进行分块、创建嵌入、存储到向量数据库中，并在需要时会根据问题进行相关片段的检索。&lt;/p&gt;
+&lt;p&gt;但是，代码数据与其他数据不同。它是互相关联且不断演变的。当你将传统的 RAG 方法应用于代码库时，会出现三个关键问题：&lt;/p&gt;
+&lt;h3 id=&#34;1-代码不是以块的形式思考&#34;&gt;1. 代码不是以块的形式思考&lt;/h3&gt;
+&lt;p&gt;RAG 大致上来说可以分为两个部分：索引知识库（代码库）和检索。但是当你将代码块用于嵌入时，实际上是破坏了原有的代码库逻辑。举个例子来说，假设一个函数被调用是在片段 47，但是它的定义是在片段 892，而解释它存在的关键上下文又可能是散落在其他十几个片段中，先不说模型最后是否能够真正解决问题，就连把这些相关片段一次性全部检索出来，都是十分困难的。因为对于自然语言来说，一般的段落和句子，为创建具有语义意义的片段提供了明显的边界点，但是代码库的构造那就是完全另一回事了，所以简单的分块方法在准确界定代码有意义方面存在许多困难。&lt;/p&gt;
+&lt;h3 id=&#34;2-索引随代码演变而衰减&#34;&gt;2. 索引随代码演变而衰减&lt;/h3&gt;
+&lt;p&gt;实际上生产环境中，代码库不是静态的，而是一直在不断变化的。所以，索引不是一次性或周期性的工作。每一次你的代码合并都可能导致 AI的理解 与你的代码库之间存在分歧。所以，这也会导致你的代码助手会自信地建议调用不再存在的函数。&lt;/p&gt;
+&lt;h3 id=&#34;3-安全&#34;&gt;3. 安全&lt;/h3&gt;
+&lt;p&gt;使用 RAG 还有一个最大的问题是安全。当你将你的代码库文件转换为向量嵌入时，你需要将其存储在某个地方。不管是云服务商，还是自己部署托管，都要花费额外的资源去做保证安全。&lt;/p&gt;
+&lt;h2 id=&#34;cline-的方法&#34;&gt;Cline 的方法&lt;/h2&gt;
+&lt;p&gt;Cline 采用的方法更像一个真实的开发者在处理代码库时一样。它不提供索引或者嵌入。它只是通过遵循代码的自然结构来构建上下文，进行智能探索。&lt;/p&gt;
+&lt;p&gt;举例来说，你如果开发一个 React 组件。Cline 读取它，看到导入语句，然后跟随它。那个文件又导入另一个文件，所以 Cline 也跟随了那个文件。每个文件都建立在之前的基础上，从而形成一个相互关联的理解，展示你的代码是如何运作的。&lt;/p&gt;
+&lt;p&gt;这种方法其实非常依赖模型的上下文窗口。&lt;/p&gt;
+&lt;p&gt;无论是 Claude 4 也好，还是Gemini 2.5 Pro，都提供了非常大的上下文窗口。Cline 的这种像人类工程师一样阅读代码库的方法自然能生成高质量的上下文，因为它遵循的是代码库里的逻辑结构，而不是像 RAG 一样，把代码库文件切块，依赖语义进行匹配。&lt;/p&gt;</description>
+    </item>
     <item>
       <title>用AI深挖硅谷杀妻案，我发现了12460字都写不完的惊人内幕</title>
       <link>http://localhost:1313/posts/kimi-deepresearch/</link>
