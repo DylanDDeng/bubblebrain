@@ -32,10 +32,18 @@
 </div>
 {{- end }}
 
-<div class="ainews-grid">
 {{- $pages := .RegularPages }}
 {{- $paginator := .Paginate $pages }}
 
+{{- if eq (len $paginator.Pages) 0 }}
+<div class="empty-state">
+  <div class="empty-state-content">
+    <h3>暂无 AI 资讯内容</h3>
+    <p>目前还没有发布任何 AI 资讯，请稍后再来查看。</p>
+  </div>
+</div>
+{{- else }}
+<div class="ainews-grid">
 {{- range $index, $page := $paginator.Pages }}
 <article class="ainews-card">
   <a href="{{ .Permalink }}" class="ainews-link">
@@ -62,25 +70,37 @@
 </article>
 {{- end }}
 </div>
+{{- end }}
 
 {{- if gt $paginator.TotalPages 1 }}
 <footer class="page-footer">
-  <nav class="pagination">
+  <nav class="pagination" aria-label="分页导航">
     {{- if $paginator.HasPrev }}
-    <a class="prev" href="{{ $paginator.Prev.URL | absURL }}">
-      «&nbsp;{{ i18n "prev_page" }}&nbsp;
-      {{- if (.Param "ShowPageNums") }}
-      {{- sub $paginator.PageNumber 1 }}/{{ $paginator.TotalPages }}
-      {{- end }}
+    <a class="pagination-prev" href="{{ $paginator.Prev.URL | absURL }}" aria-label="上一页">
+      <span class="pagination-arrow">«</span>
+      <span class="pagination-text">上一页</span>
     </a>
+    {{- else }}
+    <span class="pagination-prev disabled" aria-disabled="true">
+      <span class="pagination-arrow">«</span>
+      <span class="pagination-text">上一页</span>
+    </span>
     {{- end }}
+    
+    <span class="pagination-info" aria-label="页码信息">
+      第 {{ $paginator.PageNumber }} 页 / 共 {{ $paginator.TotalPages }} 页
+    </span>
+    
     {{- if $paginator.HasNext }}
-    <a class="next" href="{{ $paginator.Next.URL | absURL }}">
-      {{- i18n "next_page" }}&nbsp;
-      {{- if (.Param "ShowPageNums") }}
-      {{- add 1 $paginator.PageNumber }}/{{ $paginator.TotalPages }}
-      {{- end }}&nbsp;»
+    <a class="pagination-next" href="{{ $paginator.Next.URL | absURL }}" aria-label="下一页">
+      <span class="pagination-text">下一页</span>
+      <span class="pagination-arrow">»</span>
     </a>
+    {{- else }}
+    <span class="pagination-next disabled" aria-disabled="true">
+      <span class="pagination-text">下一页</span>
+      <span class="pagination-arrow">»</span>
+    </span>
     {{- end }}
   </nav>
 </footer>

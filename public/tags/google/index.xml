@@ -11,8 +11,22 @@
     </image>
     <generator>Hugo -- 0.147.9</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 28 Jun 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 11 Jul 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/google/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>2025年7月11日</title>
+      <link>http://localhost:1313/ainews/2025-07-11-ai-news/</link>
+      <pubDate>Fri, 11 Jul 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/ainews/2025-07-11-ai-news/</guid>
+      <description>今日AI资讯</description>
+    </item>
+    <item>
+      <title>2025年7月10日</title>
+      <link>http://localhost:1313/ainews/2025-07-10-ai-news/</link>
+      <pubDate>Thu, 10 Jul 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/ainews/2025-07-10-ai-news/</guid>
+      <description>今日AI资讯</description>
+    </item>
     <item>
       <title>2025年6月28日</title>
       <link>http://localhost:1313/ainews/2025-06-28-ai-news/</link>
