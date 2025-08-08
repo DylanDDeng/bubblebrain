@@ -38,11 +38,7 @@
         {{- else }}{{ .Content }}{{ end }}
       </div>
       {{- end }}
-      <div class="toc-mobile">
-        {{- if (.Param "ShowToc") }}
-        {{- partial "toc.html" . }}
-        {{- end }}
-      </div>
+      {{/* Removed in-content TOC: we always render TOC in right sidebar */}}
     </div>
 
     <aside class="post-aside toc-desktop">
@@ -73,4 +69,3 @@
 </article>
 
 {{ end }}
-
