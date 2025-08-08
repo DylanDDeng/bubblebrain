@@ -11,83 +11,27 @@
     </image>
     <generator>Hugo -- 0.147.9</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 15 Jul 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 04 Aug 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>AI新闻</title>
-      <link>http://localhost:1313/tags/ai%E6%96%B0%E9%97%BB/</link>
-      <pubDate>Tue, 15 Jul 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/ai%E6%96%B0%E9%97%BB/</guid>
+      <title>AI</title>
+      <link>http://localhost:1313/tags/ai/</link>
+      <pubDate>Mon, 04 Aug 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/ai/</guid>
       <description></description>
     </item>
     <item>
-      <title>Anthropic，Meta</title>
-      <link>http://localhost:1313/tags/anthropicmeta/</link>
-      <pubDate>Tue, 15 Jul 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/anthropicmeta/</guid>
+      <title>访谈</title>
+      <link>http://localhost:1313/tags/%E8%AE%BF%E8%B0%88/</link>
+      <pubDate>Mon, 04 Aug 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/%E8%AE%BF%E8%B0%88/</guid>
       <description></description>
     </item>
     <item>
-      <title>Cognition</title>
-      <link>http://localhost:1313/tags/cognition/</link>
-      <pubDate>Tue, 15 Jul 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/cognition/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Windsurf</title>
-      <link>http://localhost:1313/tags/windsurf/</link>
-      <pubDate>Tue, 15 Jul 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/windsurf/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>XAI</title>
-      <link>http://localhost:1313/tags/xai/</link>
-      <pubDate>Tue, 15 Jul 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/xai/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Google</title>
-      <link>http://localhost:1313/tags/google/</link>
-      <pubDate>Fri, 11 Jul 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/google/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Perplexity</title>
-      <link>http://localhost:1313/tags/perplexity/</link>
-      <pubDate>Thu, 10 Jul 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/perplexity/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Anthropic</title>
-      <link>http://localhost:1313/tags/anthropic/</link>
-      <pubDate>Mon, 07 Jul 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/anthropic/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>ByteDance</title>
-      <link>http://localhost:1313/tags/bytedance/</link>
-      <pubDate>Fri, 04 Jul 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/bytedance/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Cursor</title>
-      <link>http://localhost:1313/tags/cursor/</link>
-      <pubDate>Fri, 04 Jul 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/cursor/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>OpenAI</title>
-      <link>http://localhost:1313/tags/openai/</link>
-      <pubDate>Wed, 02 Jul 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/openai/</guid>
+      <title>碎碎念</title>
+      <link>http://localhost:1313/tags/%E7%A2%8E%E7%A2%8E%E5%BF%B5/</link>
+      <pubDate>Thu, 31 Jul 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/%E7%A2%8E%E7%A2%8E%E5%BF%B5/</guid>
       <description></description>
     </item>
     <item>
@@ -95,13 +39,6 @@
       <link>http://localhost:1313/tags/agent/</link>
       <pubDate>Tue, 01 Jul 2025 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/tags/agent/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>AI</title>
-      <link>http://localhost:1313/tags/ai/</link>
-      <pubDate>Tue, 01 Jul 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/ai/</guid>
       <description></description>
     </item>
     <item>
@@ -119,20 +56,6 @@
       <description></description>
     </item>
     <item>
-      <title>Qwen</title>
-      <link>http://localhost:1313/tags/qwen/</link>
-      <pubDate>Mon, 30 Jun 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/qwen/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>百度</title>
-      <link>http://localhost:1313/tags/%E7%99%BE%E5%BA%A6/</link>
-      <pubDate>Mon, 30 Jun 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/%E7%99%BE%E5%BA%A6/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>DeepResearch</title>
       <link>http://localhost:1313/tags/deepresearch/</link>
       <pubDate>Sun, 29 Jun 2025 00:00:00 +0000</pubDate>
@@ -147,17 +70,10 @@
       <description></description>
     </item>
     <item>
-      <title>教程</title>
-      <link>http://localhost:1313/tags/%E6%95%99%E7%A8%8B/</link>
-      <pubDate>Sun, 29 Jun 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/%E6%95%99%E7%A8%8B/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>视频</title>
-      <link>http://localhost:1313/tags/%E8%A7%86%E9%A2%91/</link>
-      <pubDate>Sun, 29 Jun 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/%E8%A7%86%E9%A2%91/</guid>
+      <title>Anthropic</title>
+      <link>http://localhost:1313/tags/anthropic/</link>
+      <pubDate>Fri, 27 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/anthropic/</guid>
       <description></description>
     </item>
     <item>

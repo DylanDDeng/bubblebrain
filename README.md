@@ -27,7 +27,6 @@ BubbleBrain 是一个现代化的静态博客网站，使用 Hugo 静态站点�
 ├── assets/             # 资源文件 (CSS, JS 等)
 ├── content/            # 博客内容
 │   ├── posts/          # 博客文章
-│   ├── ainews/         # AI 资讯
 │   └── categories/     # 分类页面
 ├── layouts/            # 自定义布局模板
 ├── static/             # 静态资源 (图片, 图标等)
@@ -107,7 +106,6 @@ description: "文章简介"
 ### 内容分类
 
 - **posts/**: 主要的技术文章和思考
-- **ainews/**: AI 相关资讯和动态
 - **categories/**: 内容分类页面
 
 ## ⚙️ 配置说明
@@ -144,7 +142,6 @@ description: "文章简介"
 ### 导航菜单
 - 分类
 - 归档
-- AI资讯
 - 搜索
 
 ### 社交链接

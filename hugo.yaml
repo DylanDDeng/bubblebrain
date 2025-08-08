@@ -156,14 +156,10 @@ menu:
       name: 归档
       url: /archives/
       weight: 20
-    - identifier: ainews
-      name: AI资讯
-      url: /ainews/
-      weight: 30
     - identifier: search
       name: 搜索
       url: /search/
-      weight: 40
+      weight: 30
 # Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
 pygmentsUseClasses: true
 markup:

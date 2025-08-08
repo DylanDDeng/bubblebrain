@@ -11,8 +11,52 @@
     </image>
     <generator>Hugo -- 0.147.9</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 01 Jul 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 04 Aug 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Dario Amodei 访谈整理</title>
+      <link>http://localhost:1313/posts/dario-amodei%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/</link>
+      <pubDate>Mon, 04 Aug 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/dario-amodei%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/</guid>
+      <description>&lt;p&gt;朋友们，大家好。&lt;/p&gt;
+&lt;p&gt;今天给大家带来 Anthropic 的 CEO，&lt;strong&gt;Dario Amodei&lt;/strong&gt; 最近参加的一次采访内容的整理，他不仅分享了 Anthropic 飞速发展的秘密，更是对当前 AI 领域的诸多争议给出了自己的见解。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Dario Amodei 以及它背后的 Anthropic 公司一直以来颇具争议。一方面在编码领域，Claude 天下第一，不得不服；另一方面，Dario 本人以及 Anthropic 对中国以及中国用户持有显而易见的偏见，哪怕是海外用户，也对它们的模型限量策略怨声载道。 以及非常神奇的是Dario 本人早年还在百度呆过一年。&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;言归正传，不管 Anthropic 对用户到底是一个什么样的态度，这个公司的一些研究论文、访谈都是值得观看学习的。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;访谈链接： &lt;a href=&#34;https://www.youtube.com/watch?v=mYDSSRS-B5U&#34;&gt;https://www.youtube.com/watch?v=mYDSSRS-B5U&lt;/a&gt;&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://raw.githubusercontent.com/DylanDDeng/image/main/CleanShot%202025-08-04%20at%2012.09.33%402x.png&#34;&gt;&lt;/p&gt;
+&lt;h3 id=&#34;不愿被称为悲观主义的ai领导者&#34;&gt;不愿被称为“悲观主义”的AI领导者&lt;/h3&gt;
+&lt;p&gt;首先，Dario 对那些称他为“AI 悲观主义”的人感到非常愤怒。他表示自己绝非想减缓 AI 的发展。恰恰相反，他深知这项技术带来的益处，甚至能够拯救生命。如果技术早日加速实现，他的父亲也不会当年因病离世。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Dario 强调外界对他的很多批评是错误的，比如批评他想掌控、垄断整个 AI 行业&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Dario 认为他自己以及 Anthropic 在阐述 AI 带来的好处方面甚至比一些盲目的“乐观主义者”做的更好。正是因为他们甚至 AI 能创造一个多么美好的世界，他才感到有义务去警示 AI 可能带来的风险，以此来督促人们把事情做对。&lt;/p&gt;
+&lt;p&gt;他强烈批评了那些不理解 AI 带来的好处、只知道“加速发展”的加速主义者，认为它们缺乏道德公信力。&lt;/p&gt;
+&lt;h3 id=&#34;ai-的指数级发展与-dario-的短时间线&#34;&gt;AI 的指数级发展与 Dario 的“短时间线”&lt;/h3&gt;
+&lt;p&gt;Dario 认为整个AI领域最真实且核心的现象是&lt;strong&gt;指数级增长&lt;/strong&gt;。也就是大家经常会看到的每隔几个月，新的 AI 模型会比前一个效果好很多，而这得益于对计算资源、数据投入和新型训练犯法的持续投资。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;他观察到，AI 系统正在从几年前的“勉强能用”发展到“聪明的高中生”，现在正接近“聪明的大学生”甚至是“博士生”的水平，并开始在整个经济领域发挥作用。&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;尽管 Dario 认为预测未来是非常困难的一件事，特别是关于社会层面，但是对于底层技术的进步、发展，他非常的自信。他提到，虽然有 20-25% 的可能性模型在未来两年内停止提升，但鉴于他所看到的增长趋势，他愿意承担这种风险。&lt;/p&gt;
+&lt;p&gt;Dario 解释说，人们不太能理解指数级增长：一个每六个月翻一番的事物，在它真正爆发的两年前，看起来只完成了$\frac{1}{16}$。因此，我们现在可能正处于 AI 能力和收入的“爆炸式增长”的边缘。他将这比作 90 年代互联网的崛起，当时很少有人预见到它会以多快的速度带来全球数字通信网络。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>一些随笔</title>
+      <link>http://localhost:1313/posts/%E4%B8%80%E4%BA%9B%E9%9A%8F%E7%AC%94/</link>
+      <pubDate>Thu, 31 Jul 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/%E4%B8%80%E4%BA%9B%E9%9A%8F%E7%AC%94/</guid>
+      <description>&lt;p&gt;最近压力很大，工作上出现了一些问题，以及忙着搬家。&lt;/p&gt;
+&lt;p&gt;这趟搬家大概持续了两个月，直到这两天才逐渐搬完，搞定。我们找了一套开发商新装修好的房子，但是里面的柜子什么的都是没有的，需要我们自己弄。房东委托中介给我们安排了全屋定制。&lt;/p&gt;
+&lt;p&gt;但是这个做定制的设计师反正弄的也是一团糟，尺寸量的很多地方有问题，然后有的设计的地方也不符合我们的要求。反正来来回回装柜子、修、补，这些都做了一个月了，然后还有布置新家，以及我们自己搬家。整体是一个非常疲惫的过程，真的搬一次家感觉半条命都没了。我女朋友在这其中做了大量的工作，真的很不容易，特别是跟装柜子的人扯皮扯来扯去，都是她弄的。以我这种，“嫌烦，懒得管”、“不是自己的家，搞那么好”的这种心态，肯定是没法把这件事做的很好的。&lt;/p&gt;
+&lt;p&gt;如果说搬家、装修这些事早晚都会结束，还有些盼头，工作上出的这个问题，真的是在我的意料之外了。&lt;/p&gt;
+&lt;p&gt;4 月份，我女朋友因为我的引荐，入职了我现在在的公司，和我一个部门。但是直到前两周 Q2 季度结束，谈话的时候，我曾经最信任的领导给我的口径都是虽然不是很满意，但是都愿意再给机会试试。结果过了不到一周，就被通知解雇了，连试用期都没满，甚至 3 个月的时间都不到。而且是非常临时的通知，甚至一点心理准备都没有。下午通知的，当天就是 last day。&lt;/p&gt;
+&lt;p&gt;事情反正大致就是这样，但是其中细节，发生的种种令人恶心的事远不止这么简单。&lt;/p&gt;
+&lt;p&gt;我也并不能改变什么，但是这也给我上了非常深刻的一课。职场上哪怕和你关系再好的人，都不值得你信任。以及无论在哪里上班，都是给别人打工，在我熟悉的工作环境中，都碰上了这样的事情，更不要说陌生的工作环境了。这也由此激发了我自己创业的想法。&lt;/p&gt;
+&lt;p&gt;自己创业做的想法来源于两个方面：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;对现状的不满意。我觉得我包括我所在的部门现在的工作是有问题的。从来没有好好的打磨过一款产品，每次都是只做成一个 demo，然后就不接着往下做了。一共就 10 个人左右的团队，却做了好多的 demo，但是一款像样的产品都没有。而在我看来，如果只是做 demo 的话，我一个人就可以做现在这个团队里的人做的东西，我认为它们做的都很烂。&lt;/li&gt;
+&lt;li&gt;发生在我女朋友身上的事，同样也给我上了一课。当初，想把她引荐进来，主要就是觉得这边相对稳定，然后部门领导也是认识的，相对比较熟悉点，不像在别的公司，逼事很多。结果没想到，才三个月不到，也发生了这样的事。如果连我这里都这样，更不要说其他公司了。所以企业、团队本质都是一样的，不是自己的团队，跟你关系再好，也都是假的。那与其这样，我不如自己干，反正我觉得我现在团队做的东西都很烂，我自己也能做。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;反正事情虽然很糟心，但是也都发生了，改变不了什么。日子还要继续，希望会好起来。&lt;/p&gt;
+&lt;p&gt;碎碎念结束～&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Cline 是如何处理您的代码库的</title>
       <link>http://localhost:1313/posts/cline-blog/</link>
@@ -88,13 +132,6 @@
 &lt;p&gt;&lt;img alt=&#34;图例 7&#34; loading=&#34;lazy&#34; src=&#34;https://fastly.jsdelivr.net/gh/bucketio/img3@main/2025/06/29/1751164764826-9388bc63-57ea-44b6-8852-c086a42825ed.png&#34;&gt;&lt;/p&gt;
 &lt;p&gt;整个报告的预览链接在这里➡️： &lt;a href=&#34;https://www.kimi.com/preview/197b74a5-b521-8674-ba47-02a74b00051e&#34;&gt;https://www.kimi.com/preview/197b74a5-b521-8674-ba47-02a74b00051e&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;看完整个报告，从案发到现在，还是难以想象受害者临终前的绝望，一拳一拳被自己曾经最心爱的人打死，被迫离开了这个美好的世界。 那个曾经应该是用来监控小猫进食的摄像头，却意外拍下了这最残忍、惊悚的一幕。&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>视频嵌入示例</title>
-      <link>http://localhost:1313/posts/video-example/</link>
-      <pubDate>Sun, 29 Jun 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/video-example/</guid>
-      <description>展示如何在博客中嵌入视频</description>
     </item>
     <item>
       <title>上下文工程的兴起</title>
