@@ -50,8 +50,8 @@ params:
   comments: true
   hidemeta: false
   hideSummary: false
-  showtoc: false
-  tocopen: false
+  ShowToc: true
+  TocOpen: true
 
   assets:
     # disableHLJS: true # to disable highlight.js
@@ -160,6 +160,10 @@ menu:
       name: 搜索
       url: /search/
       weight: 30
+    - identifier: about
+      name: 关于
+      url: /about/
+      weight: 40
 # Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
 pygmentsUseClasses: true
 markup:
@@ -171,3 +175,7 @@ markup:
     codeFences: true
     guessSyntax: true
     # lineNos: true
+  tableOfContents:
+    startLevel: 2
+    endLevel: 4
+    ordered: false
