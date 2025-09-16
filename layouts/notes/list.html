@@ -1,0 +1,90 @@
+{{- define "main" }}
+{{- $allNotes := where site.RegularPages "Section" "notes" -}}
+{{- $notes := sort .Pages "Date" "desc" -}}
+{{- $paginator := .Paginate $notes -}}
+{{- $heatmapWeeks := 16 -}}
+{{- $heatmapDays := int (mul $heatmapWeeks 7) -}}
+{{- $counts := newScratch -}}
+{{- range $allNotes -}}
+  {{- $day := .Date.Format "2006-01-02" -}}
+  {{- $current := $counts.Get $day | default 0 -}}
+  {{- $counts.Set $day (add $current 1) -}}
+{{- end -}}
+
+<section class="notes-page">
+  <header class="notes-header">
+    {{ partial "breadcrumbs.html" . }}
+    <h1>{{ .Title }}</h1>
+    {{- if .Description }}
+    <p class="notes-description">{{ .Description | markdownify }}</p>
+    {{- end }}
+  </header>
+
+  {{- if gt (len $allNotes) 0 }}
+  <section class="notes-heatmap" aria-label="记录热力图">
+    <div class="heatmap-header">
+      <h2>记录热力图</h2>
+      <span class="heatmap-range">最近 {{ $heatmapWeeks }} 周</span>
+    </div>
+    <div class="heatmap-grid" role="list">
+      {{- $today := now -}}
+      {{- range seq 0 (sub $heatmapDays 1) -}}
+        {{- $i := int . -}}
+        {{- $offset := int (sub (sub $heatmapDays 1) $i) -}}
+        {{- $date := $today.AddDate 0 0 (int (mul -1 $offset)) -}}
+        {{- $key := $date.Format "2006-01-02" -}}
+        {{- $count := $counts.Get $key | default 0 -}}
+        {{- $level := cond (lt $count 1) "level-0" (cond (lt $count 2) "level-1" (cond (lt $count 4) "level-2" "level-3")) -}}
+        <div class="heatmap-day {{ $level }}" title="{{ $date.Format "2006-01-02" }}：{{ $count }} 条记录" data-date="{{ $date.Format "2006-01-02" }}" data-count="{{ $count }}"></div>
+      {{- end -}}
+    </div>
+    <div class="heatmap-legend" aria-hidden="true">
+      <span>少</span>
+      <span class="legend-swatch level-0"></span>
+      <span class="legend-swatch level-1"></span>
+      <span class="legend-swatch level-2"></span>
+      <span class="legend-swatch level-3"></span>
+      <span>多</span>
+    </div>
+  </section>
+  {{- end }}
+
+  <section class="notes-timeline" aria-label="随手记时间线">
+    {{- if gt (len $paginator.Pages) 0 }}
+      {{- range $paginator.Pages }}
+      <article class="timeline-entry">
+        <div class="timeline-marker">
+          <span class="timeline-dot"></span>
+          <span class="timeline-line"></span>
+        </div>
+        <div class="timeline-content">
+          <div class="timeline-meta">
+            <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "2006年1月2日" }}</time>
+            {{- with .Params.tags }}
+            <span class="timeline-tags">{{ delimit . " · " }}</span>
+            {{- end }}
+          </div>
+          <h2><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
+          <div class="timeline-body">{{ .Summary | plainify | htmlUnescape }}</div>
+          <a class="timeline-readmore" href="{{ .RelPermalink }}">阅读全文 →</a>
+        </div>
+      </article>
+      {{- end }}
+
+      {{- if gt $paginator.TotalPages 1 }}
+      <footer class="timeline-pagination">
+        {{- if $paginator.HasPrev }}
+        <a class="prev" href="{{ $paginator.Prev.URL }}">« 更早的记录</a>
+        {{- end }}
+        {{- if $paginator.HasNext }}
+        <a class="next" href="{{ $paginator.Next.URL }}">更新的记录 »</a>
+        {{- end }}
+      </footer>
+      {{- end }}
+    {{- else }}
+      <p class="timeline-empty">暂无记录，快去写一篇吧！</p>
+    {{- end }}
+  </section>
+</section>
+
+{{- end }}
