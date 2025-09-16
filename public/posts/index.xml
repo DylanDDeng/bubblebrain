@@ -2,22 +2,121 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Posts on BubbleBrain</title>
-    <link>http://localhost:1313/posts/</link>
+    <link>http://localhost:60030/posts/</link>
     <description>Recent content in Posts on BubbleBrain</description>
     <image>
       <title>BubbleBrain</title>
-      <url>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <url>http://localhost:60030/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>http://localhost:60030/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- 0.147.9</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 04 Aug 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 09 Aug 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:60030/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>OpenAI 最新回应有关 GPT-5</title>
+      <link>http://localhost:60030/posts/openai-%E6%9C%80%E6%96%B0%E5%9B%9E%E5%BA%94%E6%9C%89%E5%85%B3-gpt-5/</link>
+      <pubDate>Sat, 09 Aug 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:60030/posts/openai-%E6%9C%80%E6%96%B0%E5%9B%9E%E5%BA%94%E6%9C%89%E5%85%B3-gpt-5/</guid>
+      <description>&lt;p&gt;昨天 Sam Altman 与他的 OpenAI 团队参加了 Reddit 上的 AMA 直播，来回答网友们任何关于 &lt;strong&gt;GPT-5&lt;/strong&gt; 的问题。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;AMA 即 Ask Me Anything。一般都是回答网友的各种问题&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;原贴地址：&lt;/strong&gt;&lt;a href=&#34;https://www.reddit.com/r/ChatGPT/comments/1mkae1l/gpt5_ama_with_openais_sam_altman_and_some_of_the/&#34;&gt;GPT-5 AMA with OpenAI’s Sam Altman and some of the GPT-5 team&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;我随手整理了一版，方便大家阅读。&lt;/p&gt;
+&lt;h3 id=&#34;关于老模型&#34;&gt;关于老模型&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;Sam Altman 表示已经收到了大量关于恢复 GPT-4o 的反馈，表示会重新为 Plus 用户启用它，并会观察使用情况，以确定支持多长时间&lt;/li&gt;
+&lt;/ol&gt;
+ &lt;/br&gt;
+&lt;ol start=&#34;2&#34;&gt;
+&lt;li&gt;对于 GPT-4.1， Sam Altman 表示团队正在探索用户是否同时需要 4o 和 4.1 或者仅仅有4o 就足够&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/br&gt; 
+&lt;ol start=&#34;3&#34;&gt;
+&lt;li&gt;关于 GPT-4.5， 团队没有正面回应，但是也说了认为 GPT-5-Thinking 能带来更好，更有趣的写作能力。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;发布会的错误与技术修复&#34;&gt;发布会的错误与技术修复&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;对于发布会 PPT 的图表错误，Sam Altman 表示直播之前加班搞到太晚，太累了，出现了人为错误。但是博客文章以及系统卡里的介绍都是准确的。&lt;/li&gt;
+&lt;/ol&gt;
+  &lt;/br&gt;
+&lt;ol start=&#34;2&#34;&gt;
+&lt;li&gt;GPT-5 在发布时出现了严重的技术问题，自动切换器也坏了。这导致对于很多用户的查询没有找到正确的模型，所以表现异常的迟钝。团队正在对决策边界进行干预，帮助用户更频繁地获得正确的模型，并且考虑增加模型回答的透明度，以便让用户更好地知道是哪个模型回答的问题。&lt;/li&gt;
+&lt;/ol&gt;
+ &lt;/br&gt; 
+&lt;ol start=&#34;3&#34;&gt;
+&lt;li&gt;GPT-5 的重大发布导致 API 流量在 24 小时内翻倍，导致了很多用户的服务出现了中断。OpenAI 预计会在一两天内让服务稳定，并将 Plus 用户的速率限制翻倍，以完成最后的推广。&lt;/li&gt;
+&lt;/ol&gt;
+ &lt;/br&gt; 
+&lt;ol start=&#34;4&#34;&gt;
+&lt;li&gt;OpenAI 承诺自动切换器会更好用。当然，也可以通过在 prompt 里加入指令，比如 “Think Hard” 来让模型强制触发思考推理模式。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;关于编程以及工具调用&#34;&gt;关于编程以及工具调用&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;Codex CLI 现在通过付费的 ChatGPT 计划来支持 GPT-5. Pro 用户几乎不会遇到用量上的限制， Plus 和 Team 用户每周可以处理几个 1-2 小时的对话，并且速率限制会每 5 小时重置，按周的维度来统计。&lt;/li&gt;
+&lt;/ol&gt;
+ &lt;/br&gt; 
+&lt;ol start=&#34;2&#34;&gt;
+&lt;li&gt;Codex CLI 很快将迎来重大升级&lt;/li&gt;
+&lt;/ol&gt;
+ &lt;/br&gt; 
+&lt;ol start=&#34;3&#34;&gt;
+&lt;li&gt;已经在考虑将 GitHUb 直接集成到 ChatGPT 中，这样可以让 ChatGPT 直接读取代码仓库&lt;/li&gt;
+&lt;/ol&gt;
+   &lt;/br&gt; 
+&lt;ol start=&#34;4&#34;&gt;
+&lt;li&gt;GPT-5 工具调用能力明显增强，特别是 GPT-5-Thinking 版本。&lt;/li&gt;
+&lt;/ol&gt;
+  &lt;/br&gt; 
+&lt;ol start=&#34;5&#34;&gt;
+&lt;li&gt;未来考虑会把 GPT-5-Pro 集成到 API 中，但是会非常贵 。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;关于产品&#34;&gt;关于产品&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;新推出的聊天气泡颜色的定制功能是开放给所有用户&lt;/li&gt;
+&lt;/ol&gt;
+ &lt;/br&gt; 
+&lt;ol start=&#34;2&#34;&gt;
+&lt;li&gt;未来会考虑在 IDE 中让ChatGPT 以第三方插件的方式兼容进来。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;关于模型与未来计划&#34;&gt;关于模型与未来计划&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;之前传的很火的 Zenith 和 Summit，团队经过大量的测试以及评估，最终 Summit 在排行榜和内部测试中大幅优于 Zenith。&lt;/li&gt;
+&lt;/ol&gt;
+  &lt;/br&gt; 
+&lt;ol start=&#34;2&#34;&gt;
+&lt;li&gt;团队认为 GPT-5 相比于之前的 GPT-4 在很多方面都有重大的提升：推理、写作、指令遵循等。&lt;/li&gt;
+&lt;/ol&gt;
+ &lt;/br&gt; 
+&lt;ol start=&#34;3&#34;&gt;
+&lt;li&gt;考虑增加 Plus 用户的上下文长度，目前仅有 32K，非常的有限。&lt;/li&gt;
+&lt;/ol&gt;
+ &lt;/br&gt; 
+&lt;ol start=&#34;4&#34;&gt;
+&lt;li&gt;对于 GPT-5， 有一个遗憾是没能做大支持更长的上下文。研究人员 Michelle Pokrass 表示，如果计算资源、成本都允许的情况下，更愿意支持 1M 的上下文长度&lt;/li&gt;
+&lt;/ol&gt;
+  &lt;/br&gt; 
+&lt;ol start=&#34;5&#34;&gt;
+&lt;li&gt;与 Opus 4.1 的比较，OpenAI 认为两个都是非常好的模型。对于别家的模型，不能评价很多，但是它们认为 GPT-5 是它们发布过写代码最好的模型。&lt;/li&gt;
+&lt;/ol&gt;
+ &lt;/br&gt; 
+&lt;ol start=&#34;6&#34;&gt;
+&lt;li&gt;它们正在努力将推理和非推理模型统一为一个单一模型，并且考虑采用 Token 定价的方式而不是消息限制。&lt;/li&gt;
+&lt;/ol&gt;
+ &lt;/br&gt; 
+&lt;ol start=&#34;7&#34;&gt;
+&lt;li&gt;ChatGPT 的 memory 功能即将迎来升级。 GPT-5 在长文对话方面已经取得了进步&lt;/li&gt;
+&lt;/ol&gt;
+ &lt;/br&gt; 
+&lt;ol start=&#34;8&#34;&gt;
+&lt;li&gt;昨天新发的语音模型在指令遵循、响应都有很大的提升。同时，OpenAI 表示目前没有相关计划做一个数字人在语音模式中。（像 Grok 那样）&lt;/li&gt;
+&lt;/ol&gt;</description>
+    </item>
     <item>
       <title>Dario Amodei 访谈整理</title>
-      <link>http://localhost:1313/posts/dario-amodei%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/</link>
+      <link>http://localhost:60030/posts/dario-amodei%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/</link>
       <pubDate>Mon, 04 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/dario-amodei%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/</guid>
+      <guid>http://localhost:60030/posts/dario-amodei%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/</guid>
       <description>&lt;p&gt;朋友们，大家好。&lt;/p&gt;
 &lt;p&gt;今天给大家带来 Anthropic 的 CEO，&lt;strong&gt;Dario Amodei&lt;/strong&gt; 最近参加的一次采访内容的整理，他不仅分享了 Anthropic 飞速发展的秘密，更是对当前 AI 领域的诸多争议给出了自己的见解。&lt;/p&gt;
 &lt;blockquote&gt;
@@ -39,9 +138,9 @@
     </item>
     <item>
       <title>一些随笔</title>
-      <link>http://localhost:1313/posts/%E4%B8%80%E4%BA%9B%E9%9A%8F%E7%AC%94/</link>
+      <link>http://localhost:60030/posts/%E4%B8%80%E4%BA%9B%E9%9A%8F%E7%AC%94/</link>
       <pubDate>Thu, 31 Jul 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/%E4%B8%80%E4%BA%9B%E9%9A%8F%E7%AC%94/</guid>
+      <guid>http://localhost:60030/posts/%E4%B8%80%E4%BA%9B%E9%9A%8F%E7%AC%94/</guid>
       <description>&lt;p&gt;最近压力很大，工作上出现了一些问题，以及忙着搬家。&lt;/p&gt;
 &lt;p&gt;这趟搬家大概持续了两个月，直到这两天才逐渐搬完，搞定。我们找了一套开发商新装修好的房子，但是里面的柜子什么的都是没有的，需要我们自己弄。房东委托中介给我们安排了全屋定制。&lt;/p&gt;
 &lt;p&gt;但是这个做定制的设计师反正弄的也是一团糟，尺寸量的很多地方有问题，然后有的设计的地方也不符合我们的要求。反正来来回回装柜子、修、补，这些都做了一个月了，然后还有布置新家，以及我们自己搬家。整体是一个非常疲惫的过程，真的搬一次家感觉半条命都没了。我女朋友在这其中做了大量的工作，真的很不容易，特别是跟装柜子的人扯皮扯来扯去，都是她弄的。以我这种，“嫌烦，懒得管”、“不是自己的家，搞那么好”的这种心态，肯定是没法把这件事做的很好的。&lt;/p&gt;
@@ -59,9 +158,9 @@
     </item>
     <item>
       <title>Cline 是如何处理您的代码库的</title>
-      <link>http://localhost:1313/posts/cline-blog/</link>
+      <link>http://localhost:60030/posts/cline-blog/</link>
       <pubDate>Tue, 01 Jul 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/cline-blog/</guid>
+      <guid>http://localhost:60030/posts/cline-blog/</guid>
       <description>&lt;p&gt;朋友们，大家好。&lt;/p&gt;
 &lt;p&gt;这两天读到开源的代码 Agent，Cline 团队的一篇博客，《Why Cline Doesn&amp;rsquo;t Index Your Codebase (And Why That&amp;rsquo;s a Good Thing) 》，做了一些整理和探索，来分享一下这篇博客内容。&lt;/p&gt;
 &lt;p&gt;先放原文链接：&lt;a href=&#34;https://cline.bot/blog/why-cline-doesnt-index-your-codebase-and-why-thats-a-good-thing&#34;&gt;Why Cline Doesn&amp;rsquo;t Index Your Codebase (And Why That&amp;rsquo;s a Good Thing)&lt;/a&gt;&lt;/p&gt;
@@ -82,9 +181,9 @@
     </item>
     <item>
       <title>用AI深挖硅谷杀妻案，我发现了12460字都写不完的惊人内幕</title>
-      <link>http://localhost:1313/posts/kimi-deepresearch/</link>
+      <link>http://localhost:60030/posts/kimi-deepresearch/</link>
       <pubDate>Sun, 29 Jun 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/kimi-deepresearch/</guid>
+      <guid>http://localhost:60030/posts/kimi-deepresearch/</guid>
       <description>&lt;p&gt;故事的开始是发生在 1 年多前，硅谷发生了令人震惊的杀妻案件。凶手用拳头一拳拳打死了自己的妻子，再加上 &lt;strong&gt;华人&lt;/strong&gt;、&lt;strong&gt;高学历&lt;/strong&gt;、&lt;strong&gt;清华&lt;/strong&gt;、&lt;strong&gt;大厂&lt;/strong&gt;这样的无敌光环，这件案子当时格外引人关注。&lt;/p&gt;
 &lt;p&gt;但是随着时间的推移，关注度来的快去的也快，而且再加上天高皇帝远的，毕竟是在美国开的庭，接触到的后续相关信息也很少，大家对这件事的关注度就慢慢散了。&lt;/p&gt;
 &lt;p&gt;但是最近，这个案子又终于开审了，很多案件的细节都被曝光了出来。&lt;/p&gt;
@@ -134,10 +233,17 @@
 &lt;p&gt;看完整个报告，从案发到现在，还是难以想象受害者临终前的绝望，一拳一拳被自己曾经最心爱的人打死，被迫离开了这个美好的世界。 那个曾经应该是用来监控小猫进食的摄像头，却意外拍下了这最残忍、惊悚的一幕。&lt;/p&gt;</description>
     </item>
     <item>
+      <title>视频嵌入示例</title>
+      <link>http://localhost:60030/posts/video-example/</link>
+      <pubDate>Sun, 29 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:60030/posts/video-example/</guid>
+      <description>展示如何在博客中嵌入视频</description>
+    </item>
+    <item>
       <title>上下文工程的兴起</title>
-      <link>http://localhost:1313/posts/%E4%B8%8A%E4%B8%8B%E6%96%87%E5%B7%A5%E7%A8%8B%E7%9A%84%E5%85%B4%E8%B5%B7/</link>
+      <link>http://localhost:60030/posts/%E4%B8%8A%E4%B8%8B%E6%96%87%E5%B7%A5%E7%A8%8B%E7%9A%84%E5%85%B4%E8%B5%B7/</link>
       <pubDate>Fri, 27 Jun 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/%E4%B8%8A%E4%B8%8B%E6%96%87%E5%B7%A5%E7%A8%8B%E7%9A%84%E5%85%B4%E8%B5%B7/</guid>
+      <guid>http://localhost:60030/posts/%E4%B8%8A%E4%B8%8B%E6%96%87%E5%B7%A5%E7%A8%8B%E7%9A%84%E5%85%B4%E8%B5%B7/</guid>
       <description>&lt;blockquote&gt;
 &lt;p&gt;本文为 Langchain 官方博客“The rise of context engineering”的双语对照版本。
 &lt;/br&gt;
@@ -151,9 +257,9 @@
     </item>
     <item>
       <title>深度解密：Anthropic多智能体系统背后的原理及提示词工程（建议收藏）</title>
-      <link>http://localhost:1313/posts/%E6%B7%B1%E5%BA%A6%E8%A7%A3%E5%AF%86anthropic%E5%A4%9A%E6%99%BA%E8%83%BD%E4%BD%93%E7%B3%BB%E7%BB%9F%E8%83%8C%E5%90%8E%E7%9A%84-%E5%8E%9F%E7%90%86%E5%8F%8A%E6%8F%90%E7%A4%BA%E8%AF%8D%E5%B7%A5%E7%A8%8B%E5%BB%BA%E8%AE%AE%E6%94%B6%E8%97%8F/</link>
+      <link>http://localhost:60030/posts/%E6%B7%B1%E5%BA%A6%E8%A7%A3%E5%AF%86anthropic%E5%A4%9A%E6%99%BA%E8%83%BD%E4%BD%93%E7%B3%BB%E7%BB%9F%E8%83%8C%E5%90%8E%E7%9A%84-%E5%8E%9F%E7%90%86%E5%8F%8A%E6%8F%90%E7%A4%BA%E8%AF%8D%E5%B7%A5%E7%A8%8B%E5%BB%BA%E8%AE%AE%E6%94%B6%E8%97%8F/</link>
       <pubDate>Fri, 27 Jun 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/%E6%B7%B1%E5%BA%A6%E8%A7%A3%E5%AF%86anthropic%E5%A4%9A%E6%99%BA%E8%83%BD%E4%BD%93%E7%B3%BB%E7%BB%9F%E8%83%8C%E5%90%8E%E7%9A%84-%E5%8E%9F%E7%90%86%E5%8F%8A%E6%8F%90%E7%A4%BA%E8%AF%8D%E5%B7%A5%E7%A8%8B%E5%BB%BA%E8%AE%AE%E6%94%B6%E8%97%8F/</guid>
+      <guid>http://localhost:60030/posts/%E6%B7%B1%E5%BA%A6%E8%A7%A3%E5%AF%86anthropic%E5%A4%9A%E6%99%BA%E8%83%BD%E4%BD%93%E7%B3%BB%E7%BB%9F%E8%83%8C%E5%90%8E%E7%9A%84-%E5%8E%9F%E7%90%86%E5%8F%8A%E6%8F%90%E7%A4%BA%E8%AF%8D%E5%B7%A5%E7%A8%8B%E5%BB%BA%E8%AE%AE%E6%94%B6%E8%97%8F/</guid>
       <description>&lt;p&gt;Anthropic 前两天发了一篇文章，重点讨论了他们是如何通过多智能体系统来构建 claude 的“深度研究功能”。&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;文章链接： &lt;a href=&#34;https://www.anthropic.com/engineering/built-multi-agent-research-system&#34;&gt;https://www.anthropic.com/engineering/built-multi-agent-research-system&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;我仔细研究了一下，觉得写的非常不错，所以写了这篇文章来细致解读一下到底该如何构建一个多智能体系统。&lt;/p&gt;
@@ -175,9 +281,9 @@
     </item>
     <item>
       <title>Notes on LightRAG</title>
-      <link>http://localhost:1313/posts/notes-on-lightrag/</link>
+      <link>http://localhost:60030/posts/notes-on-lightrag/</link>
       <pubDate>Mon, 24 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/notes-on-lightrag/</guid>
+      <guid>http://localhost:60030/posts/notes-on-lightrag/</guid>
       <description>&lt;p&gt;In this note, I’ll document some critical implementation details about the &lt;code&gt;LightRAG&lt;/code&gt; framework that I discovered while deploying it in production. These insights, which weren’t immediately apparent from just reading the paper, emerged during my hands-on experience with the codebase and are worth recording for future reference.&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;Paper Link: LightRAG: &lt;a href=&#34;https://arxiv.org/abs/2410.05779&#34;&gt;Simple and Fast Retrieval-Augmented Generation&lt;/a&gt;
