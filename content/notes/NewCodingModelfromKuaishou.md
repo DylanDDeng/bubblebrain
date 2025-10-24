@@ -7,13 +7,24 @@ tags: ["思考", "灵感"]
 categories: ["随手记"]
 description: ""
 thought: true
----  
+---
 
-Kuaishou updated their New Coding Model, **KAT-Coder-Pro V1** and **KAT-Coder-Air V1**. 
+Kuaishou recently refreshed its New Coding Model lineup with two releases: **KAT-Coder-Pro V1** and **KAT-Coder-Air V1**.
 
-It seamlessly works with top coding agent tools like Claude Code, Cline or Kilo etc. 
+Both variants integrate smoothly with leading coding-agent tools such as Claude Code, Cline, and Kilo.
 
-I tried it with Claude Code. 
+I ran the Pro model inside Claude Code, and the onboarding experience was straightforward.
 
-Here it is how to integrated with Claude Code. 
+Below is the Claude Code configuration I used:
 
+```bash
+export ANTHROPIC_BASE_URL="https://wanqing.streamlakeapi.com/api/gateway/v1/endpoints/ep-xxx-xxx/claude-code-proxy"
+export ANTHROPIC_AUTH_TOKEN="YOUR_WANQING_API_KEY"
+export ANTHROPIC_SMALL_FAST_MODEL="KAT-Coder-Air-V1"
+```
+
+API keys are available via the [Kuaishou Wanqing](https://www.streamlake.com) console.
+
+For a quick benchmark, I reran my usual SVG generation test (the Xbox controller graphic). Output quality is still behind Claude’s native models, so there is room for improvement.
+
+![](https://image-1325800846.cos.ap-nanjing.myqcloud.com/ScreenShot_2025-10-24_111215_221.png)
