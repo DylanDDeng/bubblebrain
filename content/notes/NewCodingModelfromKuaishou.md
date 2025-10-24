@@ -20,6 +20,7 @@ Below is the Claude Code configuration I used:
 ```bash
 export ANTHROPIC_BASE_URL="https://wanqing.streamlakeapi.com/api/gateway/v1/endpoints/ep-xxx-xxx/claude-code-proxy"
 export ANTHROPIC_AUTH_TOKEN="YOUR_WANQING_API_KEY"
+export ANTHROPIC_MODEL="KAT-Coder"
 export ANTHROPIC_SMALL_FAST_MODEL="KAT-Coder-Air-V1"
 ```
 
