@@ -723,6 +723,59 @@ body.dark .post-content .chroma,
     }
 }
 
+/* 导航菜单移动端优化 */
+@media (max-width: 768px) {
+    /* 导航菜单横向滚动优化 */
+    #menu {
+        display: flex;
+        overflow-x: auto;
+        -webkit-overflow-scrolling: touch;
+        scrollbar-width: none; /* Firefox */
+        padding: 0 16px;
+    }
+    
+    #menu::-webkit-scrollbar {
+        display: none; /* Chrome, Safari */
+    }
+    
+    #menu li {
+        flex-shrink: 0;
+        margin-right: 1rem;
+    }
+    
+    #menu a {
+        white-space: nowrap;
+        padding: 0.5rem 0;
+    }
+    
+    /* 头部布局优化 */
+    .nav {
+        flex-direction: column;
+        align-items: stretch;
+    }
+    
+    .logo-switches {
+        margin-bottom: 1rem;
+        justify-content: center;
+    }
+}
+
+@media (max-width: 480px) {
+    #menu {
+        padding: 0 12px;
+        font-size: 0.9rem;
+    }
+    
+    #menu li {
+        margin-right: 0.8rem;
+    }
+    
+    .logo-switches {
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+}
+
 /* 深色模式分页样式 */
 body.dark .pagination-prev,
 body.dark .pagination-next,
@@ -935,24 +988,174 @@ body.dark .giscus-comments {
 
 /* 响应式设计 */
 @media (max-width: 768px) {
+    /* 文章页面移动端布局修复 */
+    .post-body-layout {
+        flex-direction: column;
+        gap: 16px;
+    }
+    
+    .post-aside {
+        width: 100%;
+        position: relative;
+        top: auto;
+        max-height: none;
+        order: -1;
+        margin-bottom: 2rem;
+        padding: 0;
+    }
+    
+    .post-main {
+        width: 100%;
+        min-width: 0;
+    }
+    
+    .post-single {
+        max-width: 100%;
+    }
+    
+    /* 内容间距优化 */
+    .header .nav,
+    .main > *,
+    .footer > * {
+        padding: 0 16px;
+    }
+    
+    .post-entry,
+    .post-single,
+    .home-info,
+    .archive-month {
+        padding: 0 16px;
+    }
+    
+    /* 字体大小调整 */
     .post-title {
-        font-size: 2rem;
+        font-size: 1.75rem;
+        padding-bottom: 1rem;
     }
     
     .post-content {
-        font-size: 1.05rem;
+        font-size: 1rem;
+        line-height: 1.7;
     }
     
     .post-content h2 {
-        font-size: 1.5rem;
+        font-size: 1.4rem;
+        margin-left: -0.5rem;
+        padding-left: 0.5rem;
     }
     
     .post-content h3 {
-        font-size: 1.25rem;
+        font-size: 1.2rem;
     }
     
     .post-content blockquote {
         padding: 1rem 1.5rem;
+        margin: 1.5rem 0;
+    }
+    
+    /* 表格和代码优化 */
+    .post-content table {
+        font-size: 0.875rem;
+        display: block;
+        overflow-x: auto;
+        white-space: nowrap;
+    }
+    
+    .post-content pre {
+        padding: 1rem;
+        font-size: 0.875rem;
+        overflow-x: auto;
+    }
+    
+    /* 图片优化 */
+    .post-content img {
+        margin: 1.5rem auto;
+        max-width: 100%;
+        height: auto;
+    }
+    
+    /* 导航菜单优化 */
+    #menu {
+        padding: 0 16px;
+    }
+    
+    /* 首页文章条目优化 */
+    .post-entry {
+        padding: 1.5rem;
+        margin-bottom: 1.5rem;
+    }
+    
+    .entry-header h2 {
+        font-size: 1.4rem;
+    }
+    
+    /* 分页优化 */
+    .pagination {
+        margin: 2rem 0;
+        padding: 1.5rem 0;
+    }
+}
+
+/* 超小屏幕额外优化 */
+@media (max-width: 480px) {
+    .header .nav,
+    .main > *,
+    .footer > * {
+        padding: 0 12px;
+    }
+    
+    .post-entry,
+    .post-single,
+    .home-info,
+    .archive-month {
+        padding: 0 12px;
+    }
+    
+    .post-title {
+        font-size: 1.5rem;
+    }
+    
+    .post-content {
+        font-size: 0.95rem;
+        line-height: 1.65;
+    }
+    
+    .post-content h2 {
+        font-size: 1.25rem;
+    }
+    
+    .post-content h3 {
+        font-size: 1.1rem;
+    }
+    
+    .post-entry {
+        padding: 1rem;
+        margin-bottom: 1rem;
+    }
+    
+    .entry-header h2 {
+        font-size: 1.25rem;
+    }
+    
+    /* 导航菜单简化 */
+    #menu {
+        padding: 0 12px;
+        font-size: 0.9rem;
+    }
+    
+    /* 标签和分享按钮优化 */
+    .post-tags a {
+        padding: 0.25rem 0.6rem;
+        font-size: 0.8rem;
+        margin: 0.1rem;
+    }
+    
+    /* 分页按钮优化 */
+    .pagination-prev,
+    .pagination-next,
+    .pagination-info {
+        padding: 0.5rem 0.8rem;
+        font-size: 0.85rem;
     }
 }
 
@@ -996,6 +1199,51 @@ body.dark .post-content {
 /* 覆盖PaperMod默认样式，确保背景色撑满 */
 #top {
     background-color: var(--warm-bg) !important;
+}
+
+/* 中文内容移动端特殊优化 */
+@media (max-width: 768px) {
+    /* 中文标点符号和换行优化 */
+    .post-content p,
+    .post-content li {
+        word-break: break-word;
+        overflow-wrap: break-word;
+        hyphens: auto;
+    }
+    
+    /* 长链接和URL换行 */
+    .post-content a {
+        word-break: break-all;
+        overflow-wrap: break-word;
+    }
+    
+    /* 代码块中的中文优化 */
+    .post-content pre,
+    .post-content code {
+        word-break: normal;
+        overflow-wrap: normal;
+    }
+    
+    /* 标题文字长度控制 */
+    .post-title {
+        word-wrap: break-word;
+        overflow-wrap: break-word;
+    }
+    
+    /* 引用块中的中文 */
+    .post-content blockquote {
+        word-wrap: break-word;
+        overflow-wrap: break-word;
+    }
+}
+
+@media (max-width: 480px) {
+    /* 超小屏幕下的中文特殊处理 */
+    .post-content p,
+    .post-content li {
+        text-align: justify;  /* 两端对齐 */
+        text-justify: inter-ideograph;  /* 中文两端对齐 */
+    }
 }
 
 /* 针对标签页和分类页的特殊处理 */
