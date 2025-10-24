@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>RAG on BubbleBrain</title>
-    <link>https://bubblebrain.me/tags/rag/</link>
+    <link>http://localhost:1314/tags/rag/</link>
     <description>Recent content in RAG on BubbleBrain</description>
     <image>
       <title>BubbleBrain</title>
-      <url>https://bubblebrain.me/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>https://bubblebrain.me/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <url>http://localhost:1314/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>http://localhost:1314/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- 0.147.9</generator>
     <language>en</language>
     <lastBuildDate>Mon, 24 Mar 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://bubblebrain.me/tags/rag/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1314/tags/rag/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Notes on LightRAG</title>
-      <link>https://bubblebrain.me/posts/notes-on-lightrag/</link>
+      <link>http://localhost:1314/posts/notes-on-lightrag/</link>
       <pubDate>Mon, 24 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>https://bubblebrain.me/posts/notes-on-lightrag/</guid>
+      <guid>http://localhost:1314/posts/notes-on-lightrag/</guid>
       <description>&lt;p&gt;In this note, I’ll document some critical implementation details about the &lt;code&gt;LightRAG&lt;/code&gt; framework that I discovered while deploying it in production. These insights, which weren’t immediately apparent from just reading the paper, emerged during my hands-on experience with the codebase and are worth recording for future reference.&lt;/p&gt;</description>
     </item>
   </channel>

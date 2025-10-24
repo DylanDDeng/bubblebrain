@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Thought on BubbleBrain</title>
-    <link>http://localhost:1313/tags/thought/</link>
+    <link>http://localhost:1314/tags/thought/</link>
     <description>Recent content in Thought on BubbleBrain</description>
     <image>
       <title>BubbleBrain</title>
-      <url>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <url>http://localhost:1314/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>http://localhost:1314/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- 0.147.9</generator>
     <language>en</language>
     <lastBuildDate>Fri, 24 Oct 2025 10:24:37 +0800</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/thought/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1314/tags/thought/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>New Coding Model from Kuaishou</title>
-      <link>http://localhost:1313/notes/newcodingmodelfromkuaishou/</link>
+      <link>http://localhost:1314/notes/newcodingmodelfromkuaishou/</link>
       <pubDate>Fri, 24 Oct 2025 10:24:37 +0800</pubDate>
-      <guid>http://localhost:1313/notes/newcodingmodelfromkuaishou/</guid>
+      <guid>http://localhost:1314/notes/newcodingmodelfromkuaishou/</guid>
       <description>&lt;p&gt;Kuaishou recently refreshed its New Coding Model lineup with two releases: &lt;strong&gt;KAT-Coder-Pro V1&lt;/strong&gt; and &lt;strong&gt;KAT-Coder-Air V1&lt;/strong&gt;.&lt;/p&gt;
 &lt;p&gt;Both variants integrate smoothly with leading coding-agent tools such as Claude Code, Cline, and Kilo.&lt;/p&gt;</description>
     </item>
