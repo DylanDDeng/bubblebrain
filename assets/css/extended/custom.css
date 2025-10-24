@@ -352,6 +352,22 @@ body.dark .post-content .chroma,
     color: inherit !important;
 }
 
+/* 保持文章页标签、分享与分页区域的暖色调外观 */
+.post-footer .post-tags a,
+.post-footer .share-buttons,
+.paginav {
+    background: var(--warm-bg-secondary) !important;
+    border: 1px solid var(--warm-border) !important;
+}
+
+.post-footer .share-buttons a {
+    color: var(--warm-text) !important;
+}
+
+.paginav a {
+    color: var(--warm-text) !important;
+}
+
 /* Right-side TOC layout always in sidebar */
 .post-single { max-width: 1200px; }
 .post-body-layout {
