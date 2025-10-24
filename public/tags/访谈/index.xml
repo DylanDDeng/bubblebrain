@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>访谈 on BubbleBrain</title>
-    <link>http://localhost:1313/tags/%E8%AE%BF%E8%B0%88/</link>
+    <link>https://bubblebrain.me/tags/%E8%AE%BF%E8%B0%88/</link>
     <description>Recent content in 访谈 on BubbleBrain</description>
     <image>
       <title>BubbleBrain</title>
-      <url>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <url>https://bubblebrain.me/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://bubblebrain.me/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- 0.147.9</generator>
     <language>en</language>
     <lastBuildDate>Sat, 09 Aug 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/%E8%AE%BF%E8%B0%88/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://bubblebrain.me/tags/%E8%AE%BF%E8%B0%88/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>OpenAI 最新回应有关 GPT-5</title>
-      <link>http://localhost:1313/posts/openai-%E6%9C%80%E6%96%B0%E5%9B%9E%E5%BA%94%E6%9C%89%E5%85%B3-gpt-5/</link>
+      <link>https://bubblebrain.me/posts/openai-%E6%9C%80%E6%96%B0%E5%9B%9E%E5%BA%94%E6%9C%89%E5%85%B3-gpt-5/</link>
       <pubDate>Sat, 09 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/openai-%E6%9C%80%E6%96%B0%E5%9B%9E%E5%BA%94%E6%9C%89%E5%85%B3-gpt-5/</guid>
+      <guid>https://bubblebrain.me/posts/openai-%E6%9C%80%E6%96%B0%E5%9B%9E%E5%BA%94%E6%9C%89%E5%85%B3-gpt-5/</guid>
       <description>&lt;p&gt;昨天 Sam Altman 与他的 OpenAI 团队参加了 Reddit 上的 AMA 直播，来回答网友们任何关于 &lt;strong&gt;GPT-5&lt;/strong&gt; 的问题。&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;AMA 即 Ask Me Anything。一般都是回答网友的各种问题&lt;/p&gt;&lt;/blockquote&gt;
@@ -25,9 +25,9 @@
     </item>
     <item>
       <title>Dario Amodei 访谈整理</title>
-      <link>http://localhost:1313/posts/dario-amodei%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/</link>
+      <link>https://bubblebrain.me/posts/dario-amodei%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/</link>
       <pubDate>Mon, 04 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/dario-amodei%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/</guid>
+      <guid>https://bubblebrain.me/posts/dario-amodei%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/</guid>
       <description>&lt;p&gt;朋友们，大家好。&lt;/p&gt;
 &lt;p&gt;今天给大家带来 Anthropic 的 CEO，&lt;strong&gt;Dario Amodei&lt;/strong&gt; 最近参加的一次采访内容的整理，他不仅分享了 Anthropic 飞速发展的秘密，更是对当前 AI 领域的诸多争议给出了自己的见解。&lt;/p&gt;
 &lt;blockquote&gt;

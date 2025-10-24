@@ -21,10 +21,10 @@
   </header>
 
   {{- if gt (len $allNotes) 0 }}
-  <section class="notes-heatmap" aria-label="灵感热力图">
+  <section class="notes-heatmap" aria-label="Inspiration Heatmap">
     <div class="heatmap-header">
-      <h2>灵感热力图</h2>
-      <span class="heatmap-range">最近 {{ $heatmapWeeks }} 周</span>
+      <h2>Inspiration Heatmap</h2>
+      <span class="heatmap-range">Last {{ $heatmapWeeks }} weeks</span>
     </div>
     <div class="heatmap-grid" role="list">
       {{- $today := now -}}
@@ -49,7 +49,7 @@
   </section>
   {{- end }}
 
-  <section class="notes-timeline" aria-label="随手记时间线">
+  <section class="notes-timeline" aria-label="Notes Timeline">
     {{- if gt (len $paginator.Pages) 0 }}
       {{- range $paginator.Pages }}
       <article class="timeline-entry">
@@ -66,7 +66,7 @@
           </div>
           <h2><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
           <div class="timeline-body">{{ .Summary | plainify | htmlUnescape | truncate 140 }}</div>
-          <a class="timeline-readmore" href="{{ .RelPermalink }}">阅读全文 →</a>
+          <a class="timeline-readmore" href="{{ .RelPermalink }}">Read More →</a>
         </div>
       </article>
       {{- end }}
@@ -74,15 +74,15 @@
       {{- if gt $paginator.TotalPages 1 }}
       <footer class="timeline-pagination">
         {{- if $paginator.HasPrev }}
-        <a class="prev" href="{{ $paginator.Prev.URL }}">« 更早的记录</a>
+        <a class="prev" href="{{ $paginator.Prev.URL }}">« Earlier Notes</a>
         {{- end }}
         {{- if $paginator.HasNext }}
-        <a class="next" href="{{ $paginator.Next.URL }}">更新的记录 »</a>
+        <a class="next" href="{{ $paginator.Next.URL }}">Newer Notes »</a>
         {{- end }}
       </footer>
       {{- end }}
     {{- else }}
-      <p class="timeline-empty">暂无记录，快去写一篇吧！</p>
+      <p class="timeline-empty">No notes yet. Go write one!</p>
     {{- end }}
   </section>
 </section>

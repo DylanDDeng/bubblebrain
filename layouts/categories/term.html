@@ -44,7 +44,7 @@
   <a href="{{ .Permalink }}" class="ainews-link">
     <div class="ainews-date">
       {{- if .Date }}
-      {{ .Date.Format "2006年1月2日" }}
+      {{ .Date.Format "Jan 2, 2006" }}
       {{- else }}
       {{ .Title }}
       {{- end }}
@@ -55,11 +55,11 @@
       {{- else if .Content }}
       {{ .Content | plainify | htmlUnescape | truncate 150 }}...
       {{- else }}
-      <span class="ainews-no-content">点击查看详情</span>
+      <span class="ainews-no-content">Click to view details</span>
       {{- end }}
     </div>
     <div class="ainews-meta">
-      <span class="read-more">阅读全文 →</span>
+      <span class="read-more">Read More →</span>
     </div>
   </a>
 </article>
