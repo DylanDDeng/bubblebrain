@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>碎碎念 on BubbleBrain</title>
-    <link>http://localhost:1313/tags/%E7%A2%8E%E7%A2%8E%E5%BF%B5/</link>
+    <link>https://bubblebrain.me/tags/%E7%A2%8E%E7%A2%8E%E5%BF%B5/</link>
     <description>Recent content in 碎碎念 on BubbleBrain</description>
     <image>
       <title>BubbleBrain</title>
-      <url>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <url>https://bubblebrain.me/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://bubblebrain.me/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- 0.147.9</generator>
     <language>en</language>
     <lastBuildDate>Thu, 31 Jul 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/%E7%A2%8E%E7%A2%8E%E5%BF%B5/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://bubblebrain.me/tags/%E7%A2%8E%E7%A2%8E%E5%BF%B5/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>一些随笔</title>
-      <link>http://localhost:1313/posts/%E4%B8%80%E4%BA%9B%E9%9A%8F%E7%AC%94/</link>
+      <link>https://bubblebrain.me/posts/%E4%B8%80%E4%BA%9B%E9%9A%8F%E7%AC%94/</link>
       <pubDate>Thu, 31 Jul 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/%E4%B8%80%E4%BA%9B%E9%9A%8F%E7%AC%94/</guid>
+      <guid>https://bubblebrain.me/posts/%E4%B8%80%E4%BA%9B%E9%9A%8F%E7%AC%94/</guid>
       <description>&lt;p&gt;最近压力很大，工作上出现了一些问题，以及忙着搬家。&lt;/p&gt;
 &lt;p&gt;这趟搬家大概持续了两个月，直到这两天才逐渐搬完，搞定。我们找了一套开发商新装修好的房子，但是里面的柜子什么的都是没有的，需要我们自己弄。房东委托中介给我们安排了全屋定制。&lt;/p&gt;
 &lt;p&gt;但是这个做定制的设计师反正弄的也是一团糟，尺寸量的很多地方有问题，然后有的设计的地方也不符合我们的要求。反正来来回回装柜子、修、补，这些都做了一个月了，然后还有布置新家，以及我们自己搬家。整体是一个非常疲惫的过程，真的搬一次家感觉半条命都没了。我女朋友在这其中做了大量的工作，真的很不容易，特别是跟装柜子的人扯皮扯来扯去，都是她弄的。以我这种，“嫌烦，懒得管”、“不是自己的家，搞那么好”的这种心态，肯定是没法把这件事做的很好的。&lt;/p&gt;
