@@ -3,6 +3,7 @@ title: BubbleBrain
 pagination:
   pagerSize: 10 
 theme: PaperMod
+summaryLength: 30
 
 # Enable both categories and tags taxonomies
 taxonomies:

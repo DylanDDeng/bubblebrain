@@ -21,96 +21,7 @@
       <description>&lt;p&gt;昨天 Sam Altman 与他的 OpenAI 团队参加了 Reddit 上的 AMA 直播，来回答网友们任何关于 &lt;strong&gt;GPT-5&lt;/strong&gt; 的问题。&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;AMA 即 Ask Me Anything。一般都是回答网友的各种问题&lt;/p&gt;&lt;/blockquote&gt;
-&lt;p&gt;&lt;strong&gt;原贴地址：&lt;/strong&gt;&lt;a href=&#34;https://www.reddit.com/r/ChatGPT/comments/1mkae1l/gpt5_ama_with_openais_sam_altman_and_some_of_the/&#34;&gt;GPT-5 AMA with OpenAI’s Sam Altman and some of the GPT-5 team&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;我随手整理了一版，方便大家阅读。&lt;/p&gt;
-&lt;h3 id=&#34;关于老模型&#34;&gt;关于老模型&lt;/h3&gt;
-&lt;ol&gt;
-&lt;li&gt;Sam Altman 表示已经收到了大量关于恢复 GPT-4o 的反馈，表示会重新为 Plus 用户启用它，并会观察使用情况，以确定支持多长时间&lt;/li&gt;
-&lt;/ol&gt;
- &lt;/br&gt;
-&lt;ol start=&#34;2&#34;&gt;
-&lt;li&gt;对于 GPT-4.1， Sam Altman 表示团队正在探索用户是否同时需要 4o 和 4.1 或者仅仅有4o 就足够&lt;/li&gt;
-&lt;/ol&gt;
-&lt;/br&gt; 
-&lt;ol start=&#34;3&#34;&gt;
-&lt;li&gt;关于 GPT-4.5， 团队没有正面回应，但是也说了认为 GPT-5-Thinking 能带来更好，更有趣的写作能力。&lt;/li&gt;
-&lt;/ol&gt;
-&lt;h3 id=&#34;发布会的错误与技术修复&#34;&gt;发布会的错误与技术修复&lt;/h3&gt;
-&lt;ol&gt;
-&lt;li&gt;对于发布会 PPT 的图表错误，Sam Altman 表示直播之前加班搞到太晚，太累了，出现了人为错误。但是博客文章以及系统卡里的介绍都是准确的。&lt;/li&gt;
-&lt;/ol&gt;
-  &lt;/br&gt;
-&lt;ol start=&#34;2&#34;&gt;
-&lt;li&gt;GPT-5 在发布时出现了严重的技术问题，自动切换器也坏了。这导致对于很多用户的查询没有找到正确的模型，所以表现异常的迟钝。团队正在对决策边界进行干预，帮助用户更频繁地获得正确的模型，并且考虑增加模型回答的透明度，以便让用户更好地知道是哪个模型回答的问题。&lt;/li&gt;
-&lt;/ol&gt;
- &lt;/br&gt; 
-&lt;ol start=&#34;3&#34;&gt;
-&lt;li&gt;GPT-5 的重大发布导致 API 流量在 24 小时内翻倍，导致了很多用户的服务出现了中断。OpenAI 预计会在一两天内让服务稳定，并将 Plus 用户的速率限制翻倍，以完成最后的推广。&lt;/li&gt;
-&lt;/ol&gt;
- &lt;/br&gt; 
-&lt;ol start=&#34;4&#34;&gt;
-&lt;li&gt;OpenAI 承诺自动切换器会更好用。当然，也可以通过在 prompt 里加入指令，比如 “Think Hard” 来让模型强制触发思考推理模式。&lt;/li&gt;
-&lt;/ol&gt;
-&lt;h3 id=&#34;关于编程以及工具调用&#34;&gt;关于编程以及工具调用&lt;/h3&gt;
-&lt;ol&gt;
-&lt;li&gt;Codex CLI 现在通过付费的 ChatGPT 计划来支持 GPT-5. Pro 用户几乎不会遇到用量上的限制， Plus 和 Team 用户每周可以处理几个 1-2 小时的对话，并且速率限制会每 5 小时重置，按周的维度来统计。&lt;/li&gt;
-&lt;/ol&gt;
- &lt;/br&gt; 
-&lt;ol start=&#34;2&#34;&gt;
-&lt;li&gt;Codex CLI 很快将迎来重大升级&lt;/li&gt;
-&lt;/ol&gt;
- &lt;/br&gt; 
-&lt;ol start=&#34;3&#34;&gt;
-&lt;li&gt;已经在考虑将 GitHUb 直接集成到 ChatGPT 中，这样可以让 ChatGPT 直接读取代码仓库&lt;/li&gt;
-&lt;/ol&gt;
-   &lt;/br&gt; 
-&lt;ol start=&#34;4&#34;&gt;
-&lt;li&gt;GPT-5 工具调用能力明显增强，特别是 GPT-5-Thinking 版本。&lt;/li&gt;
-&lt;/ol&gt;
-  &lt;/br&gt; 
-&lt;ol start=&#34;5&#34;&gt;
-&lt;li&gt;未来考虑会把 GPT-5-Pro 集成到 API 中，但是会非常贵 。&lt;/li&gt;
-&lt;/ol&gt;
-&lt;h3 id=&#34;关于产品&#34;&gt;关于产品&lt;/h3&gt;
-&lt;ol&gt;
-&lt;li&gt;新推出的聊天气泡颜色的定制功能是开放给所有用户&lt;/li&gt;
-&lt;/ol&gt;
- &lt;/br&gt; 
-&lt;ol start=&#34;2&#34;&gt;
-&lt;li&gt;未来会考虑在 IDE 中让ChatGPT 以第三方插件的方式兼容进来。&lt;/li&gt;
-&lt;/ol&gt;
-&lt;h3 id=&#34;关于模型与未来计划&#34;&gt;关于模型与未来计划&lt;/h3&gt;
-&lt;ol&gt;
-&lt;li&gt;之前传的很火的 Zenith 和 Summit，团队经过大量的测试以及评估，最终 Summit 在排行榜和内部测试中大幅优于 Zenith。&lt;/li&gt;
-&lt;/ol&gt;
-  &lt;/br&gt; 
-&lt;ol start=&#34;2&#34;&gt;
-&lt;li&gt;团队认为 GPT-5 相比于之前的 GPT-4 在很多方面都有重大的提升：推理、写作、指令遵循等。&lt;/li&gt;
-&lt;/ol&gt;
- &lt;/br&gt; 
-&lt;ol start=&#34;3&#34;&gt;
-&lt;li&gt;考虑增加 Plus 用户的上下文长度，目前仅有 32K，非常的有限。&lt;/li&gt;
-&lt;/ol&gt;
- &lt;/br&gt; 
-&lt;ol start=&#34;4&#34;&gt;
-&lt;li&gt;对于 GPT-5， 有一个遗憾是没能做大支持更长的上下文。研究人员 Michelle Pokrass 表示，如果计算资源、成本都允许的情况下，更愿意支持 1M 的上下文长度&lt;/li&gt;
-&lt;/ol&gt;
-  &lt;/br&gt; 
-&lt;ol start=&#34;5&#34;&gt;
-&lt;li&gt;与 Opus 4.1 的比较，OpenAI 认为两个都是非常好的模型。对于别家的模型，不能评价很多，但是它们认为 GPT-5 是它们发布过写代码最好的模型。&lt;/li&gt;
-&lt;/ol&gt;
- &lt;/br&gt; 
-&lt;ol start=&#34;6&#34;&gt;
-&lt;li&gt;它们正在努力将推理和非推理模型统一为一个单一模型，并且考虑采用 Token 定价的方式而不是消息限制。&lt;/li&gt;
-&lt;/ol&gt;
- &lt;/br&gt; 
-&lt;ol start=&#34;7&#34;&gt;
-&lt;li&gt;ChatGPT 的 memory 功能即将迎来升级。 GPT-5 在长文对话方面已经取得了进步&lt;/li&gt;
-&lt;/ol&gt;
- &lt;/br&gt; 
-&lt;ol start=&#34;8&#34;&gt;
-&lt;li&gt;昨天新发的语音模型在指令遵循、响应都有很大的提升。同时，OpenAI 表示目前没有相关计划做一个数字人在语音模式中。（像 Grok 那样）&lt;/li&gt;
-&lt;/ol&gt;</description>
+&lt;p&gt;&lt;strong&gt;原贴地址：&lt;/strong&gt;&lt;a href=&#34;https://www.reddit.com/r/ChatGPT/comments/1mkae1l/gpt5_ama_with_openais_sam_altman_and_some_of_the/&#34;&gt;GPT-5 AMA with OpenAI’s Sam Altman and some of the GPT-5 team&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Dario Amodei 访谈整理</title>
@@ -126,15 +37,7 @@
 &lt;p&gt;访谈链接： &lt;a href=&#34;https://www.youtube.com/watch?v=mYDSSRS-B5U&#34;&gt;https://www.youtube.com/watch?v=mYDSSRS-B5U&lt;/a&gt;&lt;/p&gt;&lt;/blockquote&gt;
 &lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://raw.githubusercontent.com/DylanDDeng/image/main/CleanShot%202025-08-04%20at%2012.09.33%402x.png&#34;&gt;&lt;/p&gt;
 &lt;h3 id=&#34;不愿被称为悲观主义的ai领导者&#34;&gt;不愿被称为“悲观主义”的AI领导者&lt;/h3&gt;
-&lt;p&gt;首先，Dario 对那些称他为“AI 悲观主义”的人感到非常愤怒。他表示自己绝非想减缓 AI 的发展。恰恰相反，他深知这项技术带来的益处，甚至能够拯救生命。如果技术早日加速实现，他的父亲也不会当年因病离世。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Dario 强调外界对他的很多批评是错误的，比如批评他想掌控、垄断整个 AI 行业&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Dario 认为他自己以及 Anthropic 在阐述 AI 带来的好处方面甚至比一些盲目的“乐观主义者”做的更好。正是因为他们甚至 AI 能创造一个多么美好的世界，他才感到有义务去警示 AI 可能带来的风险，以此来督促人们把事情做对。&lt;/p&gt;
-&lt;p&gt;他强烈批评了那些不理解 AI 带来的好处、只知道“加速发展”的加速主义者，认为它们缺乏道德公信力。&lt;/p&gt;
-&lt;h3 id=&#34;ai-的指数级发展与-dario-的短时间线&#34;&gt;AI 的指数级发展与 Dario 的“短时间线”&lt;/h3&gt;
-&lt;p&gt;Dario 认为整个AI领域最真实且核心的现象是&lt;strong&gt;指数级增长&lt;/strong&gt;。也就是大家经常会看到的每隔几个月，新的 AI 模型会比前一个效果好很多，而这得益于对计算资源、数据投入和新型训练犯法的持续投资。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;他观察到，AI 系统正在从几年前的“勉强能用”发展到“聪明的高中生”，现在正接近“聪明的大学生”甚至是“博士生”的水平，并开始在整个经济领域发挥作用。&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;尽管 Dario 认为预测未来是非常困难的一件事，特别是关于社会层面，但是对于底层技术的进步、发展，他非常的自信。他提到，虽然有 20-25% 的可能性模型在未来两年内停止提升，但鉴于他所看到的增长趋势，他愿意承担这种风险。&lt;/p&gt;
-&lt;p&gt;Dario 解释说，人们不太能理解指数级增长：一个每六个月翻一番的事物，在它真正爆发的两年前，看起来只完成了$\frac{1}{16}$。因此，我们现在可能正处于 AI 能力和收入的“爆炸式增长”的边缘。他将这比作 90 年代互联网的崛起，当时很少有人预见到它会以多快的速度带来全球数字通信网络。&lt;/p&gt;</description>
+&lt;p&gt;首先，Dario 对那些称他为“AI 悲观主义”的人感到非常愤怒。他表示自己绝非想减缓 AI 的发展。恰恰相反，他深知这项技术带来的益处，甚至能够拯救生命。如果技术早日加速实现，他的父亲也不会当年因病离世。&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

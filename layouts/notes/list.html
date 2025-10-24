@@ -65,7 +65,7 @@
             {{- end }}
           </div>
           <h2><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
-          <div class="timeline-body">{{ .Summary | plainify | htmlUnescape }}</div>
+          <div class="timeline-body">{{ .Summary | plainify | htmlUnescape | truncate 140 }}</div>
           <a class="timeline-readmore" href="{{ .RelPermalink }}">阅读全文 →</a>
         </div>
       </article>

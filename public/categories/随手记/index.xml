@@ -19,15 +19,7 @@
       <pubDate>Fri, 24 Oct 2025 10:24:37 +0800</pubDate>
       <guid>https://bubblebrain.me/notes/newcodingmodelfromkuaishou/</guid>
       <description>&lt;p&gt;Kuaishou recently refreshed its New Coding Model lineup with two releases: &lt;strong&gt;KAT-Coder-Pro V1&lt;/strong&gt; and &lt;strong&gt;KAT-Coder-Air V1&lt;/strong&gt;.&lt;/p&gt;
-&lt;p&gt;Both variants integrate smoothly with leading coding-agent tools such as Claude Code, Cline, and Kilo.&lt;/p&gt;
-&lt;p&gt;I ran the Pro model inside Claude Code, and the onboarding experience was straightforward.&lt;/p&gt;
-&lt;p&gt;Below is the Claude Code configuration I used:&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;export&lt;/span&gt; &lt;span class=&#34;nv&#34;&gt;ANTHROPIC_BASE_URL&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;https://wanqing.streamlakeapi.com/api/gateway/v1/endpoints/ep-xxx-xxx/claude-code-proxy&amp;#34;&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;export&lt;/span&gt; &lt;span class=&#34;nv&#34;&gt;ANTHROPIC_AUTH_TOKEN&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;YOUR_WANQING_API_KEY&amp;#34;&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;export&lt;/span&gt; &lt;span class=&#34;nv&#34;&gt;ANTHROPIC_MODEL&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;KAT-Coder&amp;#34;&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;export&lt;/span&gt; &lt;span class=&#34;nv&#34;&gt;ANTHROPIC_SMALL_FAST_MODEL&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;KAT-Coder-Air-V1&amp;#34;&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;API keys are available via the &lt;a href=&#34;https://www.streamlake.com&#34;&gt;Kuaishou Wanqing&lt;/a&gt; console.&lt;/p&gt;
-&lt;p&gt;For a quick benchmark, I reran my usual SVG generation test (the Xbox controller graphic). Output quality is still behind other models, so there is room for improvement.&lt;/p&gt;</description>
+&lt;p&gt;Both variants integrate smoothly with leading coding-agent tools such as Claude Code, Cline, and Kilo.&lt;/p&gt;</description>
     </item>
     <item>
       <title>最近好用的AI工具是codex</title>

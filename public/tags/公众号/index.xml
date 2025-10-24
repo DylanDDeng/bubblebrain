@@ -22,19 +22,7 @@
 &lt;p&gt;这两天读到开源的代码 Agent，Cline 团队的一篇博客，《Why Cline Doesn&amp;rsquo;t Index Your Codebase (And Why That&amp;rsquo;s a Good Thing) 》，做了一些整理和探索，来分享一下这篇博客内容。&lt;/p&gt;
 &lt;p&gt;先放原文链接：&lt;a href=&#34;https://cline.bot/blog/why-cline-doesnt-index-your-codebase-and-why-thats-a-good-thing&#34;&gt;Why Cline Doesn&amp;rsquo;t Index Your Codebase (And Why That&amp;rsquo;s a Good Thing)&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&#34;为什么rag不行&#34;&gt;为什么RAG不行？&lt;/h2&gt;
-&lt;p&gt;早期，在模型上下文窗口还不大的时候，RAG 一直是作为让模型获取到额外相关上下文信息的办法而存在。哪怕到现在，这个市面上大部分的 AI 知识库解决方案也依然是 RAG，因为这种方法非常简单—它将知识库进行分块、创建嵌入、存储到向量数据库中，并在需要时会根据问题进行相关片段的检索。&lt;/p&gt;
-&lt;p&gt;但是，代码数据与其他数据不同。它是互相关联且不断演变的。当你将传统的 RAG 方法应用于代码库时，会出现三个关键问题：&lt;/p&gt;
-&lt;h3 id=&#34;1-代码不是以块的形式思考&#34;&gt;1. 代码不是以块的形式思考&lt;/h3&gt;
-&lt;p&gt;RAG 大致上来说可以分为两个部分：索引知识库（代码库）和检索。但是当你将代码块用于嵌入时，实际上是破坏了原有的代码库逻辑。举个例子来说，假设一个函数被调用是在片段 47，但是它的定义是在片段 892，而解释它存在的关键上下文又可能是散落在其他十几个片段中，先不说模型最后是否能够真正解决问题，就连把这些相关片段一次性全部检索出来，都是十分困难的。因为对于自然语言来说，一般的段落和句子，为创建具有语义意义的片段提供了明显的边界点，但是代码库的构造那就是完全另一回事了，所以简单的分块方法在准确界定代码有意义方面存在许多困难。&lt;/p&gt;
-&lt;h3 id=&#34;2-索引随代码演变而衰减&#34;&gt;2. 索引随代码演变而衰减&lt;/h3&gt;
-&lt;p&gt;实际上生产环境中，代码库不是静态的，而是一直在不断变化的。所以，索引不是一次性或周期性的工作。每一次你的代码合并都可能导致 AI的理解 与你的代码库之间存在分歧。所以，这也会导致你的代码助手会自信地建议调用不再存在的函数。&lt;/p&gt;
-&lt;h3 id=&#34;3-安全&#34;&gt;3. 安全&lt;/h3&gt;
-&lt;p&gt;使用 RAG 还有一个最大的问题是安全。当你将你的代码库文件转换为向量嵌入时，你需要将其存储在某个地方。不管是云服务商，还是自己部署托管，都要花费额外的资源去做保证安全。&lt;/p&gt;
-&lt;h2 id=&#34;cline-的方法&#34;&gt;Cline 的方法&lt;/h2&gt;
-&lt;p&gt;Cline 采用的方法更像一个真实的开发者在处理代码库时一样。它不提供索引或者嵌入。它只是通过遵循代码的自然结构来构建上下文，进行智能探索。&lt;/p&gt;
-&lt;p&gt;举例来说，你如果开发一个 React 组件。Cline 读取它，看到导入语句，然后跟随它。那个文件又导入另一个文件，所以 Cline 也跟随了那个文件。每个文件都建立在之前的基础上，从而形成一个相互关联的理解，展示你的代码是如何运作的。&lt;/p&gt;
-&lt;p&gt;这种方法其实非常依赖模型的上下文窗口。&lt;/p&gt;
-&lt;p&gt;无论是 Claude 4 也好，还是Gemini 2.5 Pro，都提供了非常大的上下文窗口。Cline 的这种像人类工程师一样阅读代码库的方法自然能生成高质量的上下文，因为它遵循的是代码库里的逻辑结构，而不是像 RAG 一样，把代码库文件切块，依赖语义进行匹配。&lt;/p&gt;</description>
+&lt;p&gt;早期，在模型上下文窗口还不大的时候，RAG 一直是作为让模型获取到额外相关上下文信息的办法而存在。哪怕到现在，这个市面上大部分的 AI 知识库解决方案也依然是 RAG，因为这种方法非常简单—它将知识库进行分块、创建嵌入、存储到向量数据库中，并在需要时会根据问题进行相关片段的检索。&lt;/p&gt;</description>
     </item>
     <item>
       <title>用AI深挖硅谷杀妻案，我发现了12460字都写不完的惊人内幕</title>
@@ -52,42 +40,7 @@
 &lt;p&gt;与我进一步确认之后，它开始进行搜索工作。&lt;/p&gt;
 &lt;p&gt;有意思的是，为了扩大搜索范围，它不仅用不同的中文关键词进行搜索，还同样使用英文关键词进行了搜索。&lt;/p&gt;
 &lt;p&gt;&lt;img alt=&#34;图例 2&#34; loading=&#34;lazy&#34; src=&#34;https://fastly.jsdelivr.net/gh/bucketio/img14@main/2025/06/29/1751157649690-59a73a1e-edcf-4db3-bc45-8019cf9c0b48.png&#34;&gt;&lt;/p&gt;
-&lt;p&gt;和大部分 Agent 不一样的是，Kimi 的 DeepResearch 是调用 Python 来写入一个 Markdown 文件。&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&#34;图例 3&#34; loading=&#34;lazy&#34; src=&#34;https://fastly.jsdelivr.net/gh/bucketio/img16@main/2025/06/29/1751157842671-e8151d53-0be0-4cf5-be35-4ad06d7cb624.png&#34;&gt;&lt;/p&gt;
-&lt;p&gt;当然，整个执行的过程中，并不是一帆风顺的，Kimi 还是会遇到困难，但是得益于端到端的强化学习训练，它能自己学会找到合适的办法解决问题。&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&#34;图例 4&#34; loading=&#34;lazy&#34; src=&#34;https://fastly.jsdelivr.net/gh/bucketio/img9@main/2025/06/29/1751163148758-85384688-842c-447b-af9c-b428ec94f9b0.png&#34;&gt;&lt;/p&gt;
-&lt;p&gt;最终，Kimi 给了我一份 12460 字的报告，详细梳理了案件的始末，以及目前的进度，并且做到了几乎每句话都有迹可循。&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&#34;图例 5&#34; loading=&#34;lazy&#34; src=&#34;https://fastly.jsdelivr.net/gh/bucketio/img4@main/2025/06/29/1751163356666-829d4a56-34cd-4c73-95f9-bf0566193681.png&#34;&gt;&lt;/p&gt;
-&lt;p&gt;甚至，它还搜到了一些案件的惊人细节，比如第三者：&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&#34;图例 6&#34; loading=&#34;lazy&#34; src=&#34;https://fastly.jsdelivr.net/gh/bucketio/img10@main/2025/06/29/1751167466331-35c65199-b71e-46d1-ae9f-2d4400c0496b.png&#34;&gt;&lt;/p&gt;
-&lt;p&gt;以及凶手可能的辩护策略：&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&#34;图例 7&#34; loading=&#34;lazy&#34; src=&#34;https://fastly.jsdelivr.net/gh/bucketio/img12@main/2025/06/29/1751167706395-ca9131fb-219a-472a-8120-ab29e5b3ad37.png&#34;&gt;&lt;/p&gt;
-&lt;p&gt;详细报告因为长度关系，就不放在这里了。感兴趣内容的小伙伴可以直接私信我领取查看哦。&lt;/p&gt;
-&lt;p&gt;最让我觉得惊艳的是 Kimi 最后给我生成的那份可视化的报告，信息量和美感都非常在线。&lt;/p&gt;
-
-
-
-
-
-
-
-
-
-&lt;video 
-  controls
-  
-  
-  
-  width=&#34;100%&#34; 
-  height=&#34;auto&#34;
-  style=&#34;max-width: 100%; height: auto;&#34;&gt;
-  &lt;source src=&#34;test1_compressed.mp4&#34; type=&#34;video/mp4&#34;&gt;
-  您的浏览器不支持视频标签。
-&lt;/video&gt;
-&lt;p&gt;这份可视化报告同样保留了引用源的标注，提高了可信度的同时也方便查询。同时，它还针对一些关键信息（案件凶手和被害人之间的关系节点、整个案件发生的前后时间线等）画了流程图，便于理解。最后它也结合一些搜索到的法律人士的专业意见，给出了案件可能的最终走向，以及给出了一些建议来避免这类悲剧的事情再次发生。&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&#34;图例 7&#34; loading=&#34;lazy&#34; src=&#34;https://fastly.jsdelivr.net/gh/bucketio/img3@main/2025/06/29/1751164764826-9388bc63-57ea-44b6-8852-c086a42825ed.png&#34;&gt;&lt;/p&gt;
-&lt;p&gt;整个报告的预览链接在这里➡️： &lt;a href=&#34;https://www.kimi.com/preview/197b74a5-b521-8674-ba47-02a74b00051e&#34;&gt;https://www.kimi.com/preview/197b74a5-b521-8674-ba47-02a74b00051e&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;看完整个报告，从案发到现在，还是难以想象受害者临终前的绝望，一拳一拳被自己曾经最心爱的人打死，被迫离开了这个美好的世界。 那个曾经应该是用来监控小猫进食的摄像头，却意外拍下了这最残忍、惊悚的一幕。&lt;/p&gt;</description>
+&lt;p&gt;和大部分 Agent 不一样的是，Kimi 的 DeepResearch 是调用 Python 来写入一个 Markdown 文件。&lt;/p&gt;</description>
     </item>
     <item>
       <title>上下文工程的兴起</title>
@@ -100,10 +53,7 @@
 推荐阅读理由：随着 Agent 的快速发展，”context“ 的概念越来越被重视。无论是 Vibe Coding，还是 Deep Research，提供的 ”context“越具体完整，最后出来的效果都会很棒！LangGraph 作为最著名的智能体框架之一，了解它们是如何看待上下文的重要性的，无论是对我们个人平时 AI 的使用还是企业业务上 AI 的落地，都有很大帮助。&lt;/p&gt;&lt;/blockquote&gt;
 &lt;p&gt;&lt;img alt=&#34;图例&#34; loading=&#34;lazy&#34; src=&#34;https://raw.githubusercontent.com/DylanDDeng/image/main/image.png&#34;&gt;&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;&lt;strong&gt;Header image from  &lt;a href=&#34;https://x.com/dexhorthy/status/1933283008863482067?ref=blog.langchain.com&#34;&gt;Dex Horthy on Twitter&lt;/a&gt;&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;来自 Dex Horthy 的 Twitter 头图&lt;/p&gt;
-&lt;p&gt;Context engineering is building dynamic systems to provide the right information and tools in the right format such that the LLM can plausibly accomplish the task.&lt;/p&gt;
-&lt;p&gt;上下文工程是构建动态系统，以在正确的格式中提供正确的信息和工具，使得 LLM 能够合理地完成任务。&lt;/p&gt;
-&lt;p&gt;Most of the time when an agent is not performing reliably the underlying cause is that the appropriate context, instructions and tools have not been communicated to the model.&lt;/p&gt;</description>
+&lt;p&gt;来自 Dex Horthy 的 Twitter 头图&lt;/p&gt;</description>
     </item>
     <item>
       <title>深度解密：Anthropic多智能体系统背后的原理及提示词工程（建议收藏）</title>
@@ -120,14 +70,7 @@
 &lt;/ul&gt;
 &lt;p&gt;当我们把智能体放入工作流中，也就有了智能体工作流，也就是大家一直以来听到的 &lt;strong&gt;Agentic Workflow&lt;/strong&gt;。&lt;/p&gt;
 &lt;p&gt;传统的工作流，其实比较的死板。就好像写程序一样，运转到哪个节点，做什么操作，都是提前设置好的。而相比于传统的工作流，这种智能体工作流更加灵活，自主。 在这个工作流中，智能体通常能够结合环境，自主的判断下一步执行什么动作，并且能够将复杂的任务拆解为多个可执行的小任务。&lt;/p&gt;
-&lt;p&gt;有了这些基本的概念，我们就可以来了解一下 Anthropic 是如何构建自己的多智能体研究系统。&lt;/p&gt;
-&lt;h2 id=&#34;架构设计&#34;&gt;架构设计&lt;/h2&gt;
-&lt;p&gt;Anthropic 设计的整个研究系统采用了典型的多智能体架构，一个主智能体 + 多个子智能体。这种架构借鉴了&lt;strong&gt;调度者-执行者&lt;/strong&gt;模型（orchestrator-worker pattern）：就好像团队领导和他手底下的员工一样，领导负责总体规划和协调，按需要将一个活派给多个手底下的员工并行执行具体操作。&lt;/p&gt;
-&lt;p&gt;具体的架构图如下所示：&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&#34;多智能体系统架构图&#34; loading=&#34;lazy&#34; src=&#34;https://fastly.jsdelivr.net/gh/bucketio/img15@main/2025/06/15/1749945502160-48a7f708-1fd5-4a9d-9186-0c8beb3cc0d2.png&#34;&gt;&lt;/p&gt;
-&lt;p&gt;用户在 claude 聊天界面提出需要查询的问题，系统接收到用户请求后，会通过一个主智能体（Lead Agent）来处理任务。Lead Agent 相当于总负责人，具备使用各种工具的能力（如网络搜索工具、内部 MCP 接口工具、内存Memory等等）。Lead Agent 首先对问题进行分析和规划，然后派出多个子智能体（Subagent）并行进行工作，每个 Subagent 负责一个分支的搜索任务。Lead Agent 同时还需要与右侧的记忆模块（Memory）进行交互，这个模块用于在上下文超长时保存重要信息。&lt;/p&gt;
-&lt;p&gt;此外，还有一个专门负责处理引用的智能体（Citation Agent），它主要负责在最终报告中添加引用标注。&lt;/p&gt;
-&lt;p&gt;整个过程中，Lead Agent 通过任务描述与Subagent 通信，当 Subagent 完成任务后将结果返回给 Lead Agent，最终由 Lead Agent 整合所有 Subagent 的结果撰写出研究报告，然后交给 Citation Agent 插入文献来源标注，形成含引用的最终报告返回给用户。&lt;/p&gt;</description>
+&lt;p&gt;有了这些基本的概念，我们就可以来了解一下 Anthropic 是如何构建自己的多智能体研究系统。&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
