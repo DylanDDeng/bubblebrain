@@ -3,8 +3,8 @@ title: "New Coding Model from Kuaishou"
 date: 2025-10-24T10:24:37+08:00
 draft: false
 type: "note"
-tags: ["思考", "灵感"]
-categories: ["随手记"]
+tags: ["Thought"]
+categories: ["QuickNote"]
 description: ""
 thought: true
 ---

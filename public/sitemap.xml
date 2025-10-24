@@ -2,125 +2,140 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://bubblebrain.me/</loc>
+    <loc>http://localhost:1313/</loc>
     <lastmod>2025-10-24T10:24:37+08:00</lastmod>
   </url><url>
-    <loc>https://bubblebrain.me/categories/</loc>
+    <loc>http://localhost:1313/categories/</loc>
     <lastmod>2025-10-24T10:24:37+08:00</lastmod>
   </url><url>
-    <loc>https://bubblebrain.me/notes/newcodingmodelfromkuaishou/</loc>
+    <loc>http://localhost:1313/notes/newcodingmodelfromkuaishou/</loc>
     <lastmod>2025-10-24T10:24:37+08:00</lastmod>
   </url><url>
-    <loc>https://bubblebrain.me/notes/</loc>
+    <loc>http://localhost:1313/notes/</loc>
     <lastmod>2025-10-24T10:24:37+08:00</lastmod>
   </url><url>
-    <loc>https://bubblebrain.me/tags/</loc>
+    <loc>http://localhost:1313/categories/quicknote/</loc>
     <lastmod>2025-10-24T10:24:37+08:00</lastmod>
   </url><url>
-    <loc>https://bubblebrain.me/tags/%E6%80%9D%E8%80%83/</loc>
+    <loc>http://localhost:1313/tags/</loc>
     <lastmod>2025-10-24T10:24:37+08:00</lastmod>
   </url><url>
-    <loc>https://bubblebrain.me/tags/%E7%81%B5%E6%84%9F/</loc>
+    <loc>http://localhost:1313/tags/thought/</loc>
     <lastmod>2025-10-24T10:24:37+08:00</lastmod>
   </url><url>
-    <loc>https://bubblebrain.me/categories/%E9%9A%8F%E6%89%8B%E8%AE%B0/</loc>
-    <lastmod>2025-10-24T10:24:37+08:00</lastmod>
-  </url><url>
-    <loc>https://bubblebrain.me/categories/%E6%8A%80%E6%9C%AF/</loc>
+    <loc>http://localhost:1313/categories/%E6%8A%80%E6%9C%AF/</loc>
     <lastmod>2025-10-24T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://bubblebrain.me/tags/%E6%B5%8B%E8%AF%95/</loc>
+    <loc>http://localhost:1313/tags/%E6%B5%8B%E8%AF%95/</loc>
     <lastmod>2025-10-24T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://bubblebrain.me/tags/%E7%A7%BB%E5%8A%A8%E7%AB%AF/</loc>
+    <loc>http://localhost:1313/tags/%E7%A7%BB%E5%8A%A8%E7%AB%AF/</loc>
     <lastmod>2025-10-24T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://bubblebrain.me/test-mobile/</loc>
+    <loc>http://localhost:1313/test-mobile/</loc>
     <lastmod>2025-10-24T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://bubblebrain.me/notes/%E6%9C%80%E8%BF%91%E5%A5%BD%E7%94%A8%E7%9A%84ai%E5%B7%A5%E5%85%B7%E6%98%AFcodex/</loc>
+    <loc>http://localhost:1313/tags/%E6%80%9D%E8%80%83/</loc>
     <lastmod>2025-09-16T10:24:37+08:00</lastmod>
   </url><url>
-    <loc>https://bubblebrain.me/notes/%E6%9C%80%E8%BF%91%E7%96%AF%E7%8B%82%E6%B2%89%E8%BF%B7%E4%BA%8E%E5%85%AC%E4%BC%97%E5%8F%B7%E6%8E%92%E7%89%88/</loc>
+    <loc>http://localhost:1313/notes/%E6%9C%80%E8%BF%91%E5%A5%BD%E7%94%A8%E7%9A%84ai%E5%B7%A5%E5%85%B7%E6%98%AFcodex/</loc>
     <lastmod>2025-09-16T10:24:37+08:00</lastmod>
   </url><url>
-    <loc>https://bubblebrain.me/categories/ai/</loc>
+    <loc>http://localhost:1313/notes/%E6%9C%80%E8%BF%91%E7%96%AF%E7%8B%82%E6%B2%89%E8%BF%B7%E4%BA%8E%E5%85%AC%E4%BC%97%E5%8F%B7%E6%8E%92%E7%89%88/</loc>
+    <lastmod>2025-09-16T10:24:37+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/%E7%81%B5%E6%84%9F/</loc>
+    <lastmod>2025-09-16T10:24:37+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/%E9%9A%8F%E6%89%8B%E8%AE%B0/</loc>
+    <lastmod>2025-09-16T10:24:37+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/ai/</loc>
     <lastmod>2025-08-09T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://bubblebrain.me/tags/ai/</loc>
+    <loc>http://localhost:1313/tags/ai/</loc>
     <lastmod>2025-08-09T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://bubblebrain.me/posts/openai-%E6%9C%80%E6%96%B0%E5%9B%9E%E5%BA%94%E6%9C%89%E5%85%B3-gpt-5/</loc>
+    <loc>http://localhost:1313/posts/openai-%E6%9C%80%E6%96%B0%E5%9B%9E%E5%BA%94%E6%9C%89%E5%85%B3-gpt-5/</loc>
     <lastmod>2025-08-09T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://bubblebrain.me/posts/</loc>
+    <loc>http://localhost:1313/posts/</loc>
     <lastmod>2025-08-09T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://bubblebrain.me/tags/%E8%AE%BF%E8%B0%88/</loc>
+    <loc>http://localhost:1313/tags/%E8%AE%BF%E8%B0%88/</loc>
     <lastmod>2025-08-09T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://bubblebrain.me/posts/dario-amodei%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/</loc>
+    <loc>http://localhost:1313/posts/dario-amodei%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/</loc>
     <lastmod>2025-08-04T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://bubblebrain.me/posts/%E4%B8%80%E4%BA%9B%E9%9A%8F%E7%AC%94/</loc>
+    <loc>http://localhost:1313/posts/%E4%B8%80%E4%BA%9B%E9%9A%8F%E7%AC%94/</loc>
     <lastmod>2025-07-31T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://bubblebrain.me/categories/%E7%94%9F%E6%B4%BB/</loc>
+    <loc>http://localhost:1313/categories/%E7%94%9F%E6%B4%BB/</loc>
     <lastmod>2025-07-31T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://bubblebrain.me/tags/%E7%A2%8E%E7%A2%8E%E5%BF%B5/</loc>
+    <loc>http://localhost:1313/tags/%E7%A2%8E%E7%A2%8E%E5%BF%B5/</loc>
     <lastmod>2025-07-31T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://bubblebrain.me/tags/agent/</loc>
+    <loc>http://localhost:1313/tags/agent/</loc>
     <lastmod>2025-07-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://bubblebrain.me/posts/cline-blog/</loc>
+    <loc>http://localhost:1313/posts/cline-blog/</loc>
     <lastmod>2025-07-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://bubblebrain.me/tags/vibe-coding/</loc>
+    <loc>http://localhost:1313/tags/vibe-coding/</loc>
     <lastmod>2025-07-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://bubblebrain.me/tags/%E5%85%AC%E4%BC%97%E5%8F%B7/</loc>
+    <loc>http://localhost:1313/tags/%E5%85%AC%E4%BC%97%E5%8F%B7/</loc>
     <lastmod>2025-07-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://bubblebrain.me/tags/deepresearch/</loc>
+    <loc>http://localhost:1313/tags/deepresearch/</loc>
     <lastmod>2025-06-29T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://bubblebrain.me/tags/kimi/</loc>
+    <loc>http://localhost:1313/tags/kimi/</loc>
     <lastmod>2025-06-29T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://bubblebrain.me/posts/kimi-deepresearch/</loc>
+    <loc>http://localhost:1313/tags/%E6%95%99%E7%A8%8B/</loc>
     <lastmod>2025-06-29T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://bubblebrain.me/tags/anthropic/</loc>
+    <loc>http://localhost:1313/posts/kimi-deepresearch/</loc>
+    <lastmod>2025-06-29T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/%E8%A7%86%E9%A2%91/</loc>
+    <lastmod>2025-06-29T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/video-example/</loc>
+    <lastmod>2025-06-29T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/anthropic/</loc>
     <lastmod>2025-06-27T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://bubblebrain.me/tags/langchain/</loc>
+    <loc>http://localhost:1313/tags/langchain/</loc>
     <lastmod>2025-06-27T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://bubblebrain.me/tags/prompt/</loc>
+    <loc>http://localhost:1313/tags/prompt/</loc>
     <lastmod>2025-06-27T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://bubblebrain.me/posts/%E4%B8%8A%E4%B8%8B%E6%96%87%E5%B7%A5%E7%A8%8B%E7%9A%84%E5%85%B4%E8%B5%B7/</loc>
+    <loc>http://localhost:1313/posts/%E4%B8%8A%E4%B8%8B%E6%96%87%E5%B7%A5%E7%A8%8B%E7%9A%84%E5%85%B4%E8%B5%B7/</loc>
     <lastmod>2025-06-27T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://bubblebrain.me/tags/%E5%A4%9A%E6%99%BA%E8%83%BD%E4%BD%93/</loc>
+    <loc>http://localhost:1313/tags/%E5%A4%9A%E6%99%BA%E8%83%BD%E4%BD%93/</loc>
     <lastmod>2025-06-27T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://bubblebrain.me/posts/%E6%B7%B1%E5%BA%A6%E8%A7%A3%E5%AF%86anthropic%E5%A4%9A%E6%99%BA%E8%83%BD%E4%BD%93%E7%B3%BB%E7%BB%9F%E8%83%8C%E5%90%8E%E7%9A%84-%E5%8E%9F%E7%90%86%E5%8F%8A%E6%8F%90%E7%A4%BA%E8%AF%8D%E5%B7%A5%E7%A8%8B%E5%BB%BA%E8%AE%AE%E6%94%B6%E8%97%8F/</loc>
+    <loc>http://localhost:1313/posts/%E6%B7%B1%E5%BA%A6%E8%A7%A3%E5%AF%86anthropic%E5%A4%9A%E6%99%BA%E8%83%BD%E4%BD%93%E7%B3%BB%E7%BB%9F%E8%83%8C%E5%90%8E%E7%9A%84-%E5%8E%9F%E7%90%86%E5%8F%8A%E6%8F%90%E7%A4%BA%E8%AF%8D%E5%B7%A5%E7%A8%8B%E5%BB%BA%E8%AE%AE%E6%94%B6%E8%97%8F/</loc>
     <lastmod>2025-06-27T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://bubblebrain.me/posts/notes-on-lightrag/</loc>
+    <loc>http://localhost:1313/posts/notes-on-lightrag/</loc>
     <lastmod>2025-03-24T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://bubblebrain.me/tags/rag/</loc>
+    <loc>http://localhost:1313/tags/rag/</loc>
     <lastmod>2025-03-24T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://bubblebrain.me/about/</loc>
+    <loc>http://localhost:1313/about/</loc>
     <lastmod>2024-01-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://bubblebrain.me/archives/</loc>
+    <loc>http://localhost:1313/archives/</loc>
   </url><url>
-    <loc>https://bubblebrain.me/search/</loc>
+    <loc>http://localhost:1313/search/</loc>
   </url>
 </urlset>
