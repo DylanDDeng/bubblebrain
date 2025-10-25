@@ -32,7 +32,7 @@ params:
   keywords: [技术博客, AI, 人工智能, 编程, 思考, 学习笔记]
   author: BubbleBrain
   # author: ["Me", "You"] # multiple authors
-  images: ["/social-share.png"]
+  images: ["/social.jpg"]
   DateFormat: "2006年1月2日"
   defaultTheme: auto # dark, light
   disableThemeToggle: false
