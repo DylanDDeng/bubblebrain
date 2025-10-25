@@ -6,13 +6,21 @@
     <description>Recent content in Thought on BubbleBrain</description>
     <image>
       <title>BubbleBrain</title>
-      <url>http://localhost:1314/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>http://localhost:1314/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <url>http://localhost:1314/social-share.png</url>
+      <link>http://localhost:1314/social-share.png</link>
     </image>
     <generator>Hugo -- 0.147.9</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 24 Oct 2025 10:24:37 +0800</lastBuildDate>
+    <lastBuildDate>Fri, 24 Oct 2025 19:32:37 +0800</lastBuildDate>
     <atom:link href="http://localhost:1314/tags/thought/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Kimi-Cli</title>
+      <link>http://localhost:1314/notes/kimi-cli/</link>
+      <pubDate>Fri, 24 Oct 2025 19:32:37 +0800</pubDate>
+      <guid>http://localhost:1314/notes/kimi-cli/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://x.com/Kimi_Moonshot&#34;&gt;Moonshot AI&lt;/a&gt; has open-sourced its own coding agent, &lt;a href=&#34;https://github.com/MoonshotAI/kimi-cli?tab=readme-ov-file&#34;&gt;kimi-cli&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Built in Python, the codebase is approachable for anyone who wants to learn how agents are engineered. A single monthly subscription—bought on the official site—grants credits for both the web product and the CLI.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>New Coding Model from Kuaishou</title>
       <link>http://localhost:1314/notes/newcodingmodelfromkuaishou/</link>
