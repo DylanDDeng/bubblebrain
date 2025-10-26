@@ -13,13 +13,13 @@ I saw the paper [LLMs can get "Brain Rot"](https://www.arxiv.org/pdf/2510.13928)
 
 I just read this interesting paper and here are my notes about this paper:  
 
-## Two Core Ideas
+### Two Core Ideas
 
 * The paper proposes the LLM Brain Rot Hypothesis: continual pretraining on junk internet data causes lasting cognitive decline in LLMs. 
 
 * This decline mirrors human brain rot caused by excessive consumption of trivial online content.  
 
-## Experiments 
+### Experiments 
 
 * Controlled experiments were conducted using real X data, divided into two following categories: 
     - M1: Engagement Degree: short, highly popular posts(high likes/retweets/replies) 
@@ -35,7 +35,7 @@ I just read this interesting paper and here are my notes about this paper:
     - Ethical alignment(HH-RLHF, AdvBench) 
     - Personality traits(TRAIT benchmark) 
 
-## Key Findings 
+### Key Findings 
 
 * Cognitive Decline: 
     - Models trained on junk data showed consistent drops in reasoning accuracy and long-context retrieval  
@@ -54,7 +54,7 @@ I just read this interesting paper and here are my notes about this paper:
 
     - M2 (semantic quality junk) caused milder declines but still degraded reasoning and safety. 
 
-## Implications 
+### Implications 
 
 * Data quality is a causal driver of model capability decay.  
 * The problem is not only about misinformation of toxicity. Even non-malicious but shallow, virual content can rot LLM cognition.
