@@ -27,7 +27,7 @@ minify:
 
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
-  title: Bubble Brain
+  title: BubbleBrain
   description: "探索技术、分享思考、记录成长的个人博客"
   keywords: [技术博客, AI, 人工智能, 编程, 思考, 学习笔记]
   author: BubbleBrain
