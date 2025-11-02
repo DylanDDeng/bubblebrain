@@ -17,7 +17,7 @@ This paper introduces AMO-Bench, a new advanced mathematical reasoning benchmark
 1. **Completely Original Problems** 
 - All 50 problems were human-crafted by math experts and verified to avoid data leakage from existing competitions or online datasets. 
 
-2. Olympiad-Level Difficulty 
+2. **Olympiad-Level Difficulty** 
 - Each problem meets or exceeds the IMO difficulty standards 
 - Problems were validated by both human experts and LLM difficulty filters.
 
