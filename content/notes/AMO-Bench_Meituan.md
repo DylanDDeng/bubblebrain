@@ -1,6 +1,6 @@
 ---
 title: "AMO-Bench from Meituan"
-date: 2025-11-2T11:47:50+08:00
+date: 2025-11-02T11:47:50+08:00
 draft: false
 type: "note"
 tags: ["Thought","Meituan","Paper","Chinese AI","Benchmark"]
@@ -47,7 +47,6 @@ Across 26 LLMs, result reveal:
 - Reasoning efficiency correlates with output length and higher-performing models produces much longer outputs 
 - linear scaling trend: accuracy improves roughly linearly with log(output length), suggesting test-time scaling still works 
 - High pass @32(>70%) which indicates that many models can reach correct reasoning paths occasionally but lack consistency. 
-
 
 
 
