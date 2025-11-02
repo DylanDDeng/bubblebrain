@@ -3,7 +3,7 @@ title: "New Coding Model from Kuaishou"
 date: 2025-10-24T10:24:37+08:00
 draft: false
 type: "note"
-tags: ["Thought"]
+tags: ["Thought","Kuaishou"]
 categories: ["QuickNote"]
 description: ""
 thought: true

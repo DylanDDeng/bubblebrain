@@ -3,7 +3,7 @@ title: "Emergent Introspective Awareness in LLMs"
 date: 2025-10-30T17:51:50+08:00
 draft: false
 type: "note"
-tags: ["Thought"]
+tags: ["Thought","Anthropic","Paper"]
 categories: ["QuickNote"]
 description: "Notes about Emergent Introspective Awareness in LLMs from Anthropic"
 thought: true

@@ -3,7 +3,7 @@ title: "Notes about LLM Brain Rot"
 date: 2025-10-26T11:08:37+08:00
 draft: false
 type: "note"
-tags: ["Thought"]
+tags: ["Thought","Paper"]
 categories: ["QuickNote"]
 description: "It is my reading note about LLM Brain Rot"
 thought: true

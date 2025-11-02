@@ -3,7 +3,7 @@ title: "Kimi-Cli"
 date: 2025-10-24T19:32:37+08:00
 draft: false
 type: "note"
-tags: ["Thought"]
+tags: ["Thought","Kimi"]
 categories: ["QuickNote"]
 description: ""
 thought: true
