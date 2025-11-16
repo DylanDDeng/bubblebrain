@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>AI on BubbleBrain</title>
-    <link>http://localhost:57837/tags/ai/</link>
+    <link>http://localhost:54710/tags/ai/</link>
     <description>Recent content in AI on BubbleBrain</description>
     <image>
       <title>BubbleBrain</title>
-      <url>http://localhost:57837/social.jpg</url>
-      <link>http://localhost:57837/social.jpg</link>
+      <url>http://localhost:54710/social.jpg</url>
+      <link>http://localhost:54710/social.jpg</link>
     </image>
     <generator>Hugo -- 0.147.9</generator>
     <language>en</language>
     <lastBuildDate>Sat, 09 Aug 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:57837/tags/ai/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:54710/tags/ai/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>OpenAI 最新回应有关 GPT-5</title>
-      <link>http://localhost:57837/posts/openai-%E6%9C%80%E6%96%B0%E5%9B%9E%E5%BA%94%E6%9C%89%E5%85%B3-gpt-5/</link>
+      <link>http://localhost:54710/posts/openai-%E6%9C%80%E6%96%B0%E5%9B%9E%E5%BA%94%E6%9C%89%E5%85%B3-gpt-5/</link>
       <pubDate>Sat, 09 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:57837/posts/openai-%E6%9C%80%E6%96%B0%E5%9B%9E%E5%BA%94%E6%9C%89%E5%85%B3-gpt-5/</guid>
+      <guid>http://localhost:54710/posts/openai-%E6%9C%80%E6%96%B0%E5%9B%9E%E5%BA%94%E6%9C%89%E5%85%B3-gpt-5/</guid>
       <description>&lt;p&gt;昨天 Sam Altman 与他的 OpenAI 团队参加了 Reddit 上的 AMA 直播，来回答网友们任何关于 &lt;strong&gt;GPT-5&lt;/strong&gt; 的问题。&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;AMA 即 Ask Me Anything。一般都是回答网友的各种问题&lt;/p&gt;&lt;/blockquote&gt;
@@ -25,9 +25,9 @@
     </item>
     <item>
       <title>Dario Amodei 访谈整理</title>
-      <link>http://localhost:57837/posts/dario-amodei%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/</link>
+      <link>http://localhost:54710/posts/dario-amodei%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/</link>
       <pubDate>Mon, 04 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:57837/posts/dario-amodei%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/</guid>
+      <guid>http://localhost:54710/posts/dario-amodei%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/</guid>
       <description>&lt;p&gt;朋友们，大家好。&lt;/p&gt;
 &lt;p&gt;今天给大家带来 Anthropic 的 CEO，&lt;strong&gt;Dario Amodei&lt;/strong&gt; 最近参加的一次采访内容的整理，他不仅分享了 Anthropic 飞速发展的秘密，更是对当前 AI 领域的诸多争议给出了自己的见解。&lt;/p&gt;
 &lt;blockquote&gt;
@@ -41,9 +41,9 @@
     </item>
     <item>
       <title>Cline 是如何处理您的代码库的</title>
-      <link>http://localhost:57837/posts/cline-blog/</link>
+      <link>http://localhost:54710/posts/cline-blog/</link>
       <pubDate>Tue, 01 Jul 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:57837/posts/cline-blog/</guid>
+      <guid>http://localhost:54710/posts/cline-blog/</guid>
       <description>&lt;p&gt;朋友们，大家好。&lt;/p&gt;
 &lt;p&gt;这两天读到开源的代码 Agent，Cline 团队的一篇博客，《Why Cline Doesn&amp;rsquo;t Index Your Codebase (And Why That&amp;rsquo;s a Good Thing) 》，做了一些整理和探索，来分享一下这篇博客内容。&lt;/p&gt;
 &lt;p&gt;先放原文链接：&lt;a href=&#34;https://cline.bot/blog/why-cline-doesnt-index-your-codebase-and-why-thats-a-good-thing&#34;&gt;Why Cline Doesn&amp;rsquo;t Index Your Codebase (And Why That&amp;rsquo;s a Good Thing)&lt;/a&gt;&lt;/p&gt;
@@ -52,9 +52,9 @@
     </item>
     <item>
       <title>用AI深挖硅谷杀妻案，我发现了12460字都写不完的惊人内幕</title>
-      <link>http://localhost:57837/posts/kimi-deepresearch/</link>
+      <link>http://localhost:54710/posts/kimi-deepresearch/</link>
       <pubDate>Sun, 29 Jun 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:57837/posts/kimi-deepresearch/</guid>
+      <guid>http://localhost:54710/posts/kimi-deepresearch/</guid>
       <description>&lt;p&gt;故事的开始是发生在 1 年多前，硅谷发生了令人震惊的杀妻案件。凶手用拳头一拳拳打死了自己的妻子，再加上 &lt;strong&gt;华人&lt;/strong&gt;、&lt;strong&gt;高学历&lt;/strong&gt;、&lt;strong&gt;清华&lt;/strong&gt;、&lt;strong&gt;大厂&lt;/strong&gt;这样的无敌光环，这件案子当时格外引人关注。&lt;/p&gt;
 &lt;p&gt;但是随着时间的推移，关注度来的快去的也快，而且再加上天高皇帝远的，毕竟是在美国开的庭，接触到的后续相关信息也很少，大家对这件事的关注度就慢慢散了。&lt;/p&gt;
 &lt;p&gt;但是最近，这个案子又终于开审了，很多案件的细节都被曝光了出来。&lt;/p&gt;
@@ -70,9 +70,9 @@
     </item>
     <item>
       <title>上下文工程的兴起</title>
-      <link>http://localhost:57837/posts/%E4%B8%8A%E4%B8%8B%E6%96%87%E5%B7%A5%E7%A8%8B%E7%9A%84%E5%85%B4%E8%B5%B7/</link>
+      <link>http://localhost:54710/posts/%E4%B8%8A%E4%B8%8B%E6%96%87%E5%B7%A5%E7%A8%8B%E7%9A%84%E5%85%B4%E8%B5%B7/</link>
       <pubDate>Fri, 27 Jun 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:57837/posts/%E4%B8%8A%E4%B8%8B%E6%96%87%E5%B7%A5%E7%A8%8B%E7%9A%84%E5%85%B4%E8%B5%B7/</guid>
+      <guid>http://localhost:54710/posts/%E4%B8%8A%E4%B8%8B%E6%96%87%E5%B7%A5%E7%A8%8B%E7%9A%84%E5%85%B4%E8%B5%B7/</guid>
       <description>&lt;blockquote&gt;
 &lt;p&gt;本文为 Langchain 官方博客“The rise of context engineering”的双语对照版本。
 &lt;/br&gt;
@@ -83,9 +83,9 @@
     </item>
     <item>
       <title>深度解密：Anthropic多智能体系统背后的原理及提示词工程（建议收藏）</title>
-      <link>http://localhost:57837/posts/%E6%B7%B1%E5%BA%A6%E8%A7%A3%E5%AF%86anthropic%E5%A4%9A%E6%99%BA%E8%83%BD%E4%BD%93%E7%B3%BB%E7%BB%9F%E8%83%8C%E5%90%8E%E7%9A%84-%E5%8E%9F%E7%90%86%E5%8F%8A%E6%8F%90%E7%A4%BA%E8%AF%8D%E5%B7%A5%E7%A8%8B%E5%BB%BA%E8%AE%AE%E6%94%B6%E8%97%8F/</link>
+      <link>http://localhost:54710/posts/%E6%B7%B1%E5%BA%A6%E8%A7%A3%E5%AF%86anthropic%E5%A4%9A%E6%99%BA%E8%83%BD%E4%BD%93%E7%B3%BB%E7%BB%9F%E8%83%8C%E5%90%8E%E7%9A%84-%E5%8E%9F%E7%90%86%E5%8F%8A%E6%8F%90%E7%A4%BA%E8%AF%8D%E5%B7%A5%E7%A8%8B%E5%BB%BA%E8%AE%AE%E6%94%B6%E8%97%8F/</link>
       <pubDate>Fri, 27 Jun 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:57837/posts/%E6%B7%B1%E5%BA%A6%E8%A7%A3%E5%AF%86anthropic%E5%A4%9A%E6%99%BA%E8%83%BD%E4%BD%93%E7%B3%BB%E7%BB%9F%E8%83%8C%E5%90%8E%E7%9A%84-%E5%8E%9F%E7%90%86%E5%8F%8A%E6%8F%90%E7%A4%BA%E8%AF%8D%E5%B7%A5%E7%A8%8B%E5%BB%BA%E8%AE%AE%E6%94%B6%E8%97%8F/</guid>
+      <guid>http://localhost:54710/posts/%E6%B7%B1%E5%BA%A6%E8%A7%A3%E5%AF%86anthropic%E5%A4%9A%E6%99%BA%E8%83%BD%E4%BD%93%E7%B3%BB%E7%BB%9F%E8%83%8C%E5%90%8E%E7%9A%84-%E5%8E%9F%E7%90%86%E5%8F%8A%E6%8F%90%E7%A4%BA%E8%AF%8D%E5%B7%A5%E7%A8%8B%E5%BB%BA%E8%AE%AE%E6%94%B6%E8%97%8F/</guid>
       <description>&lt;p&gt;Anthropic 前两天发了一篇文章，重点讨论了他们是如何通过多智能体系统来构建 claude 的“深度研究功能”。&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;文章链接： &lt;a href=&#34;https://www.anthropic.com/engineering/built-multi-agent-research-system&#34;&gt;https://www.anthropic.com/engineering/built-multi-agent-research-system&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;我仔细研究了一下，觉得写的非常不错，所以写了这篇文章来细致解读一下到底该如何构建一个多智能体系统。&lt;/p&gt;
@@ -100,9 +100,9 @@
     </item>
     <item>
       <title>Notes on LightRAG</title>
-      <link>http://localhost:57837/posts/notes-on-lightrag/</link>
+      <link>http://localhost:54710/posts/notes-on-lightrag/</link>
       <pubDate>Mon, 24 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:57837/posts/notes-on-lightrag/</guid>
+      <guid>http://localhost:54710/posts/notes-on-lightrag/</guid>
       <description>&lt;p&gt;In this note, I’ll document some critical implementation details about the &lt;code&gt;LightRAG&lt;/code&gt; framework that I discovered while deploying it in production. These insights, which weren’t immediately apparent from just reading the paper, emerged during my hands-on experience with the codebase and are worth recording for future reference.&lt;/p&gt;</description>
     </item>
   </channel>

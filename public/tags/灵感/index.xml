@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>灵感 on BubbleBrain</title>
-    <link>http://localhost:57837/tags/%E7%81%B5%E6%84%9F/</link>
+    <link>http://localhost:54710/tags/%E7%81%B5%E6%84%9F/</link>
     <description>Recent content in 灵感 on BubbleBrain</description>
     <image>
       <title>BubbleBrain</title>
-      <url>http://localhost:57837/social.jpg</url>
-      <link>http://localhost:57837/social.jpg</link>
+      <url>http://localhost:54710/social.jpg</url>
+      <link>http://localhost:54710/social.jpg</link>
     </image>
     <generator>Hugo -- 0.147.9</generator>
     <language>en</language>
     <lastBuildDate>Tue, 16 Sep 2025 10:24:37 +0800</lastBuildDate>
-    <atom:link href="http://localhost:57837/tags/%E7%81%B5%E6%84%9F/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:54710/tags/%E7%81%B5%E6%84%9F/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>最近好用的AI工具是codex</title>
-      <link>http://localhost:57837/notes/%E6%9C%80%E8%BF%91%E5%A5%BD%E7%94%A8%E7%9A%84ai%E5%B7%A5%E5%85%B7%E6%98%AFcodex/</link>
+      <link>http://localhost:54710/notes/%E6%9C%80%E8%BF%91%E5%A5%BD%E7%94%A8%E7%9A%84ai%E5%B7%A5%E5%85%B7%E6%98%AFcodex/</link>
       <pubDate>Tue, 16 Sep 2025 10:24:37 +0800</pubDate>
-      <guid>http://localhost:57837/notes/%E6%9C%80%E8%BF%91%E5%A5%BD%E7%94%A8%E7%9A%84ai%E5%B7%A5%E5%85%B7%E6%98%AFcodex/</guid>
+      <guid>http://localhost:54710/notes/%E6%9C%80%E8%BF%91%E5%A5%BD%E7%94%A8%E7%9A%84ai%E5%B7%A5%E5%85%B7%E6%98%AFcodex/</guid>
       <description>&lt;p&gt;最近在代码生成方面发现 Codex 真的很好用！&lt;/p&gt;
 &lt;p&gt;特别是对于一些重复性的模板代码，Codex 能快速生成基础结构，然后我只需要做微调就可以了。&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;# 比如生成一个简单的 Flask 路由&lt;/span&gt;
@@ -28,9 +28,9 @@
     </item>
     <item>
       <title>最近疯狂沉迷于公众号排版</title>
-      <link>http://localhost:57837/notes/%E6%9C%80%E8%BF%91%E7%96%AF%E7%8B%82%E6%B2%89%E8%BF%B7%E4%BA%8E%E5%85%AC%E4%BC%97%E5%8F%B7%E6%8E%92%E7%89%88/</link>
+      <link>http://localhost:54710/notes/%E6%9C%80%E8%BF%91%E7%96%AF%E7%8B%82%E6%B2%89%E8%BF%B7%E4%BA%8E%E5%85%AC%E4%BC%97%E5%8F%B7%E6%8E%92%E7%89%88/</link>
       <pubDate>Tue, 16 Sep 2025 10:24:37 +0800</pubDate>
-      <guid>http://localhost:57837/notes/%E6%9C%80%E8%BF%91%E7%96%AF%E7%8B%82%E6%B2%89%E8%BF%B7%E4%BA%8E%E5%85%AC%E4%BC%97%E5%8F%B7%E6%8E%92%E7%89%88/</guid>
+      <guid>http://localhost:54710/notes/%E6%9C%80%E8%BF%91%E7%96%AF%E7%8B%82%E6%B2%89%E8%BF%B7%E4%BA%8E%E5%85%AC%E4%BC%97%E5%8F%B7%E6%8E%92%E7%89%88/</guid>
       <description>&lt;p&gt;最近发现排版设计真的很有魔力！尝试了各种字体组合、间距调整和色彩搭配，感觉整个公众号的气质都提升了不少。&lt;/p&gt;
 &lt;p&gt;特别喜欢简约风格的排版，留白足够，阅读起来特别舒服。还在学习如何更好地运用图标和分割线来提升视觉效果。&lt;/p&gt;</description>
     </item>

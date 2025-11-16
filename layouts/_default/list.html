@@ -4,7 +4,15 @@
 {{- partial "index_profile.html" . }}
 {{- else if .IsHome }}
 
-{{- $homeSections := default (slice "posts") site.Params.mainSections }}
+{{- $defaultHomeSections := slice "posts" "notes" }}
+{{- $homeSections := site.Params.mainSections | default $defaultHomeSections }}
+{{- if not (in $homeSections "posts") }}
+  {{- $homeSections = append $homeSections "posts" }}
+{{- end }}
+{{- if not (in $homeSections "notes") }}
+  {{- $homeSections = append $homeSections "notes" }}
+{{- end }}
+{{- $homeSections = uniq $homeSections }}
 {{- $homePages := where site.RegularPages "Section" "in" $homeSections }}
 {{- $homePages = where $homePages "Params.hiddenInHomeList" "!=" "true" }}
 {{- $sortedPages := sort $homePages "Date" "desc" }}
