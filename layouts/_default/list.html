@@ -2,9 +2,106 @@
 
 {{- if (and site.Params.profileMode.enabled .IsHome) }}
 {{- partial "index_profile.html" . }}
-{{- else }} {{/* if not profileMode */}}
+{{- else if .IsHome }}
 
-{{- if not .IsHome | and .Title }}
+{{- $homeSections := default (slice "posts") site.Params.mainSections }}
+{{- $homePages := where site.RegularPages "Section" "in" $homeSections }}
+{{- $homePages = where $homePages "Params.hiddenInHomeList" "!=" "true" }}
+{{- $sortedPages := sort $homePages "Date" "desc" }}
+{{- $paginator := .Paginate $sortedPages }}
+{{- $heatmapWeeks := 16 }}
+{{- $heatmapDays := int (mul $heatmapWeeks 7) }}
+{{- $counts := newScratch }}
+{{- range $homePages }}
+  {{- $day := .Date.Format "2006-01-02" }}
+  {{- $current := $counts.Get $day | default 0 }}
+  {{- $counts.Set $day (add $current 1) }}
+{{- end }}
+
+<section class="notes-page home-stream">
+  <header class="notes-header">
+    <h1>{{ .Title }}</h1>
+    {{- with site.Params.description }}
+    <p class="notes-description">{{ . }}</p>
+    {{- end }}
+  </header>
+
+  {{- if gt (len $homePages) 0 }}
+  <section class="notes-heatmap" aria-label="Creation Heatmap">
+    <div class="heatmap-header">
+      <h2>Creation Heatmap</h2>
+      <span class="heatmap-range">Last {{ $heatmapWeeks }} weeks</span>
+    </div>
+    <div class="heatmap-grid" role="list">
+      {{- $today := now }}
+      {{- range seq 0 (sub $heatmapDays 1) }}
+        {{- $i := int . }}
+        {{- $offset := int (sub (sub $heatmapDays 1) $i) }}
+        {{- $date := $today.AddDate 0 0 (int (mul -1 $offset)) }}
+        {{- $key := $date.Format "2006-01-02" }}
+        {{- $count := $counts.Get $key | default 0 }}
+        {{- $level := cond (lt $count 1) "level-0" (cond (lt $count 2) "level-1" (cond (lt $count 4) "level-2" "level-3")) }}
+        <div class="heatmap-day {{ $level }}" title="{{ $date.Format "2006-01-02" }}：{{ $count }} 条记录" data-date="{{ $date.Format "2006-01-02" }}" data-count="{{ $count }}"></div>
+      {{- end }}
+    </div>
+    <div class="heatmap-legend" aria-hidden="true">
+      <span>少</span>
+      <span class="legend-swatch level-0"></span>
+      <span class="legend-swatch level-1"></span>
+      <span class="legend-swatch level-2"></span>
+      <span class="legend-swatch level-3"></span>
+      <span>多</span>
+    </div>
+  </section>
+  {{- end }}
+
+  {{- if and site.Params.homeInfoParams (eq $paginator.PageNumber 1) }}
+  <div class="home-info-block">
+    {{- partial "home_info.html" . -}}
+  </div>
+  {{- end }}
+
+  <section class="notes-timeline" aria-label="Posts Timeline">
+    {{- if gt (len $paginator.Pages) 0 }}
+      {{- range $paginator.Pages }}
+      <article class="timeline-entry">
+        <div class="timeline-marker">
+          <span class="timeline-dot"></span>
+          <span class="timeline-line"></span>
+        </div>
+        <div class="timeline-content">
+          <div class="timeline-meta">
+            <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "2006年1月2日" }}</time>
+            {{- with .Params.tags }}
+            <span class="timeline-tags">{{ delimit . " · " }}</span>
+            {{- end }}
+          </div>
+          <h2><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
+          <div class="timeline-body">{{ .Summary | plainify | htmlUnescape | truncate 140 }}</div>
+          <a class="timeline-readmore" href="{{ .RelPermalink }}">Read More →</a>
+        </div>
+      </article>
+      {{- end }}
+
+      {{- if gt $paginator.TotalPages 1 }}
+      <footer class="timeline-pagination">
+        {{- if $paginator.HasPrev }}
+        <a class="prev" href="{{ $paginator.Prev.URL }}">« Earlier Posts</a>
+        {{- end }}
+        {{- if $paginator.HasNext }}
+        <a class="next" href="{{ $paginator.Next.URL }}">Newer Posts »</a>
+        {{- end }}
+      </footer>
+      {{- end }}
+    {{- else }}
+      <p class="timeline-empty">No posts yet. Go write one!</p>
+    {{- end }}
+  </section>
+</section>
+
+{{- else }} {{/* not home */}}
+
+{{- if .Title }}
 <header class="page-header">
   {{- partial "breadcrumbs.html" . }}
   <h1>
@@ -39,27 +136,14 @@
 {{- end }}
 
 {{- $pages := union .RegularPages .Sections }}
-
-{{- if .IsHome }}
-{{- $pages = where site.RegularPages "Type" "in" site.Params.mainSections }}
-{{- $pages = where $pages "Params.hiddenInHomeList" "!=" "true"  }}
-{{- end }}
-
 {{- $paginator := .Paginate $pages }}
-
-{{- if and .IsHome site.Params.homeInfoParams (eq $paginator.PageNumber 1) }}
-{{- partial "home_info.html" . }}
-{{- end }}
 
 {{- $term := .Data.Term }}
 {{- range $index, $page := $paginator.Pages }}
 
 {{- $class := "post-entry" }}
 
-{{- $user_preferred := or site.Params.disableSpecial1stPost site.Params.homeInfoParams }}
-{{- if (and $.IsHome (eq $paginator.PageNumber 1) (eq $index 0) (not $user_preferred)) }}
-{{- $class = "first-entry" }}
-{{- else if $term }}
+{{- if $term }}
 {{- $class = "post-entry tag-entry" }}
 {{- end }}
 
@@ -116,6 +200,6 @@
 </footer>
 {{- end }}
 
-{{- end }}{{/* end profileMode */}}
+{{- end }}{{/* end home/non-home */}}
 
 {{- end }}{{- /* end main */ -}}

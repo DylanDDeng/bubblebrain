@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>视频 on BubbleBrain</title>
-    <link>http://localhost:1314/tags/%E8%A7%86%E9%A2%91/</link>
+    <link>http://localhost:61447/tags/%E8%A7%86%E9%A2%91/</link>
     <description>Recent content in 视频 on BubbleBrain</description>
     <image>
       <title>BubbleBrain</title>
-      <url>http://localhost:1314/social-share.png</url>
-      <link>http://localhost:1314/social-share.png</link>
+      <url>http://localhost:61447/social.jpg</url>
+      <link>http://localhost:61447/social.jpg</link>
     </image>
     <generator>Hugo -- 0.147.9</generator>
     <language>en</language>
     <lastBuildDate>Sun, 29 Jun 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1314/tags/%E8%A7%86%E9%A2%91/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:61447/tags/%E8%A7%86%E9%A2%91/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>视频嵌入示例</title>
-      <link>http://localhost:1314/posts/video-example/</link>
+      <link>http://localhost:61447/posts/video-example/</link>
       <pubDate>Sun, 29 Jun 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1314/posts/video-example/</guid>
+      <guid>http://localhost:61447/posts/video-example/</guid>
       <description>展示如何在博客中嵌入视频</description>
     </item>
   </channel>

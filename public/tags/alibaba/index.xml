@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Alibaba on BubbleBrain</title>
+    <link>http://localhost:61447/tags/alibaba/</link>
+    <description>Recent content in Alibaba on BubbleBrain</description>
+    <image>
+      <title>BubbleBrain</title>
+      <url>http://localhost:61447/social.jpg</url>
+      <link>http://localhost:61447/social.jpg</link>
+    </image>
+    <generator>Hugo -- 0.147.9</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 03 Nov 2025 17:23:50 +0800</lastBuildDate>
+    <atom:link href="http://localhost:61447/tags/alibaba/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Note about Qwen3-Max Thinking</title>
+      <link>http://localhost:61447/notes/qwen3-max-thinking/</link>
+      <pubDate>Mon, 03 Nov 2025 17:23:50 +0800</pubDate>
+      <guid>http://localhost:61447/notes/qwen3-max-thinking/</guid>
+      <description>Note about Qwen3-Max Thinking</description>
+    </item>
+  </channel>
+</rss>
