@@ -1783,6 +1783,7 @@ body.dark .heatmap-day::before {
     display: flex;
     gap: 1.5rem;
     position: relative;
+    perspective: 1200px;
 }
 
 .timeline-marker {
@@ -1822,10 +1823,17 @@ body.dark .heatmap-day::before {
     border-radius: 18px;
     padding: 1.5rem 1.75rem;
     box-shadow: 0 16px 32px var(--warm-shadow);
-    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    transition: transform 0.35s cubic-bezier(0.22, 1, 0.36, 1), box-shadow 0.2s ease;
+    transform-style: preserve-3d;
+    will-change: transform;
+    cursor: grab;
 }
 
-.timeline-content:hover {
+.timeline-content.is-tilting {
+    cursor: grabbing;
+}
+
+.timeline-content:not(.is-tilting):hover {
     transform: translateY(-4px);
     box-shadow: 0 20px 40px rgba(58, 53, 50, 0.18);
 }

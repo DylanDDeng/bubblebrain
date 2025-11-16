@@ -2,87 +2,87 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>BubbleBrain</title>
-    <link>http://localhost:61447/</link>
+    <link>http://localhost:57837/</link>
     <description>Recent content on BubbleBrain</description>
     <image>
       <title>BubbleBrain</title>
-      <url>http://localhost:61447/social.jpg</url>
-      <link>http://localhost:61447/social.jpg</link>
+      <url>http://localhost:57837/social.jpg</url>
+      <link>http://localhost:57837/social.jpg</link>
     </image>
     <generator>Hugo -- 0.147.9</generator>
     <language>en</language>
     <lastBuildDate>Sun, 16 Nov 2025 15:23:50 +0800</lastBuildDate>
-    <atom:link href="http://localhost:61447/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:57837/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Skills explained: How Skills compares to prompts, Projects, MCP, and subagents</title>
-      <link>http://localhost:61447/notes/notes-claude-skills-explanation/</link>
+      <link>http://localhost:57837/notes/notes-claude-skills-explanation/</link>
       <pubDate>Sun, 16 Nov 2025 15:23:50 +0800</pubDate>
-      <guid>http://localhost:61447/notes/notes-claude-skills-explanation/</guid>
+      <guid>http://localhost:57837/notes/notes-claude-skills-explanation/</guid>
       <description>What&amp;#39;s difference among Skills, Prompts, Projects, MCP, and subagents</description>
     </item>
     <item>
       <title>Note about Puzzled By Puzzles: When VLM Can’t Take a Hint</title>
-      <link>http://localhost:61447/notes/puzzled-by-puzzles/</link>
+      <link>http://localhost:57837/notes/puzzled-by-puzzles/</link>
       <pubDate>Tue, 04 Nov 2025 15:23:50 +0800</pubDate>
-      <guid>http://localhost:61447/notes/puzzled-by-puzzles/</guid>
+      <guid>http://localhost:57837/notes/puzzled-by-puzzles/</guid>
       <description>Note about Why VLM can&amp;#39;t take a hint</description>
     </item>
     <item>
       <title>Note about Qwen3-Max Thinking</title>
-      <link>http://localhost:61447/notes/qwen3-max-thinking/</link>
+      <link>http://localhost:57837/notes/qwen3-max-thinking/</link>
       <pubDate>Mon, 03 Nov 2025 17:23:50 +0800</pubDate>
-      <guid>http://localhost:61447/notes/qwen3-max-thinking/</guid>
+      <guid>http://localhost:57837/notes/qwen3-max-thinking/</guid>
       <description>Note about Qwen3-Max Thinking</description>
     </item>
     <item>
       <title>AMO-Bench from Meituan</title>
-      <link>http://localhost:61447/notes/amo-bench_meituan/</link>
+      <link>http://localhost:57837/notes/amo-bench_meituan/</link>
       <pubDate>Sun, 02 Nov 2025 11:47:50 +0800</pubDate>
-      <guid>http://localhost:61447/notes/amo-bench_meituan/</guid>
+      <guid>http://localhost:57837/notes/amo-bench_meituan/</guid>
       <description>Notes about AMO-Bench from Meituan</description>
     </item>
     <item>
       <title>Emergent Introspective Awareness in LLMs</title>
-      <link>http://localhost:61447/notes/anthropic_emergent_introspective_awareness/</link>
+      <link>http://localhost:57837/notes/anthropic_emergent_introspective_awareness/</link>
       <pubDate>Thu, 30 Oct 2025 17:51:50 +0800</pubDate>
-      <guid>http://localhost:61447/notes/anthropic_emergent_introspective_awareness/</guid>
+      <guid>http://localhost:57837/notes/anthropic_emergent_introspective_awareness/</guid>
       <description>Notes about Emergent Introspective Awareness in LLMs from Anthropic</description>
     </item>
     <item>
       <title>Notes about LLM Brain Rot</title>
-      <link>http://localhost:61447/notes/notes_about_brain_rot/</link>
+      <link>http://localhost:57837/notes/notes_about_brain_rot/</link>
       <pubDate>Sun, 26 Oct 2025 11:08:37 +0800</pubDate>
-      <guid>http://localhost:61447/notes/notes_about_brain_rot/</guid>
+      <guid>http://localhost:57837/notes/notes_about_brain_rot/</guid>
       <description>It is my reading note about LLM Brain Rot</description>
     </item>
     <item>
       <title>Kimi-Cli</title>
-      <link>http://localhost:61447/notes/kimi-cli/</link>
+      <link>http://localhost:57837/notes/kimi-cli/</link>
       <pubDate>Fri, 24 Oct 2025 19:32:37 +0800</pubDate>
-      <guid>http://localhost:61447/notes/kimi-cli/</guid>
+      <guid>http://localhost:57837/notes/kimi-cli/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://x.com/Kimi_Moonshot&#34;&gt;Moonshot AI&lt;/a&gt; has open-sourced its own coding agent, &lt;a href=&#34;https://github.com/MoonshotAI/kimi-cli?tab=readme-ov-file&#34;&gt;kimi-cli&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;Built in Python, the codebase is approachable for anyone who wants to learn how agents are engineered. A single monthly subscription—bought on the official site—grants credits for both the web product and the CLI.&lt;/p&gt;</description>
     </item>
     <item>
       <title>New Coding Model from Kuaishou</title>
-      <link>http://localhost:61447/notes/newcodingmodelfromkuaishou/</link>
+      <link>http://localhost:57837/notes/newcodingmodelfromkuaishou/</link>
       <pubDate>Fri, 24 Oct 2025 10:24:37 +0800</pubDate>
-      <guid>http://localhost:61447/notes/newcodingmodelfromkuaishou/</guid>
+      <guid>http://localhost:57837/notes/newcodingmodelfromkuaishou/</guid>
       <description>&lt;p&gt;Kuaishou recently refreshed its New Coding Model lineup with two releases: &lt;strong&gt;KAT-Coder-Pro V1&lt;/strong&gt; and &lt;strong&gt;KAT-Coder-Air V1&lt;/strong&gt;.&lt;/p&gt;
 &lt;p&gt;Both variants integrate smoothly with leading coding-agent tools such as Claude Code, Cline, and Kilo.&lt;/p&gt;</description>
     </item>
     <item>
       <title>移动端测试页面</title>
-      <link>http://localhost:61447/test-mobile/</link>
+      <link>http://localhost:57837/test-mobile/</link>
       <pubDate>Fri, 24 Oct 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:61447/test-mobile/</guid>
+      <guid>http://localhost:57837/test-mobile/</guid>
       <description>用于测试移动端适配效果的页面，包含各种元素</description>
     </item>
     <item>
       <title>最近好用的AI工具是codex</title>
-      <link>http://localhost:61447/notes/%E6%9C%80%E8%BF%91%E5%A5%BD%E7%94%A8%E7%9A%84ai%E5%B7%A5%E5%85%B7%E6%98%AFcodex/</link>
+      <link>http://localhost:57837/notes/%E6%9C%80%E8%BF%91%E5%A5%BD%E7%94%A8%E7%9A%84ai%E5%B7%A5%E5%85%B7%E6%98%AFcodex/</link>
       <pubDate>Tue, 16 Sep 2025 10:24:37 +0800</pubDate>
-      <guid>http://localhost:61447/notes/%E6%9C%80%E8%BF%91%E5%A5%BD%E7%94%A8%E7%9A%84ai%E5%B7%A5%E5%85%B7%E6%98%AFcodex/</guid>
+      <guid>http://localhost:57837/notes/%E6%9C%80%E8%BF%91%E5%A5%BD%E7%94%A8%E7%9A%84ai%E5%B7%A5%E5%85%B7%E6%98%AFcodex/</guid>
       <description>&lt;p&gt;最近在代码生成方面发现 Codex 真的很好用！&lt;/p&gt;
 &lt;p&gt;特别是对于一些重复性的模板代码，Codex 能快速生成基础结构，然后我只需要做微调就可以了。&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;# 比如生成一个简单的 Flask 路由&lt;/span&gt;
@@ -93,17 +93,17 @@
     </item>
     <item>
       <title>最近疯狂沉迷于公众号排版</title>
-      <link>http://localhost:61447/notes/%E6%9C%80%E8%BF%91%E7%96%AF%E7%8B%82%E6%B2%89%E8%BF%B7%E4%BA%8E%E5%85%AC%E4%BC%97%E5%8F%B7%E6%8E%92%E7%89%88/</link>
+      <link>http://localhost:57837/notes/%E6%9C%80%E8%BF%91%E7%96%AF%E7%8B%82%E6%B2%89%E8%BF%B7%E4%BA%8E%E5%85%AC%E4%BC%97%E5%8F%B7%E6%8E%92%E7%89%88/</link>
       <pubDate>Tue, 16 Sep 2025 10:24:37 +0800</pubDate>
-      <guid>http://localhost:61447/notes/%E6%9C%80%E8%BF%91%E7%96%AF%E7%8B%82%E6%B2%89%E8%BF%B7%E4%BA%8E%E5%85%AC%E4%BC%97%E5%8F%B7%E6%8E%92%E7%89%88/</guid>
+      <guid>http://localhost:57837/notes/%E6%9C%80%E8%BF%91%E7%96%AF%E7%8B%82%E6%B2%89%E8%BF%B7%E4%BA%8E%E5%85%AC%E4%BC%97%E5%8F%B7%E6%8E%92%E7%89%88/</guid>
       <description>&lt;p&gt;最近发现排版设计真的很有魔力！尝试了各种字体组合、间距调整和色彩搭配，感觉整个公众号的气质都提升了不少。&lt;/p&gt;
 &lt;p&gt;特别喜欢简约风格的排版，留白足够，阅读起来特别舒服。还在学习如何更好地运用图标和分割线来提升视觉效果。&lt;/p&gt;</description>
     </item>
     <item>
       <title>OpenAI 最新回应有关 GPT-5</title>
-      <link>http://localhost:61447/posts/openai-%E6%9C%80%E6%96%B0%E5%9B%9E%E5%BA%94%E6%9C%89%E5%85%B3-gpt-5/</link>
+      <link>http://localhost:57837/posts/openai-%E6%9C%80%E6%96%B0%E5%9B%9E%E5%BA%94%E6%9C%89%E5%85%B3-gpt-5/</link>
       <pubDate>Sat, 09 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:61447/posts/openai-%E6%9C%80%E6%96%B0%E5%9B%9E%E5%BA%94%E6%9C%89%E5%85%B3-gpt-5/</guid>
+      <guid>http://localhost:57837/posts/openai-%E6%9C%80%E6%96%B0%E5%9B%9E%E5%BA%94%E6%9C%89%E5%85%B3-gpt-5/</guid>
       <description>&lt;p&gt;昨天 Sam Altman 与他的 OpenAI 团队参加了 Reddit 上的 AMA 直播，来回答网友们任何关于 &lt;strong&gt;GPT-5&lt;/strong&gt; 的问题。&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;AMA 即 Ask Me Anything。一般都是回答网友的各种问题&lt;/p&gt;&lt;/blockquote&gt;
@@ -111,9 +111,9 @@
     </item>
     <item>
       <title>Dario Amodei 访谈整理</title>
-      <link>http://localhost:61447/posts/dario-amodei%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/</link>
+      <link>http://localhost:57837/posts/dario-amodei%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/</link>
       <pubDate>Mon, 04 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:61447/posts/dario-amodei%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/</guid>
+      <guid>http://localhost:57837/posts/dario-amodei%E8%AE%BF%E8%B0%88%E6%95%B4%E7%90%86/</guid>
       <description>&lt;p&gt;朋友们，大家好。&lt;/p&gt;
 &lt;p&gt;今天给大家带来 Anthropic 的 CEO，&lt;strong&gt;Dario Amodei&lt;/strong&gt; 最近参加的一次采访内容的整理，他不仅分享了 Anthropic 飞速发展的秘密，更是对当前 AI 领域的诸多争议给出了自己的见解。&lt;/p&gt;
 &lt;blockquote&gt;
@@ -127,16 +127,16 @@
     </item>
     <item>
       <title>About</title>
-      <link>http://localhost:61447/about/</link>
+      <link>http://localhost:57837/about/</link>
       <pubDate>Fri, 01 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:61447/about/</guid>
+      <guid>http://localhost:57837/about/</guid>
       <description>BubbleBrain is a personal blog focused on AI, programming, and reflections on technology.</description>
     </item>
     <item>
       <title>一些随笔</title>
-      <link>http://localhost:61447/posts/%E4%B8%80%E4%BA%9B%E9%9A%8F%E7%AC%94/</link>
+      <link>http://localhost:57837/posts/%E4%B8%80%E4%BA%9B%E9%9A%8F%E7%AC%94/</link>
       <pubDate>Thu, 31 Jul 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:61447/posts/%E4%B8%80%E4%BA%9B%E9%9A%8F%E7%AC%94/</guid>
+      <guid>http://localhost:57837/posts/%E4%B8%80%E4%BA%9B%E9%9A%8F%E7%AC%94/</guid>
       <description>&lt;p&gt;最近压力很大，工作上出现了一些问题，以及忙着搬家。&lt;/p&gt;
 &lt;p&gt;这趟搬家大概持续了两个月，直到这两天才逐渐搬完，搞定。我们找了一套开发商新装修好的房子，但是里面的柜子什么的都是没有的，需要我们自己弄。房东委托中介给我们安排了全屋定制。&lt;/p&gt;
 &lt;p&gt;但是这个做定制的设计师反正弄的也是一团糟，尺寸量的很多地方有问题，然后有的设计的地方也不符合我们的要求。反正来来回回装柜子、修、补，这些都做了一个月了，然后还有布置新家，以及我们自己搬家。整体是一个非常疲惫的过程，真的搬一次家感觉半条命都没了。我女朋友在这其中做了大量的工作，真的很不容易，特别是跟装柜子的人扯皮扯来扯去，都是她弄的。以我这种，“嫌烦，懒得管”、“不是自己的家，搞那么好”的这种心态，肯定是没法把这件事做的很好的。&lt;/p&gt;
@@ -154,9 +154,9 @@
     </item>
     <item>
       <title>Cline 是如何处理您的代码库的</title>
-      <link>http://localhost:61447/posts/cline-blog/</link>
+      <link>http://localhost:57837/posts/cline-blog/</link>
       <pubDate>Tue, 01 Jul 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:61447/posts/cline-blog/</guid>
+      <guid>http://localhost:57837/posts/cline-blog/</guid>
       <description>&lt;p&gt;朋友们，大家好。&lt;/p&gt;
 &lt;p&gt;这两天读到开源的代码 Agent，Cline 团队的一篇博客，《Why Cline Doesn&amp;rsquo;t Index Your Codebase (And Why That&amp;rsquo;s a Good Thing) 》，做了一些整理和探索，来分享一下这篇博客内容。&lt;/p&gt;
 &lt;p&gt;先放原文链接：&lt;a href=&#34;https://cline.bot/blog/why-cline-doesnt-index-your-codebase-and-why-thats-a-good-thing&#34;&gt;Why Cline Doesn&amp;rsquo;t Index Your Codebase (And Why That&amp;rsquo;s a Good Thing)&lt;/a&gt;&lt;/p&gt;
@@ -165,9 +165,9 @@
     </item>
     <item>
       <title>用AI深挖硅谷杀妻案，我发现了12460字都写不完的惊人内幕</title>
-      <link>http://localhost:61447/posts/kimi-deepresearch/</link>
+      <link>http://localhost:57837/posts/kimi-deepresearch/</link>
       <pubDate>Sun, 29 Jun 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:61447/posts/kimi-deepresearch/</guid>
+      <guid>http://localhost:57837/posts/kimi-deepresearch/</guid>
       <description>&lt;p&gt;故事的开始是发生在 1 年多前，硅谷发生了令人震惊的杀妻案件。凶手用拳头一拳拳打死了自己的妻子，再加上 &lt;strong&gt;华人&lt;/strong&gt;、&lt;strong&gt;高学历&lt;/strong&gt;、&lt;strong&gt;清华&lt;/strong&gt;、&lt;strong&gt;大厂&lt;/strong&gt;这样的无敌光环，这件案子当时格外引人关注。&lt;/p&gt;
 &lt;p&gt;但是随着时间的推移，关注度来的快去的也快，而且再加上天高皇帝远的，毕竟是在美国开的庭，接触到的后续相关信息也很少，大家对这件事的关注度就慢慢散了。&lt;/p&gt;
 &lt;p&gt;但是最近，这个案子又终于开审了，很多案件的细节都被曝光了出来。&lt;/p&gt;
@@ -183,9 +183,9 @@
     </item>
     <item>
       <title>上下文工程的兴起</title>
-      <link>http://localhost:61447/posts/%E4%B8%8A%E4%B8%8B%E6%96%87%E5%B7%A5%E7%A8%8B%E7%9A%84%E5%85%B4%E8%B5%B7/</link>
+      <link>http://localhost:57837/posts/%E4%B8%8A%E4%B8%8B%E6%96%87%E5%B7%A5%E7%A8%8B%E7%9A%84%E5%85%B4%E8%B5%B7/</link>
       <pubDate>Fri, 27 Jun 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:61447/posts/%E4%B8%8A%E4%B8%8B%E6%96%87%E5%B7%A5%E7%A8%8B%E7%9A%84%E5%85%B4%E8%B5%B7/</guid>
+      <guid>http://localhost:57837/posts/%E4%B8%8A%E4%B8%8B%E6%96%87%E5%B7%A5%E7%A8%8B%E7%9A%84%E5%85%B4%E8%B5%B7/</guid>
       <description>&lt;blockquote&gt;
 &lt;p&gt;本文为 Langchain 官方博客“The rise of context engineering”的双语对照版本。
 &lt;/br&gt;
@@ -196,9 +196,9 @@
     </item>
     <item>
       <title>深度解密：Anthropic多智能体系统背后的原理及提示词工程（建议收藏）</title>
-      <link>http://localhost:61447/posts/%E6%B7%B1%E5%BA%A6%E8%A7%A3%E5%AF%86anthropic%E5%A4%9A%E6%99%BA%E8%83%BD%E4%BD%93%E7%B3%BB%E7%BB%9F%E8%83%8C%E5%90%8E%E7%9A%84-%E5%8E%9F%E7%90%86%E5%8F%8A%E6%8F%90%E7%A4%BA%E8%AF%8D%E5%B7%A5%E7%A8%8B%E5%BB%BA%E8%AE%AE%E6%94%B6%E8%97%8F/</link>
+      <link>http://localhost:57837/posts/%E6%B7%B1%E5%BA%A6%E8%A7%A3%E5%AF%86anthropic%E5%A4%9A%E6%99%BA%E8%83%BD%E4%BD%93%E7%B3%BB%E7%BB%9F%E8%83%8C%E5%90%8E%E7%9A%84-%E5%8E%9F%E7%90%86%E5%8F%8A%E6%8F%90%E7%A4%BA%E8%AF%8D%E5%B7%A5%E7%A8%8B%E5%BB%BA%E8%AE%AE%E6%94%B6%E8%97%8F/</link>
       <pubDate>Fri, 27 Jun 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:61447/posts/%E6%B7%B1%E5%BA%A6%E8%A7%A3%E5%AF%86anthropic%E5%A4%9A%E6%99%BA%E8%83%BD%E4%BD%93%E7%B3%BB%E7%BB%9F%E8%83%8C%E5%90%8E%E7%9A%84-%E5%8E%9F%E7%90%86%E5%8F%8A%E6%8F%90%E7%A4%BA%E8%AF%8D%E5%B7%A5%E7%A8%8B%E5%BB%BA%E8%AE%AE%E6%94%B6%E8%97%8F/</guid>
+      <guid>http://localhost:57837/posts/%E6%B7%B1%E5%BA%A6%E8%A7%A3%E5%AF%86anthropic%E5%A4%9A%E6%99%BA%E8%83%BD%E4%BD%93%E7%B3%BB%E7%BB%9F%E8%83%8C%E5%90%8E%E7%9A%84-%E5%8E%9F%E7%90%86%E5%8F%8A%E6%8F%90%E7%A4%BA%E8%AF%8D%E5%B7%A5%E7%A8%8B%E5%BB%BA%E8%AE%AE%E6%94%B6%E8%97%8F/</guid>
       <description>&lt;p&gt;Anthropic 前两天发了一篇文章，重点讨论了他们是如何通过多智能体系统来构建 claude 的“深度研究功能”。&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;文章链接： &lt;a href=&#34;https://www.anthropic.com/engineering/built-multi-agent-research-system&#34;&gt;https://www.anthropic.com/engineering/built-multi-agent-research-system&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;我仔细研究了一下，觉得写的非常不错，所以写了这篇文章来细致解读一下到底该如何构建一个多智能体系统。&lt;/p&gt;
@@ -213,9 +213,9 @@
     </item>
     <item>
       <title>Notes on LightRAG</title>
-      <link>http://localhost:61447/posts/notes-on-lightrag/</link>
+      <link>http://localhost:57837/posts/notes-on-lightrag/</link>
       <pubDate>Mon, 24 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:61447/posts/notes-on-lightrag/</guid>
+      <guid>http://localhost:57837/posts/notes-on-lightrag/</guid>
       <description>&lt;p&gt;In this note, I’ll document some critical implementation details about the &lt;code&gt;LightRAG&lt;/code&gt; framework that I discovered while deploying it in production. These insights, which weren’t immediately apparent from just reading the paper, emerged during my hands-on experience with the codebase and are worth recording for future reference.&lt;/p&gt;</description>
     </item>
   </channel>

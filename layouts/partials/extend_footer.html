@@ -1,0 +1,71 @@
+{{- /* Custom footer extensions for BubbleBrain */ -}}
+<script>
+(function () {
+  const cards = document.querySelectorAll('.timeline-content');
+  if (!cards.length) return;
+
+  const clamp = (value, min, max) => Math.min(Math.max(value, min), max);
+  const maxTilt = 12;
+
+  cards.forEach((card) => {
+    let pointerId = null;
+    let isActive = false;
+    let rafId = null;
+
+    const applyTilt = (event) => {
+      const rect = card.getBoundingClientRect();
+      const relativeX = (event.clientX - (rect.left + rect.width / 2)) / (rect.width / 2);
+      const relativeY = (event.clientY - (rect.top + rect.height / 2)) / (rect.height / 2);
+      const rotateY = clamp(relativeX, -1, 1) * maxTilt;
+      const rotateX = clamp(-relativeY, -1, 1) * maxTilt;
+      card.style.transform = `rotateX(${rotateX}deg) rotateY(${rotateY}deg)`;
+    };
+
+    const scheduleTilt = (event) => {
+      if (!isActive) return;
+      if (rafId) cancelAnimationFrame(rafId);
+      rafId = requestAnimationFrame(() => applyTilt(event));
+    };
+
+    const releaseTilt = () => {
+      if (rafId) cancelAnimationFrame(rafId);
+      isActive = false;
+      pointerId = null;
+      card.style.transition = 'transform 0.45s cubic-bezier(0.22, 1, 0.36, 1)';
+      card.style.transform = 'rotateX(0deg) rotateY(0deg)';
+      card.classList.remove('is-tilting');
+      window.setTimeout(() => {
+        card.style.transition = '';
+        card.style.transform = '';
+      }, 450);
+    };
+
+    card.addEventListener('pointerdown', (event) => {
+      isActive = true;
+      pointerId = event.pointerId;
+      card.setPointerCapture?.(pointerId);
+      card.style.transition = 'transform 0.05s ease';
+      card.classList.add('is-tilting');
+      scheduleTilt(event);
+    });
+
+    card.addEventListener('pointermove', (event) => {
+      if (!isActive) return;
+      event.preventDefault();
+      scheduleTilt(event);
+    });
+
+    const stopInteraction = (event) => {
+      if (!isActive) return;
+      if (pointerId !== null) {
+        card.releasePointerCapture?.(pointerId);
+      }
+      releaseTilt();
+    };
+
+    card.addEventListener('pointerup', stopInteraction);
+    card.addEventListener('pointerleave', stopInteraction);
+    card.addEventListener('pointercancel', stopInteraction);
+  });
+})();
+</script>
