@@ -1,6 +1,6 @@
 ---
 title: "Gemini 3 Canvas Test"
-date: 2025-11-216T19:32:37+08:00
+date: 2025-11-16T19:32:37+08:00
 draft: false
 type: "note"
 tags: ["Thought","Gemini","Google"]
