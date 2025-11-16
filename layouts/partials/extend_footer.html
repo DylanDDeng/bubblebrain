@@ -2,8 +2,18 @@
 <script>
 (function () {
   const tiltTargets = [
-    { selector: '.timeline-content', maxTilt: 12, threshold: 8 },
-    { selector: '.notes-heatmap', maxTilt: 10, perspective: 1400, threshold: 2 }
+    {
+      selector: '.timeline-content',
+      maxTilt: 12,
+      threshold: 4,
+      ignore: 'a, button, input, textarea, select, .timeline-readmore'
+    },
+    {
+      selector: '.notes-heatmap',
+      maxTilt: 10,
+      perspective: 1400,
+      threshold: 2
+    }
   ];
 
   const clamp = (value, min, max) => Math.min(Math.max(value, min), max);
@@ -12,6 +22,7 @@
     const maxTilt = options.maxTilt || 12;
     const perspective = options.perspective || null;
     const threshold = options.threshold ?? 6;
+    const ignoreSelector = options.ignore || '';
     let pointerId = null;
     let isPointerDown = false;
     let isDragging = false;
@@ -60,6 +71,12 @@
     };
 
     const startInteraction = (event) => {
+      if (ignoreSelector && event.target.closest(ignoreSelector)) {
+        isPointerDown = false;
+        isDragging = false;
+        pointerId = null;
+        return;
+      }
       isPointerDown = true;
       isDragging = false;
       pointerId = event.pointerId;

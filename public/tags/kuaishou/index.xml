@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Kuaishou on BubbleBrain</title>
-    <link>http://localhost:54710/tags/kuaishou/</link>
+    <link>http://localhost:63654/tags/kuaishou/</link>
     <description>Recent content in Kuaishou on BubbleBrain</description>
     <image>
       <title>BubbleBrain</title>
-      <url>http://localhost:54710/social.jpg</url>
-      <link>http://localhost:54710/social.jpg</link>
+      <url>http://localhost:63654/social.jpg</url>
+      <link>http://localhost:63654/social.jpg</link>
     </image>
     <generator>Hugo -- 0.147.9</generator>
     <language>en</language>
     <lastBuildDate>Fri, 24 Oct 2025 10:24:37 +0800</lastBuildDate>
-    <atom:link href="http://localhost:54710/tags/kuaishou/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:63654/tags/kuaishou/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>New Coding Model from Kuaishou</title>
-      <link>http://localhost:54710/notes/newcodingmodelfromkuaishou/</link>
+      <link>http://localhost:63654/notes/newcodingmodelfromkuaishou/</link>
       <pubDate>Fri, 24 Oct 2025 10:24:37 +0800</pubDate>
-      <guid>http://localhost:54710/notes/newcodingmodelfromkuaishou/</guid>
+      <guid>http://localhost:63654/notes/newcodingmodelfromkuaishou/</guid>
       <description>&lt;p&gt;Kuaishou recently refreshed its New Coding Model lineup with two releases: &lt;strong&gt;KAT-Coder-Pro V1&lt;/strong&gt; and &lt;strong&gt;KAT-Coder-Air V1&lt;/strong&gt;.&lt;/p&gt;
 &lt;p&gt;Both variants integrate smoothly with leading coding-agent tools such as Claude Code, Cline, and Kilo.&lt;/p&gt;</description>
     </item>
