@@ -2,183 +2,190 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Tags on BubbleBrain</title>
-    <link>http://localhost:61116/tags/</link>
+    <link>http://localhost:60650/tags/</link>
     <description>Recent content in Tags on BubbleBrain</description>
     <image>
       <title>BubbleBrain</title>
-      <url>http://localhost:61116/social.jpg</url>
-      <link>http://localhost:61116/social.jpg</link>
+      <url>http://localhost:60650/social.jpg</url>
+      <link>http://localhost:60650/social.jpg</link>
     </image>
     <generator>Hugo -- 0.147.9</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 16 Nov 2025 19:32:37 +0800</lastBuildDate>
-    <atom:link href="http://localhost:61116/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 17 Nov 2025 15:23:50 +0800</lastBuildDate>
+    <atom:link href="http://localhost:60650/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Gemini</title>
-      <link>http://localhost:61116/tags/gemini/</link>
-      <pubDate>Sun, 16 Nov 2025 19:32:37 +0800</pubDate>
-      <guid>http://localhost:61116/tags/gemini/</guid>
+      <title>Anthropic</title>
+      <link>http://localhost:60650/tags/anthropic/</link>
+      <pubDate>Thu, 30 Oct 2025 17:51:50 +0800</pubDate>
+      <guid>http://localhost:60650/tags/anthropic/</guid>
       <description></description>
     </item>
     <item>
-      <title>Google</title>
-      <link>http://localhost:61116/tags/google/</link>
-      <pubDate>Sun, 16 Nov 2025 19:32:37 +0800</pubDate>
-      <guid>http://localhost:61116/tags/google/</guid>
+      <title>Blog</title>
+      <link>http://localhost:60650/tags/blog/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:60650/tags/blog/</guid>
       <description></description>
     </item>
     <item>
       <title>Thought</title>
-      <link>http://localhost:61116/tags/thought/</link>
+      <link>http://localhost:60650/tags/thought/</link>
       <pubDate>Sun, 16 Nov 2025 19:32:37 +0800</pubDate>
-      <guid>http://localhost:61116/tags/thought/</guid>
+      <guid>http://localhost:60650/tags/thought/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Gemini</title>
+      <link>http://localhost:60650/tags/gemini/</link>
+      <pubDate>Sun, 16 Nov 2025 19:32:37 +0800</pubDate>
+      <guid>http://localhost:60650/tags/gemini/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Google</title>
+      <link>http://localhost:60650/tags/google/</link>
+      <pubDate>Sun, 16 Nov 2025 19:32:37 +0800</pubDate>
+      <guid>http://localhost:60650/tags/google/</guid>
       <description></description>
     </item>
     <item>
       <title>Paper</title>
-      <link>http://localhost:61116/tags/paper/</link>
+      <link>http://localhost:60650/tags/paper/</link>
       <pubDate>Sun, 16 Nov 2025 15:23:50 +0800</pubDate>
-      <guid>http://localhost:61116/tags/paper/</guid>
+      <guid>http://localhost:60650/tags/paper/</guid>
       <description></description>
     </item>
     <item>
       <title>Alibaba</title>
-      <link>http://localhost:61116/tags/alibaba/</link>
+      <link>http://localhost:60650/tags/alibaba/</link>
       <pubDate>Mon, 03 Nov 2025 17:23:50 +0800</pubDate>
-      <guid>http://localhost:61116/tags/alibaba/</guid>
+      <guid>http://localhost:60650/tags/alibaba/</guid>
       <description></description>
     </item>
     <item>
       <title>Chinese AI</title>
-      <link>http://localhost:61116/tags/chinese-ai/</link>
+      <link>http://localhost:60650/tags/chinese-ai/</link>
       <pubDate>Mon, 03 Nov 2025 17:23:50 +0800</pubDate>
-      <guid>http://localhost:61116/tags/chinese-ai/</guid>
+      <guid>http://localhost:60650/tags/chinese-ai/</guid>
       <description></description>
     </item>
     <item>
       <title>Benchmark</title>
-      <link>http://localhost:61116/tags/benchmark/</link>
+      <link>http://localhost:60650/tags/benchmark/</link>
       <pubDate>Sun, 02 Nov 2025 11:47:50 +0800</pubDate>
-      <guid>http://localhost:61116/tags/benchmark/</guid>
+      <guid>http://localhost:60650/tags/benchmark/</guid>
       <description></description>
     </item>
     <item>
       <title>Meituan</title>
-      <link>http://localhost:61116/tags/meituan/</link>
+      <link>http://localhost:60650/tags/meituan/</link>
       <pubDate>Sun, 02 Nov 2025 11:47:50 +0800</pubDate>
-      <guid>http://localhost:61116/tags/meituan/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Anthropic</title>
-      <link>http://localhost:61116/tags/anthropic/</link>
-      <pubDate>Thu, 30 Oct 2025 17:51:50 +0800</pubDate>
-      <guid>http://localhost:61116/tags/anthropic/</guid>
+      <guid>http://localhost:60650/tags/meituan/</guid>
       <description></description>
     </item>
     <item>
       <title>Kimi</title>
-      <link>http://localhost:61116/tags/kimi/</link>
+      <link>http://localhost:60650/tags/kimi/</link>
       <pubDate>Fri, 24 Oct 2025 19:32:37 +0800</pubDate>
-      <guid>http://localhost:61116/tags/kimi/</guid>
+      <guid>http://localhost:60650/tags/kimi/</guid>
       <description></description>
     </item>
     <item>
       <title>Kuaishou</title>
-      <link>http://localhost:61116/tags/kuaishou/</link>
+      <link>http://localhost:60650/tags/kuaishou/</link>
       <pubDate>Fri, 24 Oct 2025 10:24:37 +0800</pubDate>
-      <guid>http://localhost:61116/tags/kuaishou/</guid>
+      <guid>http://localhost:60650/tags/kuaishou/</guid>
       <description></description>
     </item>
     <item>
       <title>测试</title>
-      <link>http://localhost:61116/tags/%E6%B5%8B%E8%AF%95/</link>
+      <link>http://localhost:60650/tags/%E6%B5%8B%E8%AF%95/</link>
       <pubDate>Fri, 24 Oct 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:61116/tags/%E6%B5%8B%E8%AF%95/</guid>
+      <guid>http://localhost:60650/tags/%E6%B5%8B%E8%AF%95/</guid>
       <description></description>
     </item>
     <item>
       <title>移动端</title>
-      <link>http://localhost:61116/tags/%E7%A7%BB%E5%8A%A8%E7%AB%AF/</link>
+      <link>http://localhost:60650/tags/%E7%A7%BB%E5%8A%A8%E7%AB%AF/</link>
       <pubDate>Fri, 24 Oct 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:61116/tags/%E7%A7%BB%E5%8A%A8%E7%AB%AF/</guid>
+      <guid>http://localhost:60650/tags/%E7%A7%BB%E5%8A%A8%E7%AB%AF/</guid>
       <description></description>
     </item>
     <item>
       <title>AI</title>
-      <link>http://localhost:61116/tags/ai/</link>
+      <link>http://localhost:60650/tags/ai/</link>
       <pubDate>Sat, 09 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:61116/tags/ai/</guid>
+      <guid>http://localhost:60650/tags/ai/</guid>
       <description></description>
     </item>
     <item>
       <title>访谈</title>
-      <link>http://localhost:61116/tags/%E8%AE%BF%E8%B0%88/</link>
+      <link>http://localhost:60650/tags/%E8%AE%BF%E8%B0%88/</link>
       <pubDate>Sat, 09 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:61116/tags/%E8%AE%BF%E8%B0%88/</guid>
+      <guid>http://localhost:60650/tags/%E8%AE%BF%E8%B0%88/</guid>
       <description></description>
     </item>
     <item>
       <title>碎碎念</title>
-      <link>http://localhost:61116/tags/%E7%A2%8E%E7%A2%8E%E5%BF%B5/</link>
+      <link>http://localhost:60650/tags/%E7%A2%8E%E7%A2%8E%E5%BF%B5/</link>
       <pubDate>Thu, 31 Jul 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:61116/tags/%E7%A2%8E%E7%A2%8E%E5%BF%B5/</guid>
+      <guid>http://localhost:60650/tags/%E7%A2%8E%E7%A2%8E%E5%BF%B5/</guid>
       <description></description>
     </item>
     <item>
       <title>Agent</title>
-      <link>http://localhost:61116/tags/agent/</link>
+      <link>http://localhost:60650/tags/agent/</link>
       <pubDate>Tue, 01 Jul 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:61116/tags/agent/</guid>
+      <guid>http://localhost:60650/tags/agent/</guid>
       <description></description>
     </item>
     <item>
       <title>Vibe Coding</title>
-      <link>http://localhost:61116/tags/vibe-coding/</link>
+      <link>http://localhost:60650/tags/vibe-coding/</link>
       <pubDate>Tue, 01 Jul 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:61116/tags/vibe-coding/</guid>
+      <guid>http://localhost:60650/tags/vibe-coding/</guid>
       <description></description>
     </item>
     <item>
       <title>公众号</title>
-      <link>http://localhost:61116/tags/%E5%85%AC%E4%BC%97%E5%8F%B7/</link>
+      <link>http://localhost:60650/tags/%E5%85%AC%E4%BC%97%E5%8F%B7/</link>
       <pubDate>Tue, 01 Jul 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:61116/tags/%E5%85%AC%E4%BC%97%E5%8F%B7/</guid>
+      <guid>http://localhost:60650/tags/%E5%85%AC%E4%BC%97%E5%8F%B7/</guid>
       <description></description>
     </item>
     <item>
       <title>DeepResearch</title>
-      <link>http://localhost:61116/tags/deepresearch/</link>
+      <link>http://localhost:60650/tags/deepresearch/</link>
       <pubDate>Sun, 29 Jun 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:61116/tags/deepresearch/</guid>
+      <guid>http://localhost:60650/tags/deepresearch/</guid>
       <description></description>
     </item>
     <item>
       <title>LangChain</title>
-      <link>http://localhost:61116/tags/langchain/</link>
+      <link>http://localhost:60650/tags/langchain/</link>
       <pubDate>Fri, 27 Jun 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:61116/tags/langchain/</guid>
+      <guid>http://localhost:60650/tags/langchain/</guid>
       <description></description>
     </item>
     <item>
       <title>Prompt</title>
-      <link>http://localhost:61116/tags/prompt/</link>
+      <link>http://localhost:60650/tags/prompt/</link>
       <pubDate>Fri, 27 Jun 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:61116/tags/prompt/</guid>
+      <guid>http://localhost:60650/tags/prompt/</guid>
       <description></description>
     </item>
     <item>
       <title>多智能体</title>
-      <link>http://localhost:61116/tags/%E5%A4%9A%E6%99%BA%E8%83%BD%E4%BD%93/</link>
+      <link>http://localhost:60650/tags/%E5%A4%9A%E6%99%BA%E8%83%BD%E4%BD%93/</link>
       <pubDate>Fri, 27 Jun 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:61116/tags/%E5%A4%9A%E6%99%BA%E8%83%BD%E4%BD%93/</guid>
+      <guid>http://localhost:60650/tags/%E5%A4%9A%E6%99%BA%E8%83%BD%E4%BD%93/</guid>
       <description></description>
     </item>
     <item>
       <title>RAG</title>
-      <link>http://localhost:61116/tags/rag/</link>
+      <link>http://localhost:60650/tags/rag/</link>
       <pubDate>Mon, 24 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:61116/tags/rag/</guid>
+      <guid>http://localhost:60650/tags/rag/</guid>
       <description></description>
     </item>
   </channel>
