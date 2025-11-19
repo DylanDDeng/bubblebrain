@@ -137,7 +137,7 @@ body.home {
 }
 
 .hero h1 {
-    font-size: 11vw;
+    font-size: 9rem;
     font-weight: 300;
     line-height: 0.9;
     text-transform: uppercase;
@@ -332,7 +332,7 @@ body.home {
     }
 
     .hero h1 {
-        font-size: 18vw;
+        font-size: 5rem;
     }
 
 }
