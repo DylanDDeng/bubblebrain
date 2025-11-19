@@ -3,10 +3,10 @@
     <h3>评论</h3>
     <div class="giscus"></div>
     <script>
-        (function() {
+        (function () {
             // 获取当前主题
             function getTheme() {
-                if (localStorage.getItem("pref-theme") === "dark" || 
+                if (localStorage.getItem("pref-theme") === "dark" ||
                     (!localStorage.getItem("pref-theme") && window.matchMedia("(prefers-color-scheme: dark)").matches)) {
                     return "dark";
                 }
@@ -26,35 +26,35 @@
                 "data-reactions-enabled": "{{ site.Params.giscus.reactionsEnabled | default "1" }}",
                 "data-emit-metadata": "{{ site.Params.giscus.emitMetadata | default "0" }}",
                 "data-input-position": "{{ site.Params.giscus.inputPosition | default "top" }}",
-                "data-theme": theme === "dark" ? "dark" : "light",
-                "data-lang": "{{ site.Params.giscus.lang | default "zh-CN" }}",
-                "data-loading": "{{ site.Params.giscus.loading | default "lazy" }}",
-                "crossorigin": "anonymous",
-                "async": ""
-            };
+                "data-theme": "transparent_dark",
+                "data-lang": "{{ site.Params.giscus.lang | default "zh- CN" }}",
+                    "data-loading": "{{ site.Params.giscus.loading | default "lazy" }}",
+                        "crossorigin": "anonymous",
+                            "async": ""
+        };
 
-            // 创建并加载 script
-            const giscusScript = document.createElement("script");
-            Object.entries(giscusAttributes).forEach(
-                ([key, value]) => giscusScript.setAttribute(key, value)
-            );
-            document.querySelector(".giscus").appendChild(giscusScript);
+        // 创建并加载 script
+        const giscusScript = document.createElement("script");
+        Object.entries(giscusAttributes).forEach(
+            ([key, value]) => giscusScript.setAttribute(key, value)
+        );
+        document.querySelector(".giscus").appendChild(giscusScript);
 
-            // 监听主题切换
-            const themeToggle = document.getElementById("theme-toggle");
-            if (themeToggle) {
-                themeToggle.addEventListener("click", function() {
-                    const iframe = document.querySelector('.giscus-frame');
-                    if (iframe) {
-                        const newTheme = getTheme() === "dark" ? "light" : "dark";
-                        iframe.contentWindow.postMessage(
-                            { giscus: { setConfig: { theme: newTheme } } },
-                            'https://giscus.app'
-                        );
-                    }
-                });
-            }
-        })();
+        // 监听主题切换
+        const themeToggle = document.getElementById("theme-toggle");
+        if (themeToggle) {
+            themeToggle.addEventListener("click", function () {
+                const iframe = document.querySelector('.giscus-frame');
+                if (iframe) {
+                    const newTheme = getTheme() === "dark" ? "light" : "dark";
+                    iframe.contentWindow.postMessage(
+                        { giscus: { setConfig: { theme: newTheme } } },
+                        'https://giscus.app'
+                    );
+                }
+            });
+        }
+        }) ();
     </script>
 </div>
 {{- end -}}

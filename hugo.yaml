@@ -139,7 +139,7 @@ params:
     reactionsEnabled: "1" # 可选: 0 或 1
     emitMetadata: "0" # 可选: 0 或 1
     inputPosition: "top" # 可选: top 或 bottom
-    theme: "light" # 可选: light, dark, light_high_contrast, dark_high_contrast, preferred_color_scheme
+    theme: "transparent_dark" # 可选: light, dark, light_high_contrast, dark_high_contrast, preferred_color_scheme
     lang: "en" # Language setting
     loading: "lazy" # 可选: lazy 或 eager
 

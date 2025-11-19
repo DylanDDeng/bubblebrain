@@ -2,43 +2,43 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Categories on BubbleBrain</title>
-    <link>http://localhost:53363/categories/</link>
+    <link>http://localhost:61352/categories/</link>
     <description>Recent content in Categories on BubbleBrain</description>
     <image>
       <title>BubbleBrain</title>
-      <url>http://localhost:53363/social.jpg</url>
-      <link>http://localhost:53363/social.jpg</link>
+      <url>http://localhost:61352/social.jpg</url>
+      <link>http://localhost:61352/social.jpg</link>
     </image>
     <generator>Hugo -- 0.147.9</generator>
     <language>en</language>
     <lastBuildDate>Mon, 17 Nov 2025 15:23:50 +0800</lastBuildDate>
-    <atom:link href="http://localhost:53363/categories/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:61352/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>QuickNote</title>
-      <link>http://localhost:53363/categories/quicknote/</link>
+      <link>http://localhost:61352/categories/quicknote/</link>
       <pubDate>Mon, 17 Nov 2025 15:23:50 +0800</pubDate>
-      <guid>http://localhost:53363/categories/quicknote/</guid>
+      <guid>http://localhost:61352/categories/quicknote/</guid>
       <description></description>
     </item>
     <item>
       <title>技术</title>
-      <link>http://localhost:53363/categories/%E6%8A%80%E6%9C%AF/</link>
+      <link>http://localhost:61352/categories/%E6%8A%80%E6%9C%AF/</link>
       <pubDate>Fri, 24 Oct 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:53363/categories/%E6%8A%80%E6%9C%AF/</guid>
+      <guid>http://localhost:61352/categories/%E6%8A%80%E6%9C%AF/</guid>
       <description></description>
     </item>
     <item>
       <title>AI</title>
-      <link>http://localhost:53363/categories/ai/</link>
+      <link>http://localhost:61352/categories/ai/</link>
       <pubDate>Sat, 09 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:53363/categories/ai/</guid>
+      <guid>http://localhost:61352/categories/ai/</guid>
       <description></description>
     </item>
     <item>
       <title>生活</title>
-      <link>http://localhost:53363/categories/%E7%94%9F%E6%B4%BB/</link>
+      <link>http://localhost:61352/categories/%E7%94%9F%E6%B4%BB/</link>
       <pubDate>Thu, 31 Jul 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:53363/categories/%E7%94%9F%E6%B4%BB/</guid>
+      <guid>http://localhost:61352/categories/%E7%94%9F%E6%B4%BB/</guid>
       <description></description>
     </item>
   </channel>
