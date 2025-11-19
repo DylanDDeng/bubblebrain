@@ -18,7 +18,7 @@ My feeds have been saturated with head-to-head evaluations, and the model’s fr
 
 Out of 20 rigorous tasks, Gemini 3 claims the top position in 19; the lone exception is SWE-BENCH-VERIFIED. On LM Arena it also secures the highest aggregate score. 
 
-A particularly striking example comes from [@lepadphone](https://x.com/lepadphone?s=20). With a single, minimalist prompt, **Deisgn a capcut", Gemini 3 can clone a capcut for you to play on the Google AI Studio. 
+A particularly striking example comes from [@lepadphone](https://x.com/lepadphone?s=20). With a single, minimalist prompt, **Deisgn a capcut**, Gemini 3 can clone a capcut for you to play on the Google AI Studio. 
 
 
 
