@@ -1,0 +1,70 @@
+{{ define "main" }}
+<div class="hero">
+    <h1>
+        <span style="animation-delay: 0s"><em>Defined</em></span>
+        <span style="animation-delay: 0.1s"><em>By The</em></span>
+        <span style="animation-delay: 0.2s"><em style="color: var(--accent-color)">Absence</em></span>
+    </h1>
+
+    <div class="hero-meta">
+        <span>Est. 2024 — BubbleBrain</span>
+        <span style="text-align: right;">Scroll for Thoughts</span>
+    </div>
+</div>
+
+<section class="content-stream">
+    <div class="stream-header">
+        <h2>Latest Thoughts</h2>
+        <div class="stream-line"></div>
+    </div>
+
+    {{ $posts := where site.RegularPages "Section" "posts" }}
+    {{ $notes := where site.RegularPages "Section" "notes" }}
+    {{ $allContent := union $posts $notes }}
+    {{ $sortedContent := sort $allContent "Date" "desc" }}
+
+    <div class="entries-grid">
+        {{ range first 10 $sortedContent }}
+        <article class="entry-card type-{{ .Section }}" onclick="window.location.href='{{ .Permalink }}'">
+            <div class="entry-header-row">
+                <span class="entry-type-badge">{{ .Section | humanize }}</span>
+                <span class="entry-date">{{ .Date.Format "Jan 02, 2006" }}</span>
+            </div>
+            <h2 class="entry-title">{{ .Title }}</h2>
+            <div class="entry-summary">
+                {{ .Summary | plainify | truncate 500 }}
+            </div>
+            <div class="entry-footer">
+                <span class="read-more">Read Entry</span>
+                <span class="entry-arrow">→</span>
+            </div>
+        </article>
+        {{ end }}
+    </div>
+</section>
+
+<div class="marquee-container">
+    <div class="marquee-content">
+        <span>Artificial Intelligence</span>
+        <span>•</span>
+        <span>Programming</span>
+        <span>•</span>
+        <span>Design</span>
+        <span>•</span>
+        <span>Thoughts</span>
+        <span>•</span>
+        <span>Future</span>
+        <span>•</span>
+        <span>Artificial Intelligence</span>
+        <span>•</span>
+        <span>Programming</span>
+        <span>•</span>
+        <span>Design</span>
+        <span>•</span>
+        <span>Thoughts</span>
+        <span>•</span>
+        <span>Future</span>
+        <span>•</span>
+    </div>
+</div>
+{{ end }}

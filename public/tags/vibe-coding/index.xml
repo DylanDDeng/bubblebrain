@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Vibe Coding on BubbleBrain</title>
-    <link>http://localhost:60650/tags/vibe-coding/</link>
+    <link>http://localhost:53363/tags/vibe-coding/</link>
     <description>Recent content in Vibe Coding on BubbleBrain</description>
     <image>
       <title>BubbleBrain</title>
-      <url>http://localhost:60650/social.jpg</url>
-      <link>http://localhost:60650/social.jpg</link>
+      <url>http://localhost:53363/social.jpg</url>
+      <link>http://localhost:53363/social.jpg</link>
     </image>
     <generator>Hugo -- 0.147.9</generator>
     <language>en</language>
     <lastBuildDate>Tue, 01 Jul 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:60650/tags/vibe-coding/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:53363/tags/vibe-coding/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Cline 是如何处理您的代码库的</title>
-      <link>http://localhost:60650/posts/cline-blog/</link>
+      <link>http://localhost:53363/posts/cline-blog/</link>
       <pubDate>Tue, 01 Jul 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:60650/posts/cline-blog/</guid>
+      <guid>http://localhost:53363/posts/cline-blog/</guid>
       <description>&lt;p&gt;朋友们，大家好。&lt;/p&gt;
 &lt;p&gt;这两天读到开源的代码 Agent，Cline 团队的一篇博客，《Why Cline Doesn&amp;rsquo;t Index Your Codebase (And Why That&amp;rsquo;s a Good Thing) 》，做了一些整理和探索，来分享一下这篇博客内容。&lt;/p&gt;
 &lt;p&gt;先放原文链接：&lt;a href=&#34;https://cline.bot/blog/why-cline-doesnt-index-your-codebase-and-why-thats-a-good-thing&#34;&gt;Why Cline Doesn&amp;rsquo;t Index Your Codebase (And Why That&amp;rsquo;s a Good Thing)&lt;/a&gt;&lt;/p&gt;

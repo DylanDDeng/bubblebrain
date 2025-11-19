@@ -1,127 +1,41 @@
-{{- /* Custom footer extensions for BubbleBrain */ -}}
+<!-- Custom Cursor -->
+<div class="cursor" id="cursor"></div>
+
+<!-- Background Grid Lines -->
+<div class="grid-lines">
+  <div class="line"></div>
+  <div class="line"></div>
+  <div class="line"></div>
+  <div class="line"></div>
+</div>
+
 <script>
-(function () {
-  const tiltTargets = [
-    {
-      selector: '.timeline-content',
-      maxTilt: 12,
-      threshold: 4,
-      ignore: 'a, button, input, textarea, select, .timeline-readmore'
-    },
-    {
-      selector: '.notes-heatmap',
-      maxTilt: 10,
-      perspective: 1400,
-      threshold: 2
-    }
-  ];
+  // Custom Cursor Logic
+  const cursor = document.getElementById('cursor');
 
-  const clamp = (value, min, max) => Math.min(Math.max(value, min), max);
+  // Only activate custom cursor on non-touch devices to avoid issues
+  if (window.matchMedia("(pointer: fine)").matches) {
+    document.addEventListener('mousemove', (e) => {
+      cursor.style.left = e.clientX + 'px';
+      cursor.style.top = e.clientY + 'px';
+    });
 
-  const attachTilt = (card, options) => {
-    const maxTilt = options.maxTilt || 12;
-    const perspective = options.perspective || null;
-    const threshold = options.threshold ?? 6;
-    const ignoreSelector = options.ignore || '';
-    let pointerId = null;
-    let isPointerDown = false;
-    let isDragging = false;
-    let rafId = null;
-    let startX = 0;
-    let startY = 0;
+    // Add hover effect to all links and interactive elements
+    const interactiveElements = document.querySelectorAll('a, button, .menu-btn, .p-image, .project');
 
-    const applyTilt = (event) => {
-      const rect = card.getBoundingClientRect();
-      const relativeX = (event.clientX - (rect.left + rect.width / 2)) / (rect.width / 2);
-      const relativeY = (event.clientY - (rect.top + rect.height / 2)) / (rect.height / 2);
-      const rotateY = clamp(relativeX, -1, 1) * maxTilt;
-      const rotateX = clamp(-relativeY, -1, 1) * maxTilt;
-      const perspectivePrefix = perspective ? `perspective(${perspective}px) ` : '';
-      card.style.transform = `${perspectivePrefix}rotateX(${rotateX}deg) rotateY(${rotateY}deg)`;
-    };
+    interactiveElements.forEach(el => {
+      el.addEventListener('mouseover', () => cursor.classList.add('active'));
+      el.addEventListener('mouseleave', () => cursor.classList.remove('active'));
+    });
+  } else {
+    cursor.style.display = 'none';
+  }
 
-    const scheduleTilt = (event) => {
-      if (!isDragging) return;
-      if (rafId) cancelAnimationFrame(rafId);
-      rafId = requestAnimationFrame(() => applyTilt(event));
-    };
+  function hoverCursor() {
+    if (cursor) cursor.classList.add('active');
+  }
 
-    const resetTilt = () => {
-      if (rafId) cancelAnimationFrame(rafId);
-      const perspectivePrefix = perspective ? `perspective(${perspective}px) ` : '';
-      card.style.transition = 'transform 0.45s cubic-bezier(0.22, 1, 0.36, 1)';
-      card.style.transform = `${perspectivePrefix}rotateX(0deg) rotateY(0deg)`;
-      window.setTimeout(() => {
-        card.style.transition = '';
-        card.style.transform = '';
-      }, 450);
-    };
-
-    const endInteraction = () => {
-      if (pointerId !== null) {
-        card.releasePointerCapture?.(pointerId);
-      }
-      if (isDragging) {
-        resetTilt();
-      }
-      isPointerDown = false;
-      isDragging = false;
-      pointerId = null;
-      card.classList.remove('is-tilting');
-    };
-
-    const startInteraction = (event) => {
-      if (ignoreSelector && event.target.closest(ignoreSelector)) {
-        isPointerDown = false;
-        isDragging = false;
-        pointerId = null;
-        return;
-      }
-      isPointerDown = true;
-      isDragging = false;
-      pointerId = event.pointerId;
-      startX = event.clientX;
-      startY = event.clientY;
-    };
-
-    const moveInteraction = (event) => {
-      if (!isPointerDown) return;
-      const deltaX = event.clientX - startX;
-      const deltaY = event.clientY - startY;
-      if (!isDragging) {
-        if (Math.abs(deltaX) + Math.abs(deltaY) < threshold) {
-          return;
-        }
-        isDragging = true;
-        card.classList.add('is-tilting');
-        card.style.transition = 'transform 0.05s ease';
-        card.setPointerCapture?.(pointerId);
-      }
-      event.preventDefault();
-      scheduleTilt(event);
-    };
-
-    const cancelInteraction = () => {
-      if (!isPointerDown && !isDragging) return;
-      endInteraction();
-    };
-
-    const pointerUp = (event) => {
-      if (isDragging) {
-        event.preventDefault();
-      }
-      endInteraction();
-    };
-
-    card.addEventListener('pointerdown', startInteraction);
-    card.addEventListener('pointermove', moveInteraction);
-    card.addEventListener('pointerup', pointerUp);
-    card.addEventListener('pointerleave', cancelInteraction);
-    card.addEventListener('pointercancel', cancelInteraction);
-  };
-
-  tiltTargets.forEach((target) => {
-    document.querySelectorAll(target.selector).forEach((el) => attachTilt(el, target));
-  });
-})();
+  function leaveCursor() {
+    if (cursor) cursor.classList.remove('active');
+  }
 </script>
