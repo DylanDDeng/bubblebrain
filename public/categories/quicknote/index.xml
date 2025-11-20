@@ -2,86 +2,93 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>QuickNote on BubbleBrain</title>
-    <link>http://localhost:1313/categories/quicknote/</link>
+    <link>http://localhost:63642/categories/quicknote/</link>
     <description>Recent content in QuickNote on BubbleBrain</description>
     <image>
       <title>BubbleBrain</title>
-      <url>http://localhost:1313/social.jpg</url>
-      <link>http://localhost:1313/social.jpg</link>
+      <url>http://localhost:63642/social.jpg</url>
+      <link>http://localhost:63642/social.jpg</link>
     </image>
     <generator>Hugo -- 0.147.9</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 17 Nov 2025 15:23:50 +0800</lastBuildDate>
-    <atom:link href="http://localhost:1313/categories/quicknote/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 19 Nov 2025 15:23:50 +0800</lastBuildDate>
+    <atom:link href="http://localhost:63642/categories/quicknote/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Notes about Gemini 3</title>
+      <link>http://localhost:63642/notes/notes_about_gemini3/</link>
+      <pubDate>Wed, 19 Nov 2025 15:23:50 +0800</pubDate>
+      <guid>http://localhost:63642/notes/notes_about_gemini3/</guid>
+      <description>Gemini 3 from Google</description>
+    </item>
     <item>
       <title>Best practices for prompt engineering from Anthropic</title>
-      <link>http://localhost:1313/notes/notes-anthropic-prompt-engineering-practice/</link>
+      <link>http://localhost:63642/notes/notes-anthropic-prompt-engineering-practice/</link>
       <pubDate>Mon, 17 Nov 2025 15:23:50 +0800</pubDate>
-      <guid>http://localhost:1313/notes/notes-anthropic-prompt-engineering-practice/</guid>
+      <guid>http://localhost:63642/notes/notes-anthropic-prompt-engineering-practice/</guid>
       <description>Prompt Engineering Practices</description>
     </item>
     <item>
       <title>Gemini 3 Canvas Test</title>
-      <link>http://localhost:1313/notes/gemini-3-canvas/</link>
+      <link>http://localhost:63642/notes/gemini-3-canvas/</link>
       <pubDate>Sun, 16 Nov 2025 19:32:37 +0800</pubDate>
-      <guid>http://localhost:1313/notes/gemini-3-canvas/</guid>
+      <guid>http://localhost:63642/notes/gemini-3-canvas/</guid>
       <description>Gemini 3 is available on Gemini app Canvas this week</description>
     </item>
     <item>
       <title>Skills explained: How Skills compares to prompts, Projects, MCP, and subagents</title>
-      <link>http://localhost:1313/notes/notes-claude-skills-explanation/</link>
+      <link>http://localhost:63642/notes/notes-claude-skills-explanation/</link>
       <pubDate>Sun, 16 Nov 2025 15:23:50 +0800</pubDate>
-      <guid>http://localhost:1313/notes/notes-claude-skills-explanation/</guid>
+      <guid>http://localhost:63642/notes/notes-claude-skills-explanation/</guid>
       <description>What&amp;#39;s difference among Skills, Prompts, Projects, MCP, and subagents</description>
     </item>
     <item>
       <title>Note about Puzzled By Puzzles: When VLM Can’t Take a Hint</title>
-      <link>http://localhost:1313/notes/puzzled-by-puzzles/</link>
+      <link>http://localhost:63642/notes/puzzled-by-puzzles/</link>
       <pubDate>Tue, 04 Nov 2025 15:23:50 +0800</pubDate>
-      <guid>http://localhost:1313/notes/puzzled-by-puzzles/</guid>
+      <guid>http://localhost:63642/notes/puzzled-by-puzzles/</guid>
       <description>Note about Why VLM can&amp;#39;t take a hint</description>
     </item>
     <item>
       <title>Note about Qwen3-Max Thinking</title>
-      <link>http://localhost:1313/notes/qwen3-max-thinking/</link>
+      <link>http://localhost:63642/notes/qwen3-max-thinking/</link>
       <pubDate>Mon, 03 Nov 2025 17:23:50 +0800</pubDate>
-      <guid>http://localhost:1313/notes/qwen3-max-thinking/</guid>
+      <guid>http://localhost:63642/notes/qwen3-max-thinking/</guid>
       <description>Note about Qwen3-Max Thinking</description>
     </item>
     <item>
       <title>AMO-Bench from Meituan</title>
-      <link>http://localhost:1313/notes/amo-bench_meituan/</link>
+      <link>http://localhost:63642/notes/amo-bench_meituan/</link>
       <pubDate>Sun, 02 Nov 2025 11:47:50 +0800</pubDate>
-      <guid>http://localhost:1313/notes/amo-bench_meituan/</guid>
+      <guid>http://localhost:63642/notes/amo-bench_meituan/</guid>
       <description>Notes about AMO-Bench from Meituan</description>
     </item>
     <item>
       <title>Emergent Introspective Awareness in LLMs</title>
-      <link>http://localhost:1313/notes/anthropic_emergent_introspective_awareness/</link>
+      <link>http://localhost:63642/notes/anthropic_emergent_introspective_awareness/</link>
       <pubDate>Thu, 30 Oct 2025 17:51:50 +0800</pubDate>
-      <guid>http://localhost:1313/notes/anthropic_emergent_introspective_awareness/</guid>
+      <guid>http://localhost:63642/notes/anthropic_emergent_introspective_awareness/</guid>
       <description>Notes about Emergent Introspective Awareness in LLMs from Anthropic</description>
     </item>
     <item>
       <title>Notes about LLM Brain Rot</title>
-      <link>http://localhost:1313/notes/notes_about_brain_rot/</link>
+      <link>http://localhost:63642/notes/notes_about_brain_rot/</link>
       <pubDate>Sun, 26 Oct 2025 11:08:37 +0800</pubDate>
-      <guid>http://localhost:1313/notes/notes_about_brain_rot/</guid>
+      <guid>http://localhost:63642/notes/notes_about_brain_rot/</guid>
       <description>It is my reading note about LLM Brain Rot</description>
     </item>
     <item>
       <title>Kimi-Cli</title>
-      <link>http://localhost:1313/notes/kimi-cli/</link>
+      <link>http://localhost:63642/notes/kimi-cli/</link>
       <pubDate>Fri, 24 Oct 2025 19:32:37 +0800</pubDate>
-      <guid>http://localhost:1313/notes/kimi-cli/</guid>
+      <guid>http://localhost:63642/notes/kimi-cli/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://x.com/Kimi_Moonshot&#34;&gt;Moonshot AI&lt;/a&gt; has open-sourced its own coding agent, &lt;a href=&#34;https://github.com/MoonshotAI/kimi-cli?tab=readme-ov-file&#34;&gt;kimi-cli&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;Built in Python, the codebase is approachable for anyone who wants to learn how agents are engineered. A single monthly subscription—bought on the official site—grants credits for both the web product and the CLI.&lt;/p&gt;</description>
     </item>
     <item>
       <title>New Coding Model from Kuaishou</title>
-      <link>http://localhost:1313/notes/newcodingmodelfromkuaishou/</link>
+      <link>http://localhost:63642/notes/newcodingmodelfromkuaishou/</link>
       <pubDate>Fri, 24 Oct 2025 10:24:37 +0800</pubDate>
-      <guid>http://localhost:1313/notes/newcodingmodelfromkuaishou/</guid>
+      <guid>http://localhost:63642/notes/newcodingmodelfromkuaishou/</guid>
       <description>&lt;p&gt;Kuaishou recently refreshed its New Coding Model lineup with two releases: &lt;strong&gt;KAT-Coder-Pro V1&lt;/strong&gt; and &lt;strong&gt;KAT-Coder-Air V1&lt;/strong&gt;.&lt;/p&gt;
 &lt;p&gt;Both variants integrate smoothly with leading coding-agent tools such as Claude Code, Cline, and Kilo.&lt;/p&gt;</description>
     </item>
