@@ -1,0 +1,13 @@
+---
+import BaseLayout from '~/layouts/BaseLayout.astro'
+import StandardLayout from '~/layouts/StandardLayout.astro'
+---
+
+<BaseLayout title="Search" description="Search BubbleBrain." ogImage={true}>
+  <StandardLayout title="Search">
+    <Fragment slot="article">
+      <p>Use the search button in the navigation bar to search posts and notes.</p>
+    </Fragment>
+  </StandardLayout>
+</BaseLayout>
+

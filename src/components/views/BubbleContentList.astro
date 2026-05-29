@@ -1,0 +1,91 @@
+---
+import Categorizer from '~/components/base/Categorizer.astro'
+import ListItem from '~/components/views/ListItem.astro'
+
+import { getBubbleItems } from '~/utils/bubbleContent'
+import { getYear } from '~/utils/datetime'
+
+import type { BubbleCollection } from '~/utils/bubbleContent'
+
+interface Props {
+  collections?: BubbleCollection[]
+  filterCategory?: string
+  filterTag?: string
+  limit?: number
+  groupByYear?: boolean
+}
+
+const {
+  collections = ['blog', 'shorts'],
+  filterCategory,
+  filterTag,
+  limit,
+  groupByYear = true,
+} = Astro.props
+
+let items = await getBubbleItems(collections)
+
+if (filterCategory) {
+  items = items.filter((item) => item.data.categories.includes(filterCategory))
+}
+
+if (filterTag) {
+  items = items.filter((item) => item.data.tags.includes(filterTag))
+}
+
+if (limit) {
+  items = items.slice(0, limit)
+}
+
+const grouped = new Map<string, typeof items>()
+if (groupByYear) {
+  for (const item of items) {
+    const year = getYear(item.data.pubDate).toString()
+    grouped.set(year, [...(grouped.get(year) ?? []), item])
+  }
+}
+---
+
+{
+  items.length === 0 ? (
+    <p class="op-50">Nothing here yet.</p>
+  ) : groupByYear ? (
+    Array.from(grouped.entries()).map(([year, group]) => (
+      <section data-year={year}>
+        <Categorizer text={year} />
+        {group.map((item, idx) => (
+          <ListItem
+            idx={idx}
+            collectionType={item.route}
+            postSlug={item.slug}
+            title={item.data.title}
+            tags={item.data.tags}
+            date={item.data.pubDate}
+            minutesRead={item.minutesRead}
+            radio={item.data.radio}
+            video={item.data.video}
+            platform={item.data.platform}
+            redirect={item.data.redirect}
+          />
+        ))}
+      </section>
+    ))
+  ) : (
+    items.map((item, idx) => (
+      <ListItem
+        idx={idx}
+        collectionType={item.route}
+        postSlug={item.slug}
+        title={item.data.title}
+        tags={item.data.tags}
+        date={item.data.pubDate}
+        minutesRead={item.minutesRead}
+        radio={item.data.radio}
+        video={item.data.video}
+        platform={item.data.platform}
+        redirect={item.data.redirect}
+      />
+    ))
+  )
+}
+

@@ -1,0 +1,21 @@
+---
+import RenderPost from '~/components/views/RenderPost.astro'
+import { getCollection } from 'astro:content'
+import { slugForEntry } from '~/utils/bubbleContent'
+
+export async function getStaticPaths() {
+  const notes = await getCollection('shorts', ({ data }) => {
+    return import.meta.env.PROD ? !data.draft : true
+  })
+
+  return notes.map((post) => ({
+    params: { slug: slugForEntry(post) },
+    props: { post },
+  }))
+}
+
+const { post } = Astro.props
+---
+
+<RenderPost {post} isCommentable={true} />
+

@@ -1,0 +1,26 @@
+---
+import Link from '~/components/base/Link.astro'
+import { SITE } from '~/config'
+import { withBasePath } from '~/utils/path'
+---
+
+<Link
+  class="select-none op-transition"
+  href={withBasePath('/')}
+  aria-label={SITE.title}
+  aria-current={Astro.url.pathname === `${withBasePath('/')}` ? 'page' : false}
+>
+  <span class="logo-mark">{SITE.title}</span>
+</Link>
+
+<style>
+  .logo-mark {
+    display: inline-flex;
+    align-items: center;
+    color: var(--c-text);
+    font-size: 1.05rem;
+    font-weight: 800;
+    letter-spacing: 0;
+    line-height: 1;
+  }
+</style>

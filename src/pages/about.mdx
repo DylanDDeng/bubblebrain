@@ -1,10 +1,16 @@
 ---
 title: "About"
 description: "BubbleBrain is a personal blog focused on AI, programming, and reflections on technology."
-date: 2025-08-01
-draft: false
+bgType: false
+ogImage: true
 ---
 
+import BaseLayout from '~/layouts/BaseLayout.astro'
+import StandardLayout from '~/layouts/StandardLayout.astro'
+
+<BaseLayout title={frontmatter.title} description={frontmatter.description} ogImage={frontmatter.ogImage}>
+  <StandardLayout title={frontmatter.title}>
+    <Fragment slot="article">
 Welcome to BubbleBrain 🫧
 
 This is a space where I document my explorations and reflections on technology, focusing on:
@@ -14,7 +20,7 @@ This is a space where I document my explorations and reflections on technology, 
 - Product design and engineering efficiency  
 - Learning methodologies and ways of thinking  
 
-The site is built with Hugo + PaperMod, statically hosted for speed and readability. Here you can:
+The site is built with Astro and statically hosted for speed and readability. Here you can:
 
 - Browse my summaries of cutting-edge tech and engineering practices  
 - Quickly locate topics of interest through categories and search  
@@ -27,3 +33,8 @@ More info:
 - GitHub: https://github.com/  
 
 Thanks for stopping by—may the content here spark new ideas for you.
+
+
+    </Fragment>
+  </StandardLayout>
+</BaseLayout>
