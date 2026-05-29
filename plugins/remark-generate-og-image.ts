@@ -1,5 +1,5 @@
 import { join, basename, dirname } from 'node:path'
-import { readFileSync, existsSync, writeFileSync } from 'node:fs'
+import { readFileSync, existsSync, writeFileSync, statSync } from 'node:fs'
 import { mkdir } from 'node:fs/promises'
 
 import { decode } from 'html-entities'
@@ -16,6 +16,7 @@ import type { html } from 'satori-html'
 import type { BgType, OgBgType } from '../src/types'
 
 const Inter = readFileSync('plugins/og-template/Inter-Regular-24pt.ttf')
+const OG_TEMPLATE_PATH = 'plugins/og-template/markup.ts'
 
 const satoriOptions: SatoriOptions = {
   // debug: true,
@@ -40,6 +41,20 @@ export function checkFileExistsInDir(path: string, filename: string) {
   const fullPath = join(process.cwd(), path, filename)
 
   return existsSync(fullPath)
+}
+
+function shouldGenerateOgImage(path: string, filename: string) {
+  const fullPath = join(process.cwd(), path, filename)
+  if (!existsSync(fullPath)) return true
+
+  try {
+    return (
+      statSync(fullPath).mtimeMs <
+      statSync(join(process.cwd(), OG_TEMPLATE_PATH)).mtimeMs
+    )
+  } catch {
+    return true
+  }
 }
 
 /**
@@ -82,7 +97,10 @@ async function generateOgImage(
     const node = ogImageMarkup(authorOrBrand, title, bgType)
     unescapeHTML(node)
 
-    const svg = await satori(node as Parameters<typeof satori>[0], satoriOptions)
+    const svg = await satori(
+      node as Parameters<typeof satori>[0],
+      satoriOptions
+    )
 
     const compressedPngBuffer = await sharp(Buffer.from(svg))
       .png({
@@ -125,7 +143,7 @@ function remarkGenerateOgImage() {
   // @ts-expect-error
   return async (_tree, file) => {
     // regenerate fallback
-    if (!checkFileExistsInDir('static/og-images', 'og-image.png')) {
+    if (shouldGenerateOgImage('static/og-images', 'og-image.png')) {
       await generateOgImage(
         authorOrBrand,
         fallbackTitle,
@@ -155,7 +173,7 @@ function remarkGenerateOgImage() {
     const dirpath = file.dirname
     let nameWithoutExt = basename(filename, extname)
     if (nameWithoutExt === 'index') nameWithoutExt = basename(dirpath)
-    if (checkFileExistsInDir('static/og-images', `${nameWithoutExt}.png`))
+    if (!shouldGenerateOgImage('static/og-images', `${nameWithoutExt}.png`))
       return
 
     // check if it has been assigned & actually exists

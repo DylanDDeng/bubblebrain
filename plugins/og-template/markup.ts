@@ -1,7 +1,13 @@
 import { html } from 'satori-html'
-import backgroundBase64 from './base64'
 
 import type { OgBgType } from '../../src/types'
+
+const accentByBgType: Record<OgBgType, string> = {
+  plum: '#c9444f',
+  dot: '#2f6f73',
+  rose: '#b75572',
+  particle: '#6d63b6',
+}
 
 export const ogImageMarkup = (
   authorOrBrand: string,
@@ -13,53 +19,138 @@ export const ogImageMarkup = (
       "The value of 'bgType' must be one of the following: 'plum', 'dot', 'rose', 'particle'."
     )
 
+  const accent = accentByBgType[bgType]
+  const safeTitle = title.length > 96 ? `${title.slice(0, 93)}...` : title
+
   return html`<div
-    tw="relative flex justify-center items-center w-full h-full"
-    style="font-family: 'Inter'"
+    tw="relative flex w-full h-full overflow-hidden"
+    style="display: flex; font-family: 'Inter'; background-color: #f8f6ef; background-image: linear-gradient(rgba(54, 47, 38, 0.075) 1px, transparent 1px), linear-gradient(90deg, rgba(54, 47, 38, 0.075) 1px, transparent 1px); background-size: 40px 40px;"
   >
-    <img
-      tw="absolute inset-0 w-full h-full"
-      src="${backgroundBase64[bgType]}"
-      alt="open graph"
-    />
+    <div
+      tw="absolute flex"
+      style="left: 82px; top: 0; bottom: 0; width: 2px; background: ${accent}; opacity: 0.5;"
+    ></div>
+    <div
+      tw="absolute flex"
+      style="left: 0; right: 0; top: 92px; height: 2px; background: ${accent}; opacity: 0.22;"
+    ></div>
 
-    <div tw="flex items-center justify-start w-full px-18" style="gap: 20px">
-      <div tw="self-start flex justify-center items-center">
-        <svg
-          xmlns="http://www.w3.org/2000/svg"
-          width="7.5em"
-          height="7.5em"
-          viewBox="0 0 32 32"
+    <div
+      tw="absolute flex"
+      style="display: flex; right: 78px; top: 58px; width: 290px; height: 184px; background: rgba(255, 253, 247, 0.86); border: 1px solid rgba(58, 49, 39, 0.16); transform: rotate(3deg);"
+    >
+      <div
+        tw="absolute flex"
+        style="left: 22px; right: 22px; top: 48px; height: 1px; background: rgba(47, 111, 115, 0.32);"
+      ></div>
+      <div
+        tw="absolute flex"
+        style="left: 22px; right: 22px; top: 86px; height: 1px; background: rgba(47, 111, 115, 0.24);"
+      ></div>
+      <div
+        tw="absolute flex"
+        style="left: 22px; right: 78px; top: 124px; height: 1px; background: rgba(47, 111, 115, 0.2);"
+      ></div>
+      <div
+        tw="absolute flex"
+        style="right: 24px; top: 22px; width: 52px; height: 18px; background: rgba(201, 68, 79, 0.16);"
+      ></div>
+    </div>
+
+    <div
+      tw="absolute flex"
+      style="display: flex; right: 122px; bottom: 72px; width: 248px; height: 154px; background: rgba(255, 253, 247, 0.72); border: 1px solid rgba(58, 49, 39, 0.14); transform: rotate(-4deg);"
+    >
+      <div
+        tw="absolute flex"
+        style="left: 20px; top: 26px; width: 46px; height: 46px; border: 2px solid rgba(201, 68, 79, 0.34);"
+      ></div>
+      <div
+        tw="absolute flex"
+        style="left: 88px; right: 22px; top: 42px; height: 1px; background: rgba(47, 111, 115, 0.28);"
+      ></div>
+      <div
+        tw="absolute flex"
+        style="left: 88px; right: 50px; top: 80px; height: 1px; background: rgba(47, 111, 115, 0.2);"
+      ></div>
+    </div>
+
+    <div
+      tw="absolute flex flex-col"
+      style="display: flex; flex-direction: column; left: 128px; top: 118px; width: 760px;"
+    >
+      <div
+        tw="flex items-center"
+        style="display: flex; align-items: center; gap: 18px"
+      >
+        <div
+          tw="flex items-center justify-center"
+          style="display: flex; align-items: center; justify-content: center; width: 84px; height: 84px; border: 2px solid #302b25; background: #fffdf7; color: #151515; font-size: 29px; letter-spacing: -1px;"
         >
-          <path
-            fill="url(#vscodeIconsFileTypeAstro0)"
-            d="M11.025 20.499c-.532 1.75-.154 4.184 1.105 5.331v-.042l.042-.112c.154-.741.756-1.203 1.526-1.175c.713.014 1.12.392 1.217 1.217c.042.308.042.616.056.938v.098c0 .7.196 1.371.588 1.959c.35.56.84.993 1.497 1.287l-.028-.056l-.028-.112c-.49-1.469-.14-2.49 1.147-3.358l.392-.266l.868-.573a4.25 4.25 0 0 0 1.791-3.037c.07-.532 0-1.05-.154-1.553l-.21.14c-1.945 1.035-4.17 1.4-6.325.98c-1.301-.197-2.56-.56-3.498-1.652z"
-          ></path>
-          <path
-            fill="#fff"
-            d="M4.925 20.191s3.736-1.82 7.486-1.82l2.84-8.759c.098-.42.406-.7.756-.7s.644.28.756.714l2.826 8.746c4.45 0 7.487 1.82 7.487 1.82L20.709 2.84c-.168-.518-.49-.84-.896-.84h-7.612c-.406 0-.7.322-.896.84z"
-          ></path>
-          <defs>
-            <linearGradient
-              id="vscodeIconsFileTypeAstro0"
-              x1="8.19"
-              x2="16.91"
-              y1="23"
-              y2="18.89"
-              gradientTransform="translate(-.673 -2.198)scale(1.3993)"
-              gradientUnits="userSpaceOnUse"
-            >
-              <stop offset="0" stop-color="#d83333"></stop>
-              <stop offset="1" stop-color="#f041ff"></stop>
-            </linearGradient>
-          </defs>
-        </svg>
+          BB
+        </div>
+        <div
+          tw="flex flex-col"
+          style="display: flex; flex-direction: column; gap: 6px"
+        >
+          <div
+            tw="flex"
+            style="display: flex; color: #726b61; font-size: 27px; letter-spacing: 0.5px;"
+          >
+            ${authorOrBrand}
+          </div>
+          <div
+            tw="flex"
+            style="display: flex; color: ${accent}; font-size: 18px; letter-spacing: 3px;"
+          >
+            NOTE INDEX
+          </div>
+        </div>
       </div>
 
-      <div tw="flex flex-col" style="gap: 10px">
-        <div tw="text-[#858585] text-2.1rem">${authorOrBrand}</div>
-        <div tw="text-white text-3.1rem leading-relaxed mr-18">${title}</div>
+      <div
+        tw="flex"
+        style="display: flex; margin-top: 46px; color: #171717; font-size: 58px; line-height: 1.12; letter-spacing: 0;"
+      >
+        ${safeTitle}
       </div>
+
+      <div
+        tw="flex items-center"
+        style="display: flex; align-items: center; gap: 16px; margin-top: 46px"
+      >
+        <div
+          tw="flex items-center"
+          style="display: flex; align-items: center; height: 28px; padding: 4px 12px; border: 1px solid rgba(48, 43, 37, 0.25); color: #534d45; font-size: 16px; letter-spacing: 2px;"
+        >
+          AI
+        </div>
+        <div
+          tw="flex items-center"
+          style="display: flex; align-items: center; height: 28px; padding: 4px 12px; border: 1px solid rgba(48, 43, 37, 0.25); color: #534d45; font-size: 16px; letter-spacing: 2px;"
+        >
+          CODING AGENTS
+        </div>
+        <div
+          tw="flex items-center"
+          style="display: flex; align-items: center; height: 28px; padding: 4px 12px; border: 1px solid rgba(48, 43, 37, 0.25); color: #534d45; font-size: 16px; letter-spacing: 2px;"
+        >
+          PRODUCT NOTES
+        </div>
+      </div>
+    </div>
+
+    <div
+      tw="absolute flex"
+      style="display: flex; left: 128px; bottom: 58px; color: #7e766b; font-size: 18px;"
+    >
+      bubblebrain.me
+    </div>
+    <div
+      tw="absolute flex"
+      style="display: flex; right: 76px; bottom: 44px; color: rgba(48, 43, 37, 0.18); font-size: 82px; letter-spacing: -3px;"
+    >
+      AI NOTES
     </div>
   </div>`
 }
