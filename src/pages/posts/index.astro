@@ -1,0 +1,14 @@
+---
+import BaseLayout from '~/layouts/BaseLayout.astro'
+import StandardLayout from '~/layouts/StandardLayout.astro'
+import BubbleContentList from '~/components/views/BubbleContentList.astro'
+---
+
+<BaseLayout title="Posts" description="Long-form writing from BubbleBrain." ogImage={true}>
+  <StandardLayout title="Posts" subtitle="Longer essays and technical writing.">
+    <Fragment slot="article">
+      <BubbleContentList collections={['blog']} />
+    </Fragment>
+  </StandardLayout>
+</BaseLayout>
+

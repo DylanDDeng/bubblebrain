@@ -1,0 +1,25 @@
+---
+import BaseLayout from '~/layouts/BaseLayout.astro'
+import StandardLayout from '~/layouts/StandardLayout.astro'
+import { getBubbleItems, getTermCounts } from '~/utils/bubbleContent'
+
+const categories = getTermCounts(await getBubbleItems(), 'categories')
+---
+
+<BaseLayout title="Categories" description="Browse BubbleBrain by category." ogImage={true}>
+  <StandardLayout title="Categories">
+    <Fragment slot="article">
+      <ul>
+        {
+          categories.map(([category, count]) => (
+            <li>
+              <a href={`/categories/${category}/`}>{category}</a>
+              <span class="op-50"> ({count})</span>
+            </li>
+          ))
+        }
+      </ul>
+    </Fragment>
+  </StandardLayout>
+</BaseLayout>
+

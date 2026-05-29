@@ -1,0 +1,27 @@
+---
+import BaseLayout from '~/layouts/BaseLayout.astro'
+import StandardLayout from '~/layouts/StandardLayout.astro'
+import BubbleContentList from '~/components/views/BubbleContentList.astro'
+---
+
+<BaseLayout
+  title="BubbleBrain"
+  description="A personal blog focused on AI, programming, and reflections on technology."
+  bgType="plum"
+  ogImage={true}
+>
+  <StandardLayout title="BubbleBrain" subtitle="AI, coding agents, product thinking, and notes worth keeping.">
+    <Fragment slot="article">
+      <p>
+        Welcome to BubbleBrain. This is where I collect longer essays, quick notes,
+        and working thoughts around AI, engineering, and product craft.
+      </p>
+      <p>
+        <a href="/posts/">Posts</a> · <a href="/notes/">Notes</a> · <a href="/archives/">Archives</a>
+      </p>
+      <h2>Latest</h2>
+      <BubbleContentList limit={10} groupByYear={false} />
+    </Fragment>
+  </StandardLayout>
+</BaseLayout>
+

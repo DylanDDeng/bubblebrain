@@ -90,7 +90,7 @@ params:
 
   socialIcons:
     - name: x
-      url: "https://x.com/dylandddeng"
+      url: "https://x.com/BubbleBrain"
     - name: github
       url: "https://github.com/"
 
@@ -103,7 +103,7 @@ params:
       SiteVerificationTag: "XYZabc"
 
   social:
-    twitter: dylandddeng
+    twitter: BubbleBrain
 
   cover:
     hidden: true # hide everywhere but not in structured data

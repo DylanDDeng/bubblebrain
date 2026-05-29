@@ -1,0 +1,14 @@
+---
+import BaseLayout from '~/layouts/BaseLayout.astro'
+import StandardLayout from '~/layouts/StandardLayout.astro'
+import BubbleContentList from '~/components/views/BubbleContentList.astro'
+---
+
+<BaseLayout title="Notes" description="Quick notes and short thoughts from BubbleBrain." ogImage={true}>
+  <StandardLayout title="Notes" subtitle="Daily inspirations and shorter observations.">
+    <Fragment slot="article">
+      <BubbleContentList collections={['shorts']} />
+    </Fragment>
+  </StandardLayout>
+</BaseLayout>
+

@@ -1,0 +1,14 @@
+---
+import BaseLayout from '~/layouts/BaseLayout.astro'
+import StandardLayout from '~/layouts/StandardLayout.astro'
+import BubbleContentList from '~/components/views/BubbleContentList.astro'
+---
+
+<BaseLayout title="Archives" description="All BubbleBrain posts and notes." ogImage={true}>
+  <StandardLayout title="Archives" subtitle="All writing, grouped by year.">
+    <Fragment slot="article">
+      <BubbleContentList />
+    </Fragment>
+  </StandardLayout>
+</BaseLayout>
+

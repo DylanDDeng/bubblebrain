@@ -1,0 +1,26 @@
+---
+import BaseLayout from '~/layouts/BaseLayout.astro'
+import StandardLayout from '~/layouts/StandardLayout.astro'
+import BubbleContentList from '~/components/views/BubbleContentList.astro'
+import { getBubbleItems, getTermCounts } from '~/utils/bubbleContent'
+
+export async function getStaticPaths() {
+  const categories = getTermCounts(await getBubbleItems(), 'categories')
+
+  return categories.map(([category]) => ({
+    params: { category },
+    props: { category },
+  }))
+}
+
+const { category } = Astro.props
+---
+
+<BaseLayout title={category} description={`Posts and notes in ${category}.`} ogImage={true}>
+  <StandardLayout title={category}>
+    <Fragment slot="article">
+      <BubbleContentList filterCategory={category} />
+    </Fragment>
+  </StandardLayout>
+</BaseLayout>
+
