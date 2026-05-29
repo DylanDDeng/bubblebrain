@@ -13,7 +13,7 @@ import { FEATURES } from '../src/config'
 
 import type { SatoriOptions } from 'satori'
 import type { html } from 'satori-html'
-import type { BgType } from '../src/types'
+import type { BgType, OgBgType } from '../src/types'
 
 const Inter = readFileSync('plugins/og-template/Inter-Regular-24pt.ttf')
 
@@ -69,7 +69,7 @@ function unescapeHTML(node: ReturnType<typeof html>) {
 async function generateOgImage(
   authorOrBrand: string,
   title: string,
-  bgType: BgType,
+  bgType: OgBgType,
   output: string
 ) {
   await mkdir(dirname(output), { recursive: true })
@@ -98,6 +98,15 @@ async function generateOgImage(
     )
     console.error(e)
   }
+}
+
+function isOgBgType(bgType: BgType | false): bgType is OgBgType {
+  return (
+    bgType === 'plum' ||
+    bgType === 'dot' ||
+    bgType === 'rose' ||
+    bgType === 'particle'
+  )
 }
 
 /**
@@ -169,8 +178,8 @@ function remarkGenerateOgImage() {
     }
 
     // get bgType
-    const pageBgType = file.data.astro.frontmatter.bgType
-    const bgType = pageBgType || fallbackBgType
+    const pageBgType = file.data.astro.frontmatter.bgType as BgType | false
+    const bgType = isOgBgType(pageBgType) ? pageBgType : fallbackBgType
 
     // generate og images
     await generateOgImage(

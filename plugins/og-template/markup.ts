@@ -1,12 +1,12 @@
 import { html } from 'satori-html'
 import backgroundBase64 from './base64'
 
-import type { BgType } from '../../src/types'
+import type { OgBgType } from '../../src/types'
 
 export const ogImageMarkup = (
   authorOrBrand: string,
   title: string,
-  bgType: BgType
+  bgType: OgBgType
 ) => {
   if (!['plum', 'dot', 'rose', 'particle'].includes(bgType))
     throw new Error(

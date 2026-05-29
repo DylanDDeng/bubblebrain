@@ -537,7 +537,8 @@ export interface Ui {
 }
 
 /* FEATURES */
-export type BgType = 'plum' | 'dot' | 'rose' | 'particle'
+export type OgBgType = 'plum' | 'dot' | 'rose' | 'particle'
+export type BgType = OgBgType | 'index-paper'
 export type HeadingLevel = 1 | 2 | 3 | 4 | 5 | 6
 type Mentioned = `@${string}` | `@${string}@${string}` | ''
 type FeatureConfig<T> = false | [boolean, T]
@@ -572,7 +573,7 @@ interface OgImageConfig {
    * A fallback OG image is the default image used when the specified or auto-generated OG image is missing.
    * You can delete the existing file to regenerate a new one.
    */
-  fallbackBgType: BgType
+  fallbackBgType: OgBgType
 }
 
 export interface TocConfig {
