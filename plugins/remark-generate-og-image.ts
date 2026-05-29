@@ -35,7 +35,7 @@ const satoriOptions: SatoriOptions = {
 /**
  * Checks if a file exists in a specified directory.
  * This path is relative to the current working directory.
- * (`public/og-images` is equivalent to `./public/og-images` and relative to the cwd)
+ * (`static/og-images` is equivalent to `./static/og-images` and relative to the cwd)
  */
 export function checkFileExistsInDir(path: string, filename: string) {
   const fullPath = join(process.cwd(), path, filename)

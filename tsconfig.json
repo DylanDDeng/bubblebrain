@@ -1,17 +1,7 @@
 {
   "extends": "astro/tsconfigs/strict",
   "include": [".astro/types.d.ts", "src/**/*", "plugins/**/*", "astro.config.ts", "unocss.config.ts"],
-  "exclude": [
-    "dist",
-    "node_modules",
-    ".local",
-    "public",
-    "themes",
-    "layouts",
-    "assets",
-    "archetypes",
-    "content"
-  ],
+  "exclude": ["dist", "node_modules", ".local", "public"],
   "compilerOptions": {
     "baseUrl": ".",
     "paths": {

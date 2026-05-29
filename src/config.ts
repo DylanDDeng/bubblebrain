@@ -11,7 +11,6 @@ export const SITE: Site = {
   ogLocale: 'zh_CN',
   imageDomains: [
     'raw.githubusercontent.com',
-    'fastly.jsdelivr.net',
     'image-1325800846.cos.ap-nanjing.myqcloud.com',
   ],
 }

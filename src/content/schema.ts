@@ -34,7 +34,7 @@ export const pageSchema = z.object({
     .union([z.string(), z.boolean()])
     .default(true)
     .describe(
-      'Specifies the Open Graph (OG) image for social media sharing. To auto-generate OG image, delete the field or set to `true`. To disable it, set the field to `false`. To use a custom image, provide the full filename from `/public/og-images/`.'
+      'Specifies the Open Graph (OG) image for social media sharing. To auto-generate OG image, delete the field or set to `true`. To disable it, set the field to `false`. To use a custom image, provide the full filename from `static/og-images/`.'
     ),
 })
 
@@ -120,7 +120,7 @@ export const postSchema = ({ image }: SchemaContext) =>
       .union([z.string(), z.boolean()])
       .default(true)
       .describe(
-        'Specifies the Open Graph (OG) image for social media sharing. To auto-generate OG image, delete the field or set to `true`. To disable it, set the field to `false`. To use a custom image, provide the full filename from `/public/og-images/`.'
+        'Specifies the Open Graph (OG) image for social media sharing. To auto-generate OG image, delete the field or set to `true`. To disable it, set the field to `false`. To use a custom image, provide the full filename from `static/og-images/`.'
       ),
     toc: z
       .boolean()
