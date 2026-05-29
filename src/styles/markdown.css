@@ -70,7 +70,6 @@ html.dark .prose {
 }
 
 .prose em {
-  --uno: 'font-serif';
   color: var(--fg-deep);
   font-size: 1.05em;
 }

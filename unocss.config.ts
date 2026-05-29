@@ -3,7 +3,6 @@ import {
   presetWind3,
   presetAttributify,
   presetIcons,
-  presetWebFonts,
   transformerDirectives,
   transformerVariantGroup,
 } from 'unocss'
@@ -45,6 +44,36 @@ const githubVersionClass = Object.keys(githubVersionColor).map(
   (k) => `github-${k}`
 )
 const githubSubLogos = githubView.subLogoMatches.map((item) => item[1])
+const sansFontFamily = [
+  '"Maple Mono"',
+  '"LXGW WenKai Screen"',
+  '"PingFang SC"',
+  '"Hiragino Sans GB"',
+  '"Microsoft YaHei"',
+  'ui-sans-serif',
+  'system-ui',
+  '-apple-system',
+  'BlinkMacSystemFont',
+  '"Segoe UI"',
+  'sans-serif',
+].join(', ')
+const monoFontFamily = [
+  '"Maple Mono"',
+  '"LXGW WenKai Screen"',
+  'ui-monospace',
+  'SFMono-Regular',
+  'Menlo',
+  'Monaco',
+  'Consolas',
+  '"Liberation Mono"',
+  '"Courier New"',
+  'monospace',
+].join(', ')
+
+interface ThemeWithFonts {
+  breakpoints?: Record<string, string>
+  fontFamily?: Record<string, string>
+}
 
 export default defineConfig({
   // Astro 5 no longer pipes `src/content/**/*.{md,mdx}` through Vite
@@ -54,11 +83,18 @@ export default defineConfig({
 
   // will be deep-merged to the default theme
   extendTheme: (theme) => {
+    const typedTheme = theme as ThemeWithFonts
     return {
       ...theme,
       breakpoints: {
-        ...theme.breakpoints,
+        ...typedTheme.breakpoints,
         lgp: '1128px',
+      },
+      fontFamily: {
+        ...typedTheme.fontFamily,
+        sans: sansFontFamily,
+        mono: monoFontFamily,
+        condensed: sansFontFamily,
       },
     }
   },
@@ -103,13 +139,6 @@ export default defineConfig({
         'height': '1.2em',
         'width': '1.2em',
         'vertical-align': 'text-bottom',
-      },
-    }),
-    presetWebFonts({
-      fonts: {
-        sans: 'Inter:400,600,800',
-        mono: 'DM Mono:400,600',
-        condensed: 'Roboto Condensed',
       },
     }),
   ],

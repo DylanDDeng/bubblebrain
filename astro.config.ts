@@ -8,6 +8,9 @@ import mdx from '@astrojs/mdx'
 import { remarkPlugins, rehypePlugins } from './plugins'
 import { SITE } from './src/config'
 
+const codeFontFamily =
+  '"Maple Mono", "LXGW WenKai Screen", ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace'
+
 // https://docs.astro.build/en/reference/configuration-reference/
 export default defineConfig({
   site: SITE.website,
@@ -20,7 +23,12 @@ export default defineConfig({
     sitemap(),
     robotsTxt(),
     unocss({ injectReset: true }),
-    astroExpressiveCode(),
+    astroExpressiveCode({
+      styleOverrides: {
+        codeFontFamily,
+        uiFontFamily: codeFontFamily,
+      },
+    }),
     mdx(),
   ],
   markdown: {
