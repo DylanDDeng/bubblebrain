@@ -1,17 +1,22 @@
 # BubbleBrain
 
-BubbleBrain 是一个使用 Astro 构建的个人博客，记录 AI、coding agents、产品思考和技术笔记。
+BubbleBrain 是一个使用 Astro 构建的个人博客，记录 AI、coding agents、产品思考和个人生活笔记。
 
-网站地址: [https://bubblebrain.me/](https://bubblebrain.me/)
+网站地址: <https://bubblebrain.me/>
 
 ## 技术栈
 
-- Astro 5
-- MDX / Markdown 内容
-- UnoCSS
-- Pagefind 站内搜索
-- Giscus 评论
-- 自动生成 Open Graph / X 分享预览图
+* Astro 5
+
+* MDX / Markdown 内容
+
+* UnoCSS
+
+* Pagefind 站内搜索
+
+* Giscus 评论
+
+* 自动生成 Open Graph / X 分享预览图
 
 ## 项目结构
 
@@ -72,7 +77,11 @@ ogImage: false
 
 ## 配置入口
 
-- 站点信息、导航、社交链接和功能开关: `src/config.ts`
-- Astro 构建配置: `astro.config.ts`
-- 内容 schema: `src/content/schema.ts`
-- 站点静态资源: `static/`
+* 站点信息、导航、社交链接和功能开关: `src/config.ts`
+
+* Astro 构建配置: `astro.config.ts`
+
+* 内容 schema: `src/content/schema.ts`
+
+* 站点静态资源: `static/`
+

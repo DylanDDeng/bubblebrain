@@ -1,12 +1,5 @@
----
-title: "About"
-description: "BubbleBrain is a personal blog focused on AI, programming, and reflections on technology."
-bgType: false
-ogImage: true
----
-
-import BaseLayout from '~/layouts/BaseLayout.astro'
-import StandardLayout from '~/layouts/StandardLayout.astro'
+import BaseLayout from '~~/layouts/BaseLayout.astro'\
+import StandardLayout from '~~/layouts/StandardLayout.astro'
 
 <BaseLayout title={frontmatter.title} description={frontmatter.description} ogImage={frontmatter.ogImage}>
   <StandardLayout title={frontmatter.title}>
@@ -15,9 +8,7 @@ Hey there, and welcome to BubbleBrain 🫧
 
 This is my little corner of the internet. I use it to share the things I find genuinely interesting—the latest happenings in AI that catch my eye, the small moments and stories from everyday life, and whatever I happen to be reflecting on.
 
-**Let me be upfront: I'm not a professional programmer, and honestly, my code is pretty rough.** 
-
-But I love to tinker, and now that AI is around, I can finally build all the little tools I've always wanted to make.
+**Let me be upfront: I'm not a professional programmer, and honestly, my code is pretty rough.** But I love to tinker, and now that AI is around, I can finally build all the little tools I've always wanted to make.
 
 If you're curious about what I've built, take a look at my [GitHub](https://github.com/DylanDDeng). I treat it like my own personal lab—a place to experiment and create whatever comes to mind.
 
@@ -29,12 +20,15 @@ That love of photography naturally pulled me into using AI to create beautiful p
 
 Aestara isn't the most comprehensive prompt library out there—but I genuinely believe it's the most beautiful.
 
-On top of all that, I'm an AI content creator. I run a WeChat Official Account, also called BubbleBrain.Yep, same name as this site. Come say hi!
+On top of all that, I'm an AI content creator. I run a WeChat Official Account, also called BubbleBrain—yep, same name as this site. Come say hi!
 
-There I share fun AI product experiences, model reviews, great reads, and more. Don't worry, I plan to bring all of that content over to this site as well.
+There I share fun AI product experiences, model reviews, great reads, and more. Don't worry, though—I plan to bring all of that content over to this site as well.
 
 Finally, to everyone who's made it this far: I hope you find a little more beauty and joy in your day.
 
-    </Fragment>
+```
+</Fragment>
+```
+
   </StandardLayout>
 </BaseLayout>
