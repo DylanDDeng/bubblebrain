@@ -1,6 +1,5 @@
 ---
 ---
-
 <div class="index-paper-bg" aria-hidden="true">
   <div class="index-paper-rail index-paper-rail-left">
     <i style="--y: 10%; --w: 3.8rem"></i>
@@ -52,6 +51,7 @@
     --index-paper-line: rgb(var(--index-paper-ink) / 0.1);
     --index-paper-soft: rgb(var(--index-paper-ink) / 0.055);
     --index-paper-accent-line: rgb(var(--index-paper-accent) / 0.16);
+    --index-paper-row-height: 2.4rem;
 
     position: fixed;
     inset: 0;
@@ -65,6 +65,13 @@
     inset: 0;
     content: '';
     background:
+      /* 笔记本横线纸纹 */
+      repeating-linear-gradient(
+        to bottom,
+        transparent,
+        transparent calc(var(--index-paper-row-height) - 1px),
+        var(--index-paper-line) var(--index-paper-row-height)
+      ),
       linear-gradient(
         90deg,
         transparent calc(50% - 31.5rem),

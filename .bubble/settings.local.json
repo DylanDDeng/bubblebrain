@@ -13,7 +13,12 @@
       "Bash(curl:*)",
       "Bash(hugo:*)",
       "Bash(python3:*)",
-      "Bash(ls:*)"
+      "Bash(ls:*)",
+      "Bash(find:*)",
+      "Bash(cat:*)",
+      "Bash(sed:*)",
+      "Bash(grep:*)",
+      "Bash(head:*)"
     ]
   }
 }
