@@ -12,7 +12,8 @@
       "Bash(hugo server:*)",
       "Bash(curl:*)",
       "Bash(hugo:*)",
-      "Bash(python3:*)"
+      "Bash(python3:*)",
+      "Bash(ls:*)"
     ]
   }
 }
