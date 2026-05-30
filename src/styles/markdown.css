@@ -6,7 +6,7 @@
 .prose {
   --fg-light: #888;
   --fg: #555;
-  --fg-deep: #222;
+  --fg-deep: #FF7401;
   --fg-deeper: var(--c-text);
 
   color: var(--fg);
